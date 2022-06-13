@@ -7,14 +7,16 @@
     "build": "next build",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "prepare": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact",
+    "post-install": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact",
     "start": "next start",
     "type:check": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "dependencies": {
+    "@xstate/react": "^3.0.0",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "xstate": "^4.32.1"
   },
   "devDependencies": {
     "@types/node": "17.0.42",

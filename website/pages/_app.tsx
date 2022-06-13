@@ -1,4 +1,4 @@
-import '../styles/_app.css'
+import '../src/styles/_app.css'
 import type { AppProps } from 'next/app'
 import { ReactNode } from 'react'
 

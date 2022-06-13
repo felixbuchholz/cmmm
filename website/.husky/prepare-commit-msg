@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd website
+exec < /dev/tty && node_modules/.bin/cz --hook || true

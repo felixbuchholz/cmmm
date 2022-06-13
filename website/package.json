@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "lint": "next lint",
     "lint:fix": "next lint --fix",
     "prepare": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact",
     "start": "next start",

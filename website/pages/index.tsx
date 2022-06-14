@@ -1,10 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
+
+import { Layout } from '../src/components/Layout/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>CMMM</title>
 
@@ -12,12 +13,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>
-          <Link href="/">Site title</Link>
-        </h1>
-      </main>
-    </div>
+      <Layout />
+    </>
   )
 }
 

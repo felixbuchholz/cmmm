@@ -7,7 +7,7 @@
     "build": "next build",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "post-install": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact",
+    "post-install": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact && xstate typegen \"./src/**/*.ts?(x)\"",
     "start": "next start",
     "type:check": "tsc --project tsconfig.json --pretty --noEmit"
   },

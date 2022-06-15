@@ -1,21 +1,9 @@
 import { createMachine, assign } from 'xstate'
 
-type SelectionMachineContext = {
-  category: string
-  data_reference: string
-  size: number | null
-  income: number | null
-}
-
-type SelectionMachineEvents =
-  | { type: 'SELECT_CATEGORY'; category: string }
-  | { type: 'OPEN_MENU_CATEGORY' }
-  | { type: 'TOGGLE_SELECTION_MODE' }
-  | { type: 'CONFIRM_SELECTION' }
-  | { type: 'OPEN_MENU_SCENARIO' }
-  | { type: 'OPEN_MENU_OVERVIEW' }
-  | { type: 'SELECT_SCENARIO'; size: number; income: number }
-  | { type: 'INOKE_RESOLVED_DATA'; data: string }
+import {
+  SelectionMachineContext,
+  SelectionMachineEvents,
+} from '../../types/selectionMachine'
 
 const mockTimeout = 1000
 
@@ -184,7 +172,7 @@ export const selectionMachine =
       },
       guards: {
         completedSelection: context => {
-          return !!(context.category && context.size && context.income)
+          return getCompletedSelection(context)
         },
       },
       services: {
@@ -199,3 +187,9 @@ export const selectionMachine =
       },
     }
   )
+
+export const getCompletedSelection = (
+  context: SelectionMachineContext
+): boolean => {
+  return !!(context.category && context.size && context.income)
+}

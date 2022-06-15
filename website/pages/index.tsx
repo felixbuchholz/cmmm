@@ -1,18 +1,14 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 
+import { LanguagePicker } from '../src/components/Language/LanguagePicker'
 import { Layout } from '../src/components/Layout/Layout'
+import { HeadMeta } from '../src/components/Meta/HeadMeta'
 
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>CMMM</title>
-
-        <meta name="description" content="CMMM Site title" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <HeadMeta />
+      <LanguagePicker />
       <Layout />
     </>
   )

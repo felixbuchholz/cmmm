@@ -1,0 +1,39 @@
+{
+	"site": {
+		"title": "Site Title"
+	},
+	"ui": {
+		"languageSwitcher": "Choose Language: "
+	},
+	"buy": {
+		"categorySelect": "buying",
+		"categoryConfirm": "Buying",
+		"highlight": "Small Explanation",
+		"description": "lorem ipsum"
+	},
+	"rent": {
+		"categorySelect": "renting",
+		"categoryConfirm": "Renting",
+		"highlight": "Small Explanation",
+		"description": "lorem ipsum"
+	},
+	"person": {
+		"plural": "people",
+		"singular": "person"
+	},
+	"units": {
+		"euroPerMonth": "Euro per month"
+	},
+	"menuOverview": {
+		"confirm": "Show offers",
+		"title": "Select the case information you want to compare",
+		"titleExplainer": "Small explainer here, half sentence",
+		"categorySelect1": "I am interested in",
+		"categorySelect2": "offers in Belgrade",
+		"categorySelectExplainer": "Small explainer here, half sentence",
+		"scenarioSelect": "I have ",
+		"scenarioSelectExplainer": "Small explainer here, half sentence",
+		"scenarioSelectButton": " a household of {{size}} with an income of {{income}} Euro/month",
+		"scenarioSelectButtonEmpty": "select a scenario here"
+	}
+}

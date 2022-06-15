@@ -9,6 +9,11 @@ export type SelectionMachineContext = {
   income: number | null
 }
 
+export type ScenarioParameters = {
+  income: number
+  size: number
+}
+
 export type SelectionMachineEvents =
   | { type: 'SELECT_CATEGORY'; category: string }
   | { type: 'OPEN_MENU_CATEGORY' }

@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
 import {
@@ -5,6 +6,7 @@ import {
   useSelectionSend,
 } from '../../../state/selection/hooks'
 import { SelectionStates } from '../../../types/selectionMachine'
+import { p } from '../../../utils/translatePlurals'
 
 export const MenuScenario: FC = () => {
   const isActive = useResolveStateArrayToBool(menuScenarioStates)
@@ -42,6 +44,7 @@ export const ScenarioItem: FC<ScenarioItemProps> = ({
   const handleClick = (props: ScenarioParameters): void => {
     send({ type: 'SELECT_SCENARIO', ...props })
   }
+  const { t } = useTranslation()
 
   return (
     <div>
@@ -50,9 +53,9 @@ export const ScenarioItem: FC<ScenarioItemProps> = ({
           handleClick({ size, income })
         }}
       >
-        {size} persons {description}
+        {size} {t(`person${p(size)}`)} {description}
       </button>{' '}
-      ({income}€ per month)
+      ({income} {t('units.euroPerMonth')})
     </div>
   )
 }

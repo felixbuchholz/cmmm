@@ -1,8 +1,12 @@
+import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
-import { languageCode } from '../../../../content/language'
-import { menuOverviewTitle } from '../../../../content/menu'
-
 export const MenuOverviewTitle: FC = () => {
-  return <div>{menuOverviewTitle[languageCode]}</div>
+  const { t } = useTranslation()
+  return (
+    <div>
+      <h2>{t('menuOverview.title')}</h2>
+      <small>{t('menuOverview.titleExplainer')}</small>
+    </div>
+  )
 }

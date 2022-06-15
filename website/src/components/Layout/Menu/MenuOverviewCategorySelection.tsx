@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
 import {
@@ -6,6 +7,7 @@ import {
 } from '../../../state/selection/hooks'
 
 export const MenuOverviewCategorySelection: FC = () => {
+  const { t } = useTranslation()
   const category = useSelectionContext('category')
   const send = useSelectionSend()
 
@@ -14,8 +16,12 @@ export const MenuOverviewCategorySelection: FC = () => {
   }
   return (
     <div>
-      I am interested in <button onClick={handleClick}>{category}</button>{' '}
-      offers in Belgrade
+      <h3>
+        {t('menuOverview.categorySelect1')}{' '}
+        <button onClick={handleClick}>{t(`${category}.categorySelect`)}</button>{' '}
+        {t('menuOverview.categorySelect2')}
+      </h3>
+      <small>{t('menuOverview.categorySelectExplainer')}</small>
     </div>
   )
 }

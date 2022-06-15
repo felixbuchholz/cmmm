@@ -12,7 +12,7 @@ export const selectionMachine =
   createMachine(
     {
       context: {
-        category: 'buy',
+        category: 'rent',
         income: null,
         size: null,
         data_reference: '',

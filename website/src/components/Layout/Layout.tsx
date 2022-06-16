@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 
+import { Error } from './Error/Error'
 import { Header } from './Header/Header'
 import styles from './layout.module.css'
 import { Menu } from './Menu/Menu'
@@ -13,6 +14,7 @@ export const Layout: FC = () => {
       <Navigation />
       <Visualization />
       <Menu />
+      <Error />
     </div>
   )
 }

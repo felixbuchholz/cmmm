@@ -33,6 +33,7 @@ export const selectionMachine =
           initial: 'mode_scenario',
           states: {
             mode_scenario: {
+              id: 'selection_start',
               initial: 'menu_overview',
               states: {
                 menu_overview: {
@@ -78,9 +79,6 @@ export const selectionMachine =
                     },
                   },
                 },
-                menu_error: {
-                  id: 'global_error',
-                },
               },
               on: {
                 TOGGLE_SELECTION_MODE: {
@@ -122,9 +120,6 @@ export const selectionMachine =
                 },
                 menu_size: {},
                 menu_income: {},
-                menu_error: {
-                  id: 'global_error_options',
-                },
               },
               on: {
                 TOGGLE_SELECTION_MODE: {
@@ -148,11 +143,7 @@ export const selectionMachine =
                     actions: 'assignResolvedData',
                   },
                 ],
-                onError: [
-                  {
-                    target: ['rejected_data', '#global_error'],
-                  },
-                ],
+                onError: { target: ['rejected_data', '#global_error'] },
               },
             },
             resolved_data: {},
@@ -163,6 +154,21 @@ export const selectionMachine =
           },
         },
         visualization_comparsion: {},
+        error: {
+          initial: 'disabled',
+          states: {
+            active: {
+              id: 'global_error',
+              on: {
+                RESET: {
+                  target: ['disabled', '#selection_start', '#viz_load_data'],
+                  actions: 'reset',
+                },
+              },
+            },
+            disabled: {},
+          },
+        },
       },
     },
     {
@@ -196,6 +202,11 @@ export const selectionMachine =
             }
             return context.size
           },
+        }),
+        reset: assign({
+          category: () => 'rent',
+          income: () => null,
+          size: () => null,
         }),
       },
       guards: {

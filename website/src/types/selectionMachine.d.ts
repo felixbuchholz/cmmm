@@ -31,6 +31,7 @@ export type SelectionMachineEvents =
       income: ScenarioParameter
     }
   | { type: 'OPEN_MENU_ERROR' }
+  | { type: 'RESET' }
 
 export type SelectionState = StateFrom<typeof selectionMachine>
 

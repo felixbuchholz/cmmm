@@ -10,7 +10,7 @@ import { MenuScenario } from './MenuScenario'
 import { resolveStateArrayToClosedStr } from './utils'
 
 const menuClosedStates: SelectionStateString[] = [
-  'menu.mode_options.menu_category',
+  'menu.mode_options.menu_off',
   'menu.mode_scenario.menu_off',
 ]
 

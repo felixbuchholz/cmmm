@@ -1,11 +1,12 @@
 import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
+import { categories } from '../../../state/selection/categories'
 import {
   useResolveStateArrayToBool,
   useSelectionSend,
 } from '../../../state/selection/hooks'
-import { SelectionStates } from '../../../types/selectionMachine'
+import { Category, SelectionStates } from '../../../types/selectionMachine'
 import { HighlightExplainer } from '../../Typography/HighlightExplainer'
 
 export const MenuCategory: FC = () => {
@@ -18,7 +19,9 @@ export const MenuCategory: FC = () => {
 
   return (
     <div>
-      <CategoryItem category="buy" />
+      {categories.map(it => (
+        <CategoryItem key={it} category={it} />
+      ))}
     </div>
   )
 }
@@ -29,12 +32,12 @@ const menuCategoryStates: SelectionStates[] = [
 ]
 
 export type CategoryItemProps = {
-  category: string
+  category: Category
 }
 
 export const CategoryItem: FC<CategoryItemProps> = ({ category }) => {
   const send = useSelectionSend()
-  const handleClick = (category: string): void => {
+  const handleClick = (category: Category): void => {
     send({ type: 'SELECT_CATEGORY', category })
   }
   const { t } = useTranslation()

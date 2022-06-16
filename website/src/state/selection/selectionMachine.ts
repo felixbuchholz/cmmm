@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import { createMachine, assign } from 'xstate'
 
 import {
@@ -46,13 +47,16 @@ export const selectionMachine =
                     OPEN_MENU_SCENARIO: {
                       target: 'menu_scenario',
                     },
+                    OPEN_MENU_ERROR: {
+                      target: 'menu_error',
+                    },
                   },
                 },
                 menu_category: {
                   on: {
                     SELECT_CATEGORY: {
                       actions: 'selectCategory',
-                      target: 'menu_overview',
+                      target: ['menu_overview', '#viz_load_data'],
                     },
                   },
                 },
@@ -77,7 +81,9 @@ export const selectionMachine =
                     },
                   },
                 },
-                error: {},
+                menu_error: {
+                  id: 'global_error',
+                },
               },
               on: {
                 TOGGLE_SELECTION_MODE: {
@@ -99,9 +105,6 @@ export const selectionMachine =
                 },
               },
             },
-            error: {
-              type: 'final',
-            },
           },
         },
         visualization_reference: {
@@ -115,18 +118,17 @@ export const selectionMachine =
                 onDone: [
                   {
                     target: 'resolved_data',
+                    actions: 'assignResolvedData',
                   },
                 ],
                 onError: [
                   {
-                    target: 'rejected_data',
+                    target: ['rejected_data', '#global_error'],
                   },
                 ],
               },
             },
-            resolved_data: {
-              entry: 'assignResolvedData',
-            },
+            resolved_data: {},
             rejected_data: {},
             generate_viz: {},
             success_viz: {},
@@ -177,8 +179,16 @@ export const selectionMachine =
       services: {
         fetchData: async context => {
           const path = getDataPathFromContext(context)
-          const response = await fetch(path)
-          return response.json()
+          try {
+            const response = await fetch(path)
+            if (!response.ok) {
+              throw new Error(response.statusText)
+            }
+            const data = await response.json()
+            return data
+          } catch (e) {
+            throw new Error(e)
+          }
         },
       },
     }

@@ -5,6 +5,7 @@ import {
   useResolveStateArrayToBool,
   useSelectionSend,
 } from '../../../state/selection/hooks'
+import { scenarios } from '../../../state/selection/scenarios'
 import { SelectionStates } from '../../../types/selectionMachine'
 import { p } from '../../../utils/translatePlurals'
 
@@ -17,7 +18,14 @@ export const MenuScenario: FC = () => {
 
   return (
     <div>
-      <ScenarioItem size={1} income={1000} description="working as a teacher" />
+      {scenarios.map(({ size, income, translateKey }) => (
+        <ScenarioItem
+          key={translateKey}
+          size={size}
+          income={income}
+          translateKey={translateKey}
+        />
+      ))}
     </div>
   )
 }
@@ -32,13 +40,13 @@ export type ScenarioParameters = {
 }
 
 export type ScenarioItemProps = ScenarioParameters & {
-  description: string
+  translateKey: string
 }
 
 export const ScenarioItem: FC<ScenarioItemProps> = ({
   size,
   income,
-  description,
+  translateKey,
 }) => {
   const send = useSelectionSend()
   const handleClick = (props: ScenarioParameters): void => {
@@ -53,7 +61,7 @@ export const ScenarioItem: FC<ScenarioItemProps> = ({
           handleClick({ size, income })
         }}
       >
-        {size} {t(`person${p(size)}`)} {description}
+        {size} {t(`person${p(size)}`)} {t(translateKey)}
       </button>{' '}
       ({income} {t('units.euroPerMonth')})
     </div>

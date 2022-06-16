@@ -12,7 +12,7 @@ export type GlobalStateContextType = {
 export const GlobalStateContext = createContext({} as GlobalStateContextType)
 
 export const GlobalStateProvider: FCC = ({ children }) => {
-  const selectionService = useInterpret(selectionMachine)
+  const selectionService = useInterpret(selectionMachine, { devTools: true })
 
   return (
     <GlobalStateContext.Provider value={{ selectionService }}>

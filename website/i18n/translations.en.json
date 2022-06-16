@@ -35,5 +35,9 @@
 		"scenarioSelectExplainer": "Small explainer here, half sentence",
 		"scenarioSelectButton": " a household of {{size}} with an income of {{income}} Euro/month",
 		"scenarioSelectButtonEmpty": "select a scenario here"
+	},
+	"scenarios": {
+		"singleArtist": "working as an artist",
+		"doesNotExist": "– this scenario is not available"
 	}
 }

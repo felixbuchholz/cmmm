@@ -2,31 +2,24 @@ import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
 import { categories } from '../../../state/selection/categories'
-import {
-  useResolveStateArrayToBool,
-  useSelectionSend,
-} from '../../../state/selection/hooks'
-import { Category, SelectionStates } from '../../../types/selectionMachine'
+import { useSelectionSend } from '../../../state/selection/hooks'
+import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
+import { Category, SelectionStateString } from '../../../types/selectionMachine'
 import { HighlightExplainer } from '../../Typography/HighlightExplainer'
 
 export const MenuCategory: FC = () => {
-  // TODO: MenuIsActiveWrapper with props: SelectionStates[]
-  const isActive = useResolveStateArrayToBool(menuCategoryStates)
-
-  if (!isActive) {
-    return null
-  }
-
   return (
-    <div>
-      {categories.map(it => (
-        <CategoryItem key={it} category={it} />
-      ))}
-    </div>
+    <WrapperIsActive states={menuCategoryStates}>
+      <div>
+        {categories.map(it => (
+          <CategoryItem key={it} category={it} />
+        ))}
+      </div>
+    </WrapperIsActive>
   )
 }
 
-const menuCategoryStates: SelectionStates[] = [
+const menuCategoryStates: SelectionStateString[] = [
   'menu.mode_scenario.menu_category',
   'menu.mode_options.menu_category',
 ]

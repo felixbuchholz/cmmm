@@ -94,10 +94,43 @@ export const selectionMachine =
             mode_options: {
               initial: 'menu_overview',
               states: {
-                menu_overview: {},
-                menu_category: {},
+                menu_overview: {
+                  on: {
+                    CONFIRM_SELECTION: {
+                      cond: 'completedSelection',
+                      target: 'menu_off',
+                    },
+                    OPEN_MENU_CATEGORY: {
+                      target: 'menu_category',
+                    },
+                    OPEN_MENU_ERROR: {
+                      target: 'menu_error',
+                    },
+                  },
+                },
+                menu_category: {
+                  on: {
+                    SELECT_CATEGORY: {
+                      actions: 'selectCategory',
+                      target: ['menu_overview', '#viz_load_data'],
+                    },
+                  },
+                },
                 menu_size: {},
                 menu_income: {},
+                menu_off: {
+                  on: {
+                    OPEN_MENU_OVERVIEW: {
+                      target: 'menu_overview',
+                    },
+                    OPEN_MENU_CATEGORY: {
+                      target: 'menu_category',
+                    },
+                  },
+                },
+                menu_error: {
+                  id: 'global_error_options',
+                },
               },
               on: {
                 TOGGLE_SELECTION_MODE: {

@@ -1,3 +1,5 @@
-import { FC, ReactNode } from 'react'
+import { FC, ReactElement } from 'react'
 
-export type FCC = FC<{ children: ReactNode }>
+export type FCC<T = Record<string, unknown>> = FC<
+  { children: ReactElement } & T
+>

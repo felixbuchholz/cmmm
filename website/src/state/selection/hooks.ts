@@ -8,10 +8,12 @@ import {
   SelectionContext,
   SelectionMachineContext,
   SelectionMachineEvents,
-  SelectionStates,
+  SelectionStateString,
 } from '../../types/selectionMachine'
 
-export const useResolveStateArrayToBool = (arr: SelectionStates[]): boolean => {
+export const useResolveStateArrayToBool = (
+  arr: SelectionStateString[]
+): boolean => {
   const { selectionService } = useContext(GlobalStateContext)
   return useSelector(selectionService, state =>
     resolveStateArrayToBool(arr, state)

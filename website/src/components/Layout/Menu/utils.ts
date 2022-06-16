@@ -1,5 +1,5 @@
 import {
-  SelectionStates,
+  SelectionStateString,
   SelectionState,
 } from '../../../types/selectionMachine'
 import { MenuState } from '../../../types/ui'
@@ -14,11 +14,11 @@ export const resolveBoolToMenuState = (bool: boolean): MenuState =>
 // Extend xstate.matches function with a helper
 // to match one of multiple states
 export const resolveStateArrayToBool = (
-  arr: SelectionStates[],
+  arr: SelectionStateString[],
   state: SelectionState
 ): boolean => arr.some(state.matches)
 
 export const resolveStateArrayToClosedStr = (
-  arr: SelectionStates[],
+  arr: SelectionStateString[],
   state: SelectionState
 ): MenuState => resolveBoolToMenuState(resolveStateArrayToBool(arr, state))

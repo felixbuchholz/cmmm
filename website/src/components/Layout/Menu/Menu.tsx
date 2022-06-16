@@ -2,14 +2,14 @@ import { useSelector } from '@xstate/react'
 import React, { FC, useContext } from 'react'
 
 import { GlobalStateContext } from '../../../context/GlobalStateContext'
-import { SelectionStates } from '../../../types/selectionMachine'
+import { SelectionStateString } from '../../../types/selectionMachine'
 
 import { MenuCategory } from './MenuCategory'
 import { MenuOverview } from './MenuOverview'
 import { MenuScenario } from './MenuScenario'
 import { resolveStateArrayToClosedStr } from './utils'
 
-const menuClosedStates: SelectionStates[] = [
+const menuClosedStates: SelectionStateString[] = [
   'menu.mode_options.menu_category',
   'menu.mode_scenario.menu_off',
 ]
@@ -25,6 +25,7 @@ export const Menu: FC = () => {
       <MenuOverview />
       <MenuScenario />
       <MenuCategory />
+      {/* <MenuError /> */}
     </div>
   )
 }

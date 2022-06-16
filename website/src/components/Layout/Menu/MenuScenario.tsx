@@ -1,36 +1,30 @@
 import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
-import {
-  useResolveStateArrayToBool,
-  useSelectionSend,
-} from '../../../state/selection/hooks'
+import { useSelectionSend } from '../../../state/selection/hooks'
 import { scenarios } from '../../../state/selection/scenarios'
-import { SelectionStates } from '../../../types/selectionMachine'
+import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
+import { SelectionStateString } from '../../../types/selectionMachine'
 import { p } from '../../../utils/translatePlurals'
 
 export const MenuScenario: FC = () => {
-  const isActive = useResolveStateArrayToBool(menuScenarioStates)
-
-  if (!isActive) {
-    return null
-  }
-
   return (
-    <div>
-      {scenarios.map(({ size, income, translateKey }) => (
-        <ScenarioItem
-          key={translateKey}
-          size={size}
-          income={income}
-          translateKey={translateKey}
-        />
-      ))}
-    </div>
+    <WrapperIsActive states={menuScenarioStates}>
+      <div>
+        {scenarios.map(({ size, income, translateKey }) => (
+          <ScenarioItem
+            key={translateKey}
+            size={size}
+            income={income}
+            translateKey={translateKey}
+          />
+        ))}
+      </div>
+    </WrapperIsActive>
   )
 }
 
-const menuScenarioStates: SelectionStates[] = [
+const menuScenarioStates: SelectionStateString[] = [
   'menu.mode_scenario.menu_scenario',
 ]
 

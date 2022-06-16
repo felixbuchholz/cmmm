@@ -34,7 +34,7 @@ export type SelectionMachineEvents =
 
 export type SelectionState = StateFrom<typeof selectionMachine>
 
-export type SelectionStates = StateValueFrom<typeof selectionMachine>
+export type SelectionStateString = StateValueFrom<typeof selectionMachine>
 
 export type SelectionActor = ActorRefFrom<typeof selectionMachine>
 

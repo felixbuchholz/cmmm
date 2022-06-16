@@ -9,13 +9,15 @@
 		"categorySelect": "buying",
 		"categoryConfirm": "Buying",
 		"highlight": "Small Explanation",
-		"description": "lorem ipsum"
+		"description": "lorem ipsum",
+		"navigation": "Buy"
 	},
 	"rent": {
 		"categorySelect": "renting",
 		"categoryConfirm": "Renting",
 		"highlight": "Small Explanation",
-		"description": "lorem ipsum"
+		"description": "lorem ipsum",
+		"navigation": "Rent"
 	},
 	"person": {
 		"plural": "people",

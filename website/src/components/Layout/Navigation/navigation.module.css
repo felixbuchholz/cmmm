@@ -1,7 +1,10 @@
 .navigation {
-	left: 20%;
+	display: flex;
+	justify-content: space-around;
+	left: 30%;
 	position: absolute;
 	top: 0;
+	width: 70%;
 }
 
 @media (max-width: 600px) {

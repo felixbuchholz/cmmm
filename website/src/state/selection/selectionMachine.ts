@@ -47,9 +47,6 @@ export const selectionMachine =
                     OPEN_MENU_SCENARIO: {
                       target: 'menu_scenario',
                     },
-                    OPEN_MENU_ERROR: {
-                      target: 'menu_error',
-                    },
                   },
                 },
                 menu_category: {
@@ -103,9 +100,6 @@ export const selectionMachine =
                     OPEN_MENU_CATEGORY: {
                       target: 'menu_category',
                     },
-                    OPEN_MENU_ERROR: {
-                      target: 'menu_error',
-                    },
                   },
                 },
                 menu_category: {
@@ -116,8 +110,6 @@ export const selectionMachine =
                     },
                   },
                 },
-                menu_size: {},
-                menu_income: {},
                 menu_off: {
                   on: {
                     OPEN_MENU_OVERVIEW: {
@@ -128,6 +120,8 @@ export const selectionMachine =
                     },
                   },
                 },
+                menu_size: {},
+                menu_income: {},
                 menu_error: {
                   id: 'global_error_options',
                 },

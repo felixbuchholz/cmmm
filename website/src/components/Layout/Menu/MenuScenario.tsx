@@ -17,7 +17,7 @@ export const MenuScenario: FC = () => {
 
   return (
     <div>
-      <ScenarioItem size={2} income={1200} description="working as a teacher" />
+      <ScenarioItem size={1} income={1000} description="working as a teacher" />
     </div>
   )
 }

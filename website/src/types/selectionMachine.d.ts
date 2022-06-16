@@ -4,7 +4,7 @@ import { selectionMachine } from '../state/selection/selectionMachine'
 
 export type SelectionMachineContext = {
   category: string
-  data_reference: string
+  data: Record<string, string | number | null>
   size: number | null
   income: number | null
 }

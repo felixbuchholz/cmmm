@@ -11,10 +11,11 @@
     "post-install": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact && yarn xstate:typegen",
     "start": "next start",
     "type:check": "tsc --project tsconfig.json --pretty --noEmit",
-    "xstate:typegen": "xstate typegen \"./src/**/*.ts?(x)\""
+    "xstate:typegen": "yarn xstate typegen \"./src/**/*.ts?(x)\""
   },
   "dependencies": {
     "@xstate/react": "^3.0.0",
+    "dotenv": "^16.0.1",
     "next": "12.1.6",
     "next-export-i18n": "^2.0.3",
     "react": "18.1.0",

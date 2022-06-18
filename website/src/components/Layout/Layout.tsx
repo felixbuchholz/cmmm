@@ -7,7 +7,7 @@ import { Header } from './Header/Header'
 import styles from './layout.module.css'
 import { Menu } from './Menu/Menu'
 import { Navigation } from './Navigation/Navigation'
-import { Visualization } from './Visualization/Visualization'
+import { VisualizationContainer } from './Visualization/VisualizationContainer'
 
 export const Layout: FC = () => {
   return (
@@ -15,7 +15,7 @@ export const Layout: FC = () => {
       {/* <LanguagePicker /> */}
       <Header />
       <Navigation />
-      <Visualization />
+      <VisualizationContainer />
       <Menu />
       <Error />
     </div>

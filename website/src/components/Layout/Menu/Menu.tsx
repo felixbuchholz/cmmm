@@ -26,7 +26,6 @@ export const Menu: FC = () => {
       <MenuOverview />
       <MenuScenario />
       <MenuCategory />
-      {/* <MenuError /> */}
     </div>
   )
 }

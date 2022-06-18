@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const isProduction = process.env.NODE_ENV === 'production'
+const deploysToGitHub = process.env.NEXT_PUBLIC_DEPLOYS_TO_GITHUB === 'TRUE'
 
 const nextConfig = {
   reactStrictMode: true,
   // GitHub Pages config
-  assetPrefix: isProduction ? '/cmmm/' : '',
+  assetPrefix: deploysToGitHub ? '/cmmm/' : '',
 }
 
 module.exports = nextConfig

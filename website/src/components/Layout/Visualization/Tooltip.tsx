@@ -8,7 +8,7 @@ import styles from './tooltip.module.css'
 export const TooltipTranslated: FC<HoverInfo> = ({ data, x, y }) => {
   const { t } = useTranslation()
 
-  if (!data) {
+  if (typeof data === 'undefined') {
     return null
   }
 

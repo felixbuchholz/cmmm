@@ -1,16 +1,20 @@
 .navigation {
 	display: flex;
+	height: auto;
 	justify-content: space-around;
-	left: 30%;
+	left: var(--site-title-width);
 	position: absolute;
 	top: 0;
-	width: 70%;
+	width: calc(100% - var(--site-title-width));
 }
 
 @media (max-width: 600px) {
   .navigation {
 		bottom: 0;
+		display: block;
+		height: var(--navigation-height);
 		left: 0;
     top: unset;
+		width: 100%;
   }
 }

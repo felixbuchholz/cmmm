@@ -1,0 +1,18 @@
+.menu {
+  background-color: #fffe;
+  height: 100%;
+  left: var(--menu-left);
+  position: absolute;
+  top: var(--header-height);
+  width: var(--menu-width);
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(0%);
+  transition: all 500ms ease-in-out;
+}
+
+.menu[data-state="closed"] {
+  opacity: 0.1;
+  pointer-events: none;
+  transform: translateX(100%);
+}

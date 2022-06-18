@@ -1,3 +1,11 @@
 .visualization {
-	height: calc(100% - 3em);
+	height: calc(100% - (var(--header-height) + var(--navigation-height)));
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.visualization section {
+	border: 1px aquamarine solid;
+	height: var(--visualization_section_height);
+	width: var(--visualization_section_width);
 }

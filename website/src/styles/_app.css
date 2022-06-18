@@ -1,6 +1,24 @@
 :root {
-  --main-bg-color: #f0f0f0;
+  --main-bg-color: #fff;
   --header-height: 2em;
+  --site-title-width: 10em;
+  --navigation-height: 0em;
+  --menu-left: 50%;
+  --menu-top: var(--header-height);
+  --menu-width: 50%;
+  --visualization_section_height: 100%;
+  --visualization_section_width: 50%;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --navigation-height: 4em;
+    --menu-left: 0;
+    --menu-top: 0;
+    --menu-width: 100%;
+    --visualization_section_height: 50%;
+    --visualization_section_width: 100%;
+  }
 }
 
 
@@ -19,32 +37,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.menu {
-	background-color: #fffe;
-	height: 100%;
-	left: 50%;
-	position: absolute;
-	top: var(--header-height);
-	width: 50%;
-  opacity: 1;
-  pointer-events: all;
-  transform: translateX(0%);
-  transition: all 500ms ease-in-out;
-}
-
-@media (max-width: 600px) {
-  .menu {
-    left: 0;
-		width: 100%
-  }
-}
-
-.menu[data-state="closed"] {
-  opacity: 0.1;
-  pointer-events: none;
-  transform: translateX(100%);
 }
 
 .inlineDivs div {

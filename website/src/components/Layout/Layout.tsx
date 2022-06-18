@@ -1,5 +1,7 @@
 import React, { FC } from 'react'
 
+import { LanguagePicker } from '../Language/LanguagePicker'
+
 import { Error } from './Error/Error'
 import { Header } from './Header/Header'
 import styles from './layout.module.css'
@@ -10,6 +12,7 @@ import { Visualization } from './Visualization/Visualization'
 export const Layout: FC = () => {
   return (
     <div className={styles.layout}>
+      {/* <LanguagePicker /> */}
       <Header />
       <Navigation />
       <Visualization />

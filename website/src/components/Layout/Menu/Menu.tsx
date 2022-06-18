@@ -4,6 +4,7 @@ import React, { FC, useContext } from 'react'
 import { GlobalStateContext } from '../../../context/GlobalStateContext'
 import { SelectionStateString } from '../../../types/selectionMachine'
 
+import styles from './menu.module.css'
 import { MenuCategory } from './MenuCategory'
 import { MenuOverview } from './MenuOverview'
 import { MenuScenario } from './MenuScenario'
@@ -21,7 +22,7 @@ export const Menu: FC = () => {
   )
 
   return (
-    <div className="menu" data-state={menuState}>
+    <div className={styles.menu} data-state={menuState}>
       <MenuOverview />
       <MenuScenario />
       <MenuCategory />

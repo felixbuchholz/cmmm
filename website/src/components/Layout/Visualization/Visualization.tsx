@@ -1,30 +1,25 @@
+/* eslint-disable max-lines-per-function */
 import React, { FC } from 'react'
-import Map from 'react-map-gl'
+import Map, { Layer, Source } from 'react-map-gl'
 
-import { ControlledSyncedMapProps } from '../../../types/ControlledSyncedMap'
 import { VisualizationProps } from '../../../types/Vizsualization'
-import { mapboxAccessToken } from '../../../utils/environment'
 
-export const Visualization: FC<VisualizationProps> = ({ mapProps }) => {
+import { TooltipTranslated } from './Tooltip'
+import { defaultsSource } from './utils/configSource'
+
+export const Visualization: FC<VisualizationProps> = ({
+  mapProps,
+  hoverInfo,
+  layerProps,
+}) => {
   return (
     <section>
-      <ControlledSyncedMap {...mapProps} />
+      <Map {...mapProps}>
+        <Source {...defaultsSource}>
+          <Layer {...layerProps} />
+        </Source>
+      </Map>
+      <TooltipTranslated {...hoverInfo} />
     </section>
   )
-}
-
-export const ControlledSyncedMap: FC<ControlledSyncedMapProps> = props => {
-  const mapProps = { ...defaults, ...props }
-  return <Map {...mapProps} />
-}
-
-export const defaults = {
-  initialViewState: {
-    longitude: -100,
-    latitude: 40,
-    zoom: 3.5,
-  },
-  mapStyle: 'mapbox://styles/mapbox/streets-v9',
-  mapboxAccessToken,
-  style: { width: '100%', height: '100%' },
 }

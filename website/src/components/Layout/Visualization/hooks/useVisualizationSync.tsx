@@ -1,39 +1,69 @@
-import { useState, useCallback } from 'react'
+import { LayerProps } from 'react-map-gl'
 
-import { ControlledViewState } from '../../../../types/ControlledSyncedMap'
-import { UseVisualizationSync } from '../../../../types/Vizsualization'
-import { defaults } from '../Visualization'
+import {
+  UseVisualizationSync,
+  VisualizationConfig,
+  VisualizationProps,
+} from '../../../../types/Vizsualization'
+import { getLayersPropsFromConfig } from '../utils/configLayer'
+import { defaultsMap } from '../utils/configMap'
+
+import { useHoverInfo, UseHoverInfoReturn } from './useHoverInfo'
+import { useSyncMove, UseSyncMoveReturn } from './useSyncMove'
 
 export const useVisualizationSync: UseVisualizationSync = config => {
-  const mapIDs = config.map(it => it.id)
-  const [viewState, setViewState] = useState<ControlledViewState>(
-    defaultViewState
-  )
-  const [activeMap, setActiveMap] = useState<typeof mapIDs[number]>(
-    mapIDs[defaultActiveMapIndex]
-  )
+  const ids = getFromConfig(config, 'id')
+  const keys = getFromConfig(config, 'featureKey')
+  const syncMoveReturn = useSyncMove(ids)
+  const hoverInfoReturn = useHoverInfo(keys)
+  const layerProps = getLayersPropsFromConfig(config)
 
-  const onMoveCallback = useCallback(evt => setViewState(evt.viewState), [])
-  const onMove = mapIDs.map(it => activeMap === it && onMoveCallback)
+  return mapIdsToVisualization({
+    ids,
+    ...syncMoveReturn,
+    ...hoverInfoReturn,
+    layerProps,
+  })
+}
 
-  // TODO: Figure out way to memoize onMoveStart functions
-  // see: https://github.com/visgl/react-map-gl/blob/7.0-release/examples/side-by-side/src/app.tsx
-  const onMoveStart = mapIDs.map(it => (): void => setActiveMap(it))
+const getFromConfig = <T extends keyof VisualizationConfig>(
+  config: VisualizationConfig[],
+  key: T
+): VisualizationConfig[T][] => {
+  return config.map(it => it[key])
+}
 
-  return mapIDs.map((it, index) => ({
+const mapIdsToVisualization: MapIdsToVisualization = ({
+  ids,
+  viewState,
+  onMove,
+  onMoveStart,
+  onMouseMove,
+  hoverInfo,
+  layerProps,
+}) => {
+  return ids.map((it, index) => ({
     id: it,
     mapProps: {
+      ...defaultsMap,
       viewState,
       onMove: onMove[index],
       onMoveStart: onMoveStart[index],
+      onMouseMove: onMouseMove[index],
     },
+    hoverInfo: Array.isArray(hoverInfo) ? hoverInfo[index] : null,
+    layerProps: layerProps[index],
   }))
 }
 
-const {
-  initialViewState: { longitude, latitude, zoom },
-} = defaults
+type MapIdsToVisualizationProps = {
+  ids: string[]
+} & UseSyncMoveReturn &
+  UseHoverInfoReturn & { layerProps: LayerProps[] }
 
-const defaultViewState = { longitude, latitude, zoom }
+type MapIdsToVisualization = (
+  props: MapIdsToVisualizationProps
+) => VisualizationProps[]
 
-const defaultActiveMapIndex = 0
+// TODO: Figure out way to memoize onMoveStart functions
+// see: https://github.com/visgl/react-map-gl/blob/7.0-release/examples/side-by-side/src/app.tsx

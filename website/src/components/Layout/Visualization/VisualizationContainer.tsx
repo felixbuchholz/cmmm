@@ -9,7 +9,7 @@ import styles from './visualization.module.css'
 export const VisualizationContainer: FC = () => {
   const visualizationProps = useVisualizationSync(visualizationSyncedConfig)
   return (
-    <main className={styles.visualization}>
+    <main className={styles.container}>
       {visualizationProps.map(it => (
         <Visualization key={it.id} {...it} />
       ))}
@@ -17,4 +17,7 @@ export const VisualizationContainer: FC = () => {
   )
 }
 
-const visualizationSyncedConfig = [{ id: 'reference' }, { id: 'comparison' }]
+const visualizationSyncedConfig = [
+  { id: 'reference', featureKey: 'mag', color: 'red' },
+  { id: 'comparison', featureKey: 'tsunami', color: 'green' },
+]

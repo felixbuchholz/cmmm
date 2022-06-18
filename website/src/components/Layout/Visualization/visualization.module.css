@@ -1,11 +1,17 @@
-.visualization {
-	height: calc(100% - (var(--header-height) + var(--navigation-height)));
+.container {
 	display: flex;
 	flex-wrap: wrap;
+	height: calc(100% - (var(--header-height) + var(--navigation-height)));
 }
 
-.visualization section {
-	border: 1px aquamarine solid;
+.container section {
+	border-top: 1px black solid;
 	height: var(--visualization_section_height);
+	position: relative;
 	width: var(--visualization_section_width);
 }
+
+.container section:last-child {
+	border-left: 1px black solid;
+}
+

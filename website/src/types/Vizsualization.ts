@@ -1,22 +1,23 @@
-import { LayerProps } from 'react-map-gl'
+import { ReactNode } from 'react'
 
-import { HoverInfo } from './HoverInfo'
 import { LayerColor, MapPropsSynced } from './Map'
 
-export type VisualizationConfig = {
-  id: string
+export type VisualizationMapLayerConfig = {
   // TODO: narrow to keyof feature.properties :)
   featureKey: string
   color: LayerColor
 }
 
-export type VisualizationProps = {
+export type VisualizationConfig = {
   id: string
+} & VisualizationMapLayerConfig
+
+export type VisualizationProps = {
+  config: VisualizationConfig
   mapProps: MapPropsSynced
-  layerProps: LayerProps
-  hoverInfo: HoverInfo
+  tooltip: ReactNode
 }
 
 export type UseVisualizationSync = (
   props: VisualizationConfig[]
-) => VisualizationProps[]
+) => Omit<VisualizationProps, 'tooltip'>[]

@@ -5,14 +5,19 @@ import { Coordinates, HoverInfo } from '../../../types/HoverInfo'
 
 import styles from './tooltip.module.css'
 
-export const TooltipTranslated: FC<HoverInfo> = ({ data, x, y }) => {
+export const TooltipTranslated: FC<HoverInfo & { translateKey?: string }> = ({
+  data,
+  x,
+  y,
+  translateKey = 'map.tooltipDescription',
+}) => {
   const { t } = useTranslation()
 
   if (typeof data === 'undefined') {
     return null
   }
 
-  const text = data + ' ' + t('map.tooltipDescription')
+  const text = data + ' ' + t(translateKey)
 
   return <Tooltip text={text} x={x} y={y} />
 }

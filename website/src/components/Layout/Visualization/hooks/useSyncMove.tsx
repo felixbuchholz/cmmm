@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 
 import { MapViewState, ViewStateChangeHandler } from '../../../../types/Map'
 import { initialForViewState } from '../utils/configMap'
@@ -8,8 +8,14 @@ export const useSyncMove: UseSyncMove = ids => {
   const [activeMap, setActiveMap] = useState<typeof ids[number]>(ids[initIndex])
 
   const onMoveCallback = useCallback(evt => setViewState(evt.viewState), [])
-  const onMove = ids.map(it => activeMap === it && onMoveCallback)
-  const onMoveStart = ids.map(it => (): void => setActiveMap(it))
+  const onMove = useMemo(
+    () => ids.map(it => activeMap === it && onMoveCallback),
+    [activeMap, ids, onMoveCallback]
+  )
+  const onMoveStart = useMemo(
+    () => ids.map(it => (): void => setActiveMap(it)),
+    [ids]
+  )
 
   return { viewState, onMove, onMoveStart }
 }

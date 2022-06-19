@@ -21,7 +21,6 @@ export type MapPropsSynced = {
   viewState: MapViewState
   onMoveStart: ViewStateChangeHandler
   onMove: ViewStateChangeHandler
-  onMouseMove: (e: mapboxgl.MapLayerMouseEvent) => void
 }
 
 export type LayerColor = string | mapboxgl.StyleFunction | mapboxgl.Expression

@@ -1,7 +1,7 @@
 import { LayerProps } from 'react-map-gl'
 
 import { LayerColor } from '../../../../types/Map'
-import { VisualizationConfig } from '../../../../types/Vizsualization'
+import { VisualizationMapLayerConfig } from '../../../../types/Vizsualization'
 
 export const hoverDataFeatureKey = 'mag'
 
@@ -53,10 +53,9 @@ export const layerPropsDefault = getLayerProps({
   featureKey: hoverDataFeatureKey,
 })
 
-export const getLayersPropsFromConfig = (
-  config: VisualizationConfig[]
-): LayerProps[] => {
-  return config.map(({ color, featureKey }) =>
-    getLayerProps({ color, featureKey })
-  )
+export const getLayersPropsFromConfig = ({
+  color,
+  featureKey,
+}: VisualizationMapLayerConfig): LayerProps => {
+  return getLayerProps({ color, featureKey })
 }

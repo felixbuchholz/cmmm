@@ -34,10 +34,10 @@ type GetLayerPropsProps = {
 type GetLayerProps = (props: GetLayerPropsProps) => LayerProps
 
 const squareRootToExponentialFactor = 0.5
-const domainStart = 1
-const rangeStart = 1
-const domainEnd = 8
-const rangeEnd = 40
+const domainStart = 0
+const rangeStart = 3
+const domainEnd = 3
+const rangeEnd = 15
 
 const baseDefault = {
   id: 'data',

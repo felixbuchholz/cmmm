@@ -53,18 +53,32 @@ export const selectionMachine =
                 },
                 menu_category: {
                   on: {
-                    SELECT_CATEGORY: {
-                      actions: 'selectCategory',
-                      target: ['menu_overview', '#viz_load_data'],
-                    },
+                    SELECT_CATEGORY: [
+                      {
+                        actions: 'selectCategory',
+                        target: ['menu_off', '#viz_load_data'],
+                        cond: 'completedSelection',
+                      },
+                      {
+                        actions: 'selectCategory',
+                        target: ['menu_overview', '#viz_load_data'],
+                      },
+                    ],
                   },
                 },
                 menu_scenario: {
                   on: {
-                    SELECT_SCENARIO: {
-                      actions: 'selectScenario',
-                      target: ['menu_overview', '#viz_load_data'],
-                    },
+                    SELECT_SCENARIO: [
+                      {
+                        actions: 'selectScenario',
+                        target: ['menu_off', '#viz_load_data'],
+                        cond: 'completedSelection',
+                      },
+                      {
+                        actions: 'selectScenario',
+                        target: ['menu_overview', '#viz_load_data'],
+                      },
+                    ],
                   },
                 },
                 menu_off: {

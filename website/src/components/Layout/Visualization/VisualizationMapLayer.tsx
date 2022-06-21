@@ -7,8 +7,11 @@ import { getLayersPropsFromConfig } from './utils/configLayer'
 
 export const VisualizationMapLayer: FC<VisualizationMapLayerConfig> = ({
   color,
-  featureKey,
+  featurePropertiesKey: featureKey,
 }) => {
-  const layerProps = getLayersPropsFromConfig({ color, featureKey })
+  const layerProps = getLayersPropsFromConfig({
+    color,
+    featurePropertiesKey: featureKey,
+  })
   return <Layer {...layerProps} />
 }

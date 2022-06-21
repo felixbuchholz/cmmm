@@ -2,9 +2,11 @@ import { ReactNode } from 'react'
 
 import { LayerColor, MapPropsSynced } from './Map'
 
+// TODO: narrow to keyof feature.properties :)
+export type FeaturePropertiesKey = string
+
 export type VisualizationMapLayerConfig = {
-  // TODO: narrow to keyof feature.properties :)
-  featureKey: string
+  featurePropertiesKey: FeaturePropertiesKey
   color: LayerColor
 }
 

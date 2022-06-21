@@ -1,22 +1,24 @@
 import { LayerProps } from 'react-map-gl'
 
-import { LayerColor } from '../../../../types/Map'
 import { VisualizationMapLayerConfig } from '../../../../types/Vizsualization'
 
 export const hoverDataFeatureKey = 'mag'
 
-export const getLayerProps: GetLayerProps = ({ color, featureKey }) => {
+export const getLayerProps: GetLayerProps = ({
+  color,
+  featurePropertiesKey,
+}) => {
   return {
     ...baseDefault,
     type: 'circle',
-    filter: ['has', featureKey],
+    filter: ['has', featurePropertiesKey],
     paint: {
       ...paintDefault,
       'circle-color': color,
       'circle-radius': [
         'interpolate',
         ['exponential', squareRootToExponentialFactor],
-        ['get', featureKey],
+        ['get', featurePropertiesKey],
         domainStart,
         rangeStart,
         domainEnd,
@@ -26,11 +28,7 @@ export const getLayerProps: GetLayerProps = ({ color, featureKey }) => {
   }
 }
 
-type GetLayerPropsProps = {
-  color: LayerColor
-  featureKey: string
-}
-
+type GetLayerPropsProps = VisualizationMapLayerConfig
 type GetLayerProps = (props: GetLayerPropsProps) => LayerProps
 
 const squareRootToExponentialFactor = 0.5
@@ -48,14 +46,9 @@ const paintDefault: mapboxgl.CirclePaint = {
   'circle-opacity': 0.3,
 }
 
-export const layerPropsDefault = getLayerProps({
-  color: 'red',
-  featureKey: hoverDataFeatureKey,
-})
-
 export const getLayersPropsFromConfig = ({
   color,
-  featureKey,
+  featurePropertiesKey,
 }: VisualizationMapLayerConfig): LayerProps => {
-  return getLayerProps({ color, featureKey })
+  return getLayerProps({ color, featurePropertiesKey })
 }

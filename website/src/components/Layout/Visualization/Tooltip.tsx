@@ -1,35 +1,72 @@
+import { MapboxGeoJSONFeature } from 'mapbox-gl'
 import { useTranslation } from 'next-export-i18n'
 import { CSSProperties, FC } from 'react'
 
-import { Coordinates, HoverInfo } from '../../../types/HoverInfo'
+import { useHoverStore } from '../../../state/store/hover'
+import { Coordinates, HoverData, HoverInfo } from '../../../types/HoverInfo'
+import { FeaturePropertiesKey } from '../../../types/Vizsualization'
 
 import styles from './tooltip.module.css'
 
-export const TooltipTranslated: FC<HoverInfo & { translateKey?: string }> = ({
-  data,
-  x,
-  y,
-  translateKey = 'map.tooltipDescription',
-}) => {
-  const { t } = useTranslation()
+const defaultTranslateKey = 'map.tooltipDescription'
 
-  if (typeof data === 'undefined') {
-    return null
-  }
+export const TooltipHover: FC<{
+  featurePropertiesKey: FeaturePropertiesKey
+}> = ({ featurePropertiesKey }) => {
+  const point = useHoverStore(state => state.point)
+  const feature = useHoverStore(state => state.feature)
+  const state = getDisplayState(!!feature)
+  const data = getHoverData(feature, featurePropertiesKey)
 
-  const text = data + ' ' + t(translateKey)
+  const tooltipProps = { ...point, data, state }
 
-  return <Tooltip text={text} x={x} y={y} />
+  return <TooltipTranslated {...tooltipProps} />
 }
 
-export const Tooltip: FC<{ text: string } & Coordinates> = ({ text, x, y }) => {
+export const TooltipTranslated: FC<TooltipTranslatedProps> = ({
+  data,
+  state,
+  translateKey = defaultTranslateKey,
+  ...rest
+}) => {
+  const { t } = useTranslation()
+  const text =
+    data !== null && state === 'active' ? `${data} ${t(translateKey)}` : ''
+
+  return <Tooltip state={state} text={text} {...rest} />
+}
+
+type TooltipTranslatedProps = {
+  translateKey?: string
+  state: DisplayState
+} & HoverInfo
+
+export const Tooltip: FC<TooltipProps> = ({ state, text, x, y }) => {
   const style: CSSProperties = {
     transform: `translateX(${x}px) translateY(${y}px)`,
   }
 
   return (
-    <div className={styles.container} style={style}>
+    <div className={styles.container} data-state={state} style={style}>
       {text}
     </div>
   )
 }
+
+type TooltipProps = {
+  text: string
+  state: DisplayState
+} & Coordinates
+
+export const getHoverData = (
+  feature: MapboxGeoJSONFeature,
+  featurePropertiesKey: FeaturePropertiesKey
+): HoverData => {
+  return feature ? feature.properties[featurePropertiesKey] : null
+}
+
+export const getDisplayState = (bool: boolean): DisplayState => {
+  return bool ? 'active' : 'disabled'
+}
+
+export type DisplayState = 'active' | 'disabled'

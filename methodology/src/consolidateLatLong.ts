@@ -5,11 +5,11 @@ import { Offer } from './types/offer'
 import { SummaryStat } from './types/summary'
 
 export const consolidateLatLong = (
-  summaryStats: SummaryStat[],
+  groups: SummaryStat[],
   offer: Offer
 ): void => {
   const group = offer[offerGroupKey]
-  const summaryStat = summaryStats.find(it => it.group === group)
+  const summaryStat = groups.find(it => it.group === group)
   const offerLat = offer.lat
   const offerLong = offer.long
   const hasBothOfferCoordinates =

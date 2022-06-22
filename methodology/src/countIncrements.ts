@@ -4,21 +4,22 @@ import { Offer } from './types/offer'
 import { SummaryStat, SummaryStatCounts } from './types/summary'
 
 export const countIncrements = (
-  summaryStats: SummaryStat[],
+  groups: SummaryStat[],
   offer: Offer,
   increments: SummaryStatCounts
 ): void => {
   const group = offer[offerGroupKey] as string
-  const name = offer[offerNameKey] as string
-  const foundIndex = summaryStats.findIndex(it => it.group === group)
+  const foundIndex = groups.findIndex(it => it.group === group)
+
   if (foundIndex === noIndexFound) {
-    summaryStats.push({
+    const name = offer[offerNameKey] as string
+    groups.push({
       group,
       name,
       ...increments,
     })
   } else {
-    applyIncrements(summaryStats[foundIndex], increments)
+    applyIncrements(groups[foundIndex], increments)
   }
 }
 

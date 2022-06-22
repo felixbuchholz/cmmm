@@ -16,8 +16,10 @@ export const offerGroupKey: keyof Offer = 'latlong'
 export const parseData: CallbackData = (offers, category) => {
   for (const scenario of allScenarios) {
     const thresholds = getThresholds(scenario, category)
-    const summaryStats = getSummaryStats(offers, thresholds)
-    const geojson = GeoJSON.parse(summaryStats, { Point: ['lat', 'long'] })
-    writeData(category, scenario, geojson)
+    const { groups, totals } = getSummaryStats(offers, thresholds)
+    const geojson = GeoJSON.parse(groups, { Point: ['lat', 'long'] })
+    const geojsonCustom = { ...geojson }
+    geojsonCustom.metadata = totals
+    writeData(category, scenario, geojsonCustom)
   }
 }

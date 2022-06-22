@@ -1,3 +1,5 @@
+import { Offer } from './offer'
+
 export type SummaryStatCounts = {
   total: number
   suitable: number
@@ -10,3 +12,8 @@ export type SummaryStat = {
   lat?: number
   long?: number
 } & SummaryStatCounts
+
+export type GetSummaryStats = (
+  offers: Offer[],
+  thresholds: { price: number; size: number }
+) => { groups: SummaryStat[]; totals: SummaryStatCounts }

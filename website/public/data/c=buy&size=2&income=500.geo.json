@@ -28068,5 +28068,10 @@
         "affordable": 0
       }
     }
-  ]
+  ],
+  "metadata": {
+    "total": 11800,
+    "suitable": 9413,
+    "affordable": 118
+  }
 }

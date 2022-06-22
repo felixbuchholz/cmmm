@@ -1,0 +1,48 @@
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.headline {
+	width: 100%;
+}
+
+.chart {
+height: 100%;
+}
+
+.squareContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	height: 80%;
+	width: 100%;
+	padding-right: 5em;
+	overflow-x: scroll;
+  overflow-y: hidden;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.squareContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.square {
+	background-color: black;
+	width: 0.5em;
+	height: 0.5em;
+	margin: 2px;
+}
+
+.fade {
+	background-image: linear-gradient(to right,#fff0, #fff);
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	pointer-events: none;
+}

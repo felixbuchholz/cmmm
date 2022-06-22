@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+		"isolatedModules": true,
+    "lib": ["es2017"],                     
+    "module": "commonjs",                    
+    "noImplicitAny": false,
+    "outDir": "build",                          
+    "resolveJsonModule": true,
+    "strict": true,         
+    "target": "es2017",
+  },
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.config.ts",
+  ],
+  "include": [
+    "src/**/*",
+    "src/types/decs.d.ts"
+  ]
+}

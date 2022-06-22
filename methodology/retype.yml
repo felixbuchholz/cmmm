@@ -1,0 +1,11 @@
+input: .
+output: .retype
+url: https://felixbuchholz.github.io/cmmm
+branding:
+  title: Tic Tac Toe
+  label: Docs
+links:
+- text: Getting Started
+  link: https://retype.com/guides/getting-started/
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

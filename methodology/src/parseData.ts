@@ -7,10 +7,11 @@ import { Offer } from './types/offer'
 import { CallbackData } from './types/readData'
 import { writeData } from './writeData'
 
-export const offerSizeKey: keyof Offer = 'Qm2'
-export const offerPriceKey: keyof Offer = 'Price'
+export const offerSizeKey: keyof Offer = 'size'
+export const offerPriceKey: keyof Offer = 'price'
+export const offerNameKey: keyof Offer = 'location D'
 // MUST BE UNIQUE
-export const groupingKey: keyof Offer = 'Municipali'
+export const offerGroupKey: keyof Offer = 'latlong'
 
 export const parseData: CallbackData = (offers, category) => {
   for (const scenario of allScenarios) {

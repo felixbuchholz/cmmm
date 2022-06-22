@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 
-export const outputPathRelative = '../output/'
+export const outputPathRelative = '../../website/public/data/'
 
 export const resetOutputDir = (): void => {
   const directory = path.join(__dirname, outputPathRelative)

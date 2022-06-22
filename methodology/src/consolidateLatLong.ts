@@ -1,7 +1,6 @@
 /* eslint-disable complexity */
 /* eslint-disable max-lines-per-function */
-import { groupingKey } from './parseData'
-import { latIndex, longIndex } from './readData'
+import { offerGroupKey } from './parseData'
 import { Offer } from './types/offer'
 import { SummaryStat } from './types/summary'
 
@@ -9,10 +8,10 @@ export const consolidateLatLong = (
   summaryStats: SummaryStat[],
   offer: Offer
 ): void => {
-  const name = offer[groupingKey]
-  const summaryStat = summaryStats.find(it => it.name === name)
-  const offerLat = offer.latlong[latIndex]
-  const offerLong = offer.latlong[longIndex]
+  const group = offer[offerGroupKey]
+  const summaryStat = summaryStats.find(it => it.group === group)
+  const offerLat = offer.lat
+  const offerLong = offer.long
   const hasBothOfferCoordinates =
     typeof offerLat === 'number' && typeof offerLong === 'number'
 

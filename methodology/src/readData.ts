@@ -3,22 +3,15 @@ import * as path from 'path'
 
 import { CastingFunction, parse } from 'csv-parse'
 
-import {
-  Offer,
-  headersCastAsNumbers,
-  headersCastAsArrayNumbers,
-} from './types/offer'
+import { Offer, headersCastAsNumbers } from './types/offer'
 import { ReadData } from './types/readData'
 import { CategoryConfig } from './types/scenario'
 
-const delimiter = ','
+const delimiter = ';'
 const defaultConfig: CategoryConfig = {
   category: 'rent',
-  dataPathRelative: '../data/geocoded_sampledata_a.csv',
+  dataPathRelative: '../data/buy.csv',
 }
-export const latIndex = 0
-export const longIndex = 1
-
 export const readData: ReadData = (
   callback,
   categoryConfig = defaultConfig
@@ -39,7 +32,8 @@ export const readData: ReadData = (
         console.error(error)
       }
 
-      callback(result, category)
+      const data = addLatLongColumn(result)
+      callback(data, category)
     }
   )
 }
@@ -51,14 +45,13 @@ const cast: CastingFunction = (columnValue, { column }) => {
     return +columnValue
   }
 
-  if (headersCastAsArrayNumbers.includes(columnName)) {
-    return getLatLongArray(columnValue)
+  if (typeof columnValue === 'string') {
+    return columnValue.trim()
   }
 
   return columnValue
 }
 
-export const getLatLongArray = (columnValue: string): Offer['latlong'] => {
-  const split = columnValue.split(',').map(it => +it.trim())
-  return [split[latIndex], split[longIndex]]
+function addLatLongColumn (offers: Offer[]): Offer[] {
+  return offers.map(it => ({ ...it, latlong: `${it.lat},${it.long}` }))
 }

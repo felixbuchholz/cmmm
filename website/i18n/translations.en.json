@@ -40,7 +40,7 @@
 	},
 	"scenarios": {
 		"singleArtist": "working as an artist",
-		"doesNotExist": "– this scenario is not available"
+		"generic": "working"
 	},
 	"map": {
 		"tooltipDescription": "Offers"

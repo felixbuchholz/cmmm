@@ -1,5 +1,5 @@
 import { applyIncrements } from './applyIncrements'
-import { groupingKey } from './parseData'
+import { offerGroupKey, offerNameKey } from './parseData'
 import { Offer } from './types/offer'
 import { SummaryStat, SummaryStatCounts } from './types/summary'
 
@@ -8,10 +8,12 @@ export const countIncrements = (
   offer: Offer,
   increments: SummaryStatCounts
 ): void => {
-  const name = offer[groupingKey] as string
-  const foundIndex = summaryStats.findIndex(it => it.name === name)
+  const group = offer[offerGroupKey] as string
+  const name = offer[offerNameKey] as string
+  const foundIndex = summaryStats.findIndex(it => it.group === group)
   if (foundIndex === noIndexFound) {
     summaryStats.push({
+      group,
       name,
       ...increments,
     })

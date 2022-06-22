@@ -1,12 +1,11 @@
-import { SummaryStat, SummaryStatCounts } from './types/summary';
-
+import { SummaryStat, SummaryStatCounts } from './types/summary'
 
 export const applyIncrements = (
   summaryStat: SummaryStat,
   increments: SummaryStatCounts
 ): void => {
-  let key: keyof SummaryStatCounts;
+  let key: keyof SummaryStatCounts
   for (key in increments) {
-    summaryStat[key] += increments[key];
+    summaryStat[key] += increments[key]
   }
-};
+}

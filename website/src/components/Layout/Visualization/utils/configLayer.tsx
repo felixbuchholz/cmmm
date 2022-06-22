@@ -32,9 +32,9 @@ type GetLayerPropsProps = VisualizationMapLayerConfig
 type GetLayerProps = (props: GetLayerPropsProps) => LayerProps
 
 const domainStart = 0
-const rangeStart = 5
+const rangeStart = 0
 const domainEnd = 500
-const rangeEnd = 1000
+const rangeEnd = 2000
 
 const baseDefault = {
   id: 'data',

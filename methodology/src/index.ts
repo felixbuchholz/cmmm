@@ -7,8 +7,8 @@ import { resetOutputDir } from './resetOutputDir'
 import { CategoryConfig } from './types/scenario'
 
 const categoryConfigs: CategoryConfig[] = [
-  { category: 'buy', dataPathRelative: '../data/geocoded_sampledata_a.csv' },
-  { category: 'rent', dataPathRelative: '../data/geocoded_sampledata_b.csv' },
+  { category: 'buy', dataPathRelative: '../data/buy.csv' },
+  { category: 'rent', dataPathRelative: '../data/rent.csv' },
 ]
 
 const main = (): void => {

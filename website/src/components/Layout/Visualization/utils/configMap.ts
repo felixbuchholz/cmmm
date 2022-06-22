@@ -6,10 +6,10 @@ const defaultsToZero = 0
 
 const longitude = 20.457273
 const latitude = 44.787197
-const swLong = 20.3
-const swLat = 44.65
+const swLong = 20.23
+const swLat = 44.6
 const neLong = 20.68
-const neLat = 44.92
+const neLat = 45
 const maxBounds: [number, number, number, number] = [
   swLong,
   swLat,
@@ -17,7 +17,7 @@ const maxBounds: [number, number, number, number] = [
   neLat,
 ]
 const zoom = 11
-const minZoom = 8
+const minZoom = 7
 const maxZoom = 14
 const height = 500
 const width = 500

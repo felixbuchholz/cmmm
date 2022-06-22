@@ -6,6 +6,7 @@ export type SummaryStatCounts = {
 
 export type SummaryStat = {
   name: string
+  group: string
   lat?: number
   long?: number
 } & SummaryStatCounts

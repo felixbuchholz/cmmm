@@ -15,10 +15,11 @@ height: 100%;
 .squareContainer {
 	position: relative;
 	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
 	height: 80%;
-	width: 100%;
 	padding-right: 5em;
 	overflow-x: scroll;
   overflow-y: hidden;

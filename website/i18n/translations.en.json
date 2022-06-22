@@ -44,5 +44,13 @@
 	},
 	"map": {
 		"tooltipDescription": "Offers"
+	},
+	"suitable": {
+		"countLegendNull": "existing offers in Belgrade",
+		"countLegendSelected": "suitable offers in Belgrade"
+	},
+	"affordable": {
+		"countLegendNull": "affordable offers in Belgrade",
+		"countLegendSelected": "affordable offers in Belgrade"
 	}
 }

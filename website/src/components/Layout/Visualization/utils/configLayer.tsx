@@ -17,8 +17,8 @@ export const getLayerProps: GetLayerProps = ({
       'circle-color': color,
       'circle-radius': [
         'interpolate',
-        ['exponential', squareRootToExponentialFactor],
-        ['get', featurePropertiesKey],
+        ['linear'],
+        ['sqrt', ['get', featurePropertiesKey]],
         domainStart,
         rangeStart,
         domainEnd,
@@ -31,11 +31,10 @@ export const getLayerProps: GetLayerProps = ({
 type GetLayerPropsProps = VisualizationMapLayerConfig
 type GetLayerProps = (props: GetLayerPropsProps) => LayerProps
 
-const squareRootToExponentialFactor = 0.5
 const domainStart = 0
-const rangeStart = 3
-const domainEnd = 3
-const rangeEnd = 15
+const rangeStart = 5
+const domainEnd = 500
+const rangeEnd = 1000
 
 const baseDefault = {
   id: 'data',

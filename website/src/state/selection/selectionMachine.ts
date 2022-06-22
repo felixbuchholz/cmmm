@@ -15,7 +15,7 @@ export const selectionMachine =
         category: 'rent',
         income: null,
         size: null,
-        data: {},
+        data: null,
       },
       tsTypes: {} as import('./selectionMachine.typegen').Typegen0,
       schema: {
@@ -258,5 +258,7 @@ export const getDataPathFromContext = ({
   size,
   income,
 }: SelectionMachineContext): string => {
-  return `${githubPrefix}/data/c=${category}&size=${size}&income=${income}.json`
+  return `${githubPrefix}/data/c=${category}&size=${size}&income=${income}${dataFileSuffix}`
 }
+
+const dataFileSuffix = '.geo.json'

@@ -15,8 +15,8 @@ import { VisualizationMapLayer } from './VisualizationMapLayer'
 import { VisualizationMapSource } from './VisualizationMapSource'
 
 const visualizationConfigs: VisualizationConfig[] = [
-  { id: 'reference', featurePropertiesKey: 'mag', color: 'red' },
-  { id: 'comparison', featurePropertiesKey: 'tsunami', color: 'green' },
+  { id: 'reference', featurePropertiesKey: 'suitable', color: 'red' },
+  { id: 'comparison', featurePropertiesKey: 'affordable', color: 'green' },
 ]
 
 const ids = getFromConfig(visualizationConfigs, 'id')

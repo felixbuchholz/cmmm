@@ -4,9 +4,21 @@ import { mapboxAccessToken } from '../../../../utils/environment'
 
 const defaultsToZero = 0
 
-const longitude = -100
-const latitude = 40
-const zoom = 3.5
+const longitude = 20.457273
+const latitude = 44.787197
+const swLong = 20.3
+const swLat = 44.65
+const neLong = 20.68
+const neLat = 44.92
+const maxBounds: [number, number, number, number] = [
+  swLong,
+  swLat,
+  neLong,
+  neLat,
+]
+const zoom = 11
+const minZoom = 8
+const maxZoom = 14
 const height = 500
 const width = 500
 const interactiveLayerId = 'data'
@@ -41,4 +53,7 @@ export const defaultsMap = {
   interactiveLayerIds: [interactiveLayerId],
   mapStyle,
   mapboxAccessToken,
+  minZoom,
+  maxZoom,
+  maxBounds,
 }

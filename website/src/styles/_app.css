@@ -42,3 +42,7 @@ a {
 .inlineDivs div {
   display: inline;
 }
+
+.mapboxgl-control-container {
+  display: none;
+}

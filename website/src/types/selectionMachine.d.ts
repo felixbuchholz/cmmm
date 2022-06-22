@@ -3,7 +3,9 @@ import { ActorRefFrom, StateFrom, StateValueFrom } from 'xstate'
 import { selectionMachine } from '../state/selection/selectionMachine'
 
 export type Category = 'buy' | 'rent'
-export type Data = Record<string, string | number | null>
+export type Data =
+  | GeoJSON.Feature<GeoJSON.Geometry>
+  | GeoJSON.FeatureCollection<GeoJSON.Geometry>
 export type ScenarioParameter = number | null
 
 export type SelectionMachineContext = {

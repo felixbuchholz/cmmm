@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 import { LayerColor, MapPropsSynced } from './Map'
 
 // TODO: narrow to keyof feature.properties :)
-export type FeaturePropertiesKey = string
+export type FeaturePropertiesKey = 'total' | 'suitable' | 'affordable'
 
 export type VisualizationMapLayerConfig = {
   featurePropertiesKey: FeaturePropertiesKey

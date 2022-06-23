@@ -1,10 +1,16 @@
+/* eslint-disable no-console */
 /** @type {import('next').NextConfig} */
-const deploysToGitHub = process.env.NEXT_PUBLIC_DEPLOYS_TO_GITHUB === 'TRUE'
+const serverSubFolder = process.env.NEXT_PUBLIC_SERVER_SUBFOLDER
+const assetPrefix = serverSubFolder ?? ''
+
+console.log('================================')
+console.log(assetPrefix)
+console.log('================================')
 
 const nextConfig = {
   reactStrictMode: true,
-  // GitHub Pages config
-  assetPrefix: deploysToGitHub ? '/cmmm/' : '',
+  // Server / GitHub pages config
+  assetPrefix: serverSubFolder,
 }
 
 module.exports = nextConfig

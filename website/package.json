@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
+    "export:server": "NEXT_PUBLIC_SERVER_SUBFOLDER=/belgrade/cmmm-export-test/ next build && NEXT_PUBLIC_SERVER_SUBFOLDER=/belgrade/cmmm-export-test/ next export",
     "lint": "next lint",
     "lint:fix": "yarn lint --fix",
     "post-install": "cd .. && husky install website/.husky && commitizen init cz-conventional-changelog --yarn --dev --exact && yarn xstate:typegen",

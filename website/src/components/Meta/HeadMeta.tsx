@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { FC } from 'react'
 
-import { githubPrefix } from '../../utils/environment'
+import { serverSubFolderPrefix } from '../../utils/environment'
 
 export const HeadMeta: FC = () => {
   return (
@@ -9,7 +9,7 @@ export const HeadMeta: FC = () => {
       <title>CMMM</title>
 
       <meta name="description" content="CMMM Site title" />
-      <link rel="icon" href={`${githubPrefix}/favicon.ico`} />
+      <link rel="icon" href={`${serverSubFolderPrefix}/favicon.ico`} />
     </Head>
   )
 }

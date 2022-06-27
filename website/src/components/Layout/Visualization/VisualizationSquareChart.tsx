@@ -9,18 +9,15 @@ export const VisualizationSquareChart: FC<{
   featurePropertiesKey: FeaturePropertiesKey
 }> = ({ featurePropertiesKey }) => {
   const count = useCount(featurePropertiesKey)
-  const arr = Array.from(Array(count).keys())
+  const arr = Array(count).fill('◼')
+  const points = arr.join('')
   return (
     <div className={styles.container}>
       <div className={styles.headline}>
         How many offers are presented in Belgrade?
       </div>
       <div className={styles.chart}>
-        <div className={styles.squareContainer}>
-          {arr.map(it => (
-            <div key={it} className={styles.square}></div>
-          ))}
-        </div>
+        <div className={styles.squareContainer}>{points}</div>
         <div className={styles.fade}></div>
       </div>
     </div>

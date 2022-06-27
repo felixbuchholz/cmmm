@@ -6,9 +6,9 @@
 
 .container section {
 	border-top: 1px black solid;
-	height: var(--visualization_section_height);
+	height: var(--visualization-section-height);
 	position: relative;
-	width: var(--visualization_section_width);
+	width: var(--visualization-section-width);
 }
 
 .container section:last-child {

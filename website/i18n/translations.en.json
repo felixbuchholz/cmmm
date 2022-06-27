@@ -36,7 +36,12 @@
 		"scenarioSelect": "I have ",
 		"scenarioSelectExplainer": "Small explainer here, half sentence",
 		"scenarioSelectButton": " a household of {{size}} with an income of {{income}} Euro/month",
-		"scenarioSelectButtonEmpty": "select a scenario here"
+		"scenarioSelectButtonEmpty": "select a scenario here",
+		"optionsSelectExplainer": "Small explainer here, half sentence",
+		"sizeSelect": "I have a household of",
+		"sizeSelectButtonEmpty": "select household size here ...",
+		"incomeSelect": "with a monthly income of",
+		"incomeSelectButtonEmpty": "select monthly income here"
 	},
 	"scenarios": {
 		"singleArtist": "working as an artist",

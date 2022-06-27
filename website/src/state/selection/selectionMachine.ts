@@ -113,14 +113,27 @@ export const selectionMachine =
                     OPEN_MENU_CATEGORY: {
                       target: 'menu_category',
                     },
+                    OPEN_MENU_SIZE: {
+                      target: 'menu_size',
+                    },
+                    OPEN_MENU_INCOME: {
+                      target: 'menu_income',
+                    },
                   },
                 },
                 menu_category: {
                   on: {
-                    SELECT_CATEGORY: {
-                      actions: 'selectCategory',
-                      target: ['menu_overview', '#viz_load_data'],
-                    },
+                    SELECT_CATEGORY: [
+                      {
+                        actions: 'selectCategory',
+                        target: ['menu_off', '#viz_load_data'],
+                        cond: 'completedSelection',
+                      },
+                      {
+                        actions: 'selectCategory',
+                        target: ['menu_overview', '#viz_load_data'],
+                      },
+                    ],
                   },
                 },
                 menu_off: {
@@ -131,10 +144,44 @@ export const selectionMachine =
                     OPEN_MENU_CATEGORY: {
                       target: 'menu_category',
                     },
+                    OPEN_MENU_SIZE: {
+                      target: 'menu_size',
+                    },
+                    OPEN_MENU_INCOME: {
+                      target: 'menu_income',
+                    },
                   },
                 },
-                menu_size: {},
-                menu_income: {},
+                menu_size: {
+                  on: {
+                    SELECT_SIZE: [
+                      {
+                        actions: 'selectSize',
+                        target: ['menu_off', '#viz_load_data'],
+                        cond: 'completedSelection',
+                      },
+                      {
+                        actions: 'selectSize',
+                        target: ['menu_overview', '#viz_load_data'],
+                      },
+                    ],
+                  },
+                },
+                menu_income: {
+                  on: {
+                    SELECT_INCOME: [
+                      {
+                        actions: 'selectIncome',
+                        target: ['menu_off', '#viz_load_data'],
+                        cond: 'completedSelection',
+                      },
+                      {
+                        actions: 'selectIncome',
+                        target: ['menu_overview', '#viz_load_data'],
+                      },
+                    ],
+                  },
+                },
               },
               on: {
                 TOGGLE_SELECTION_MODE: {
@@ -218,6 +265,22 @@ export const selectionMachine =
             return context.size
           },
         }),
+        selectIncome: assign({
+          income: (context, event) => {
+            if ('income' in event) {
+              return event.income
+            }
+            return context.income
+          },
+        }),
+        selectSize: assign({
+          size: (context, event) => {
+            if ('size' in event) {
+              return event.size
+            }
+            return context.size
+          },
+        }),
         reset: assign({
           category: () => 'rent',
           income: () => null,
@@ -258,7 +321,7 @@ export const getDataPathFromContext = ({
   size,
   income,
 }: SelectionMachineContext): string => {
-  return `${serverSubFolderPrefix}data/c=${category}&size=${size}&income=${income}${dataFileSuffix}`
+  return `${serverSubFolderPrefix}/data/c=${category}&size=${size}&income=${income}${dataFileSuffix}`
 }
 
 const dataFileSuffix = '.geo.json'

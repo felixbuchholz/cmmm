@@ -1,8 +1,11 @@
 import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
-import { useSelectionSend } from '../../../state/selection/hooks'
-import { useMenuOverviewScenarioSelectionButtonText } from '../Menu/MenuOverviewScenarioSelection'
+import {
+  useSelectionContext,
+  useSelectionSend,
+} from '../../../state/selection/hooks'
+import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 
 export const ScenarioSelectionButton: FC = () => {
   const { t } = useTranslation()
@@ -14,9 +17,23 @@ export const ScenarioSelectionButton: FC = () => {
   const text = useMenuOverviewScenarioSelectionButtonText()
 
   return (
-    <div>
-      {t('menuOverview.scenarioSelect')}{' '}
-      <button onClick={handleClick}>{text}</button>
-    </div>
+    <WrapperIsActive states={['menu.mode_scenario']}>
+      <div>
+        {t('menuOverview.scenarioSelect')}{' '}
+        <button className="triangle" onClick={handleClick}>
+          {text}
+        </button>
+      </div>
+    </WrapperIsActive>
   )
+}
+
+export const useMenuOverviewScenarioSelectionButtonText = (): string => {
+  const { t } = useTranslation()
+  const [income, size] = useSelectionContext(['income', 'size'])
+
+  if (!income || !size) {
+    return t('menuOverview.scenarioSelectButtonEmpty')
+  }
+  return t('menuOverview.scenarioSelectButton', { income, size })
 }

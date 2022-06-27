@@ -19,7 +19,7 @@ export const CategorySelectionButton: FC<{ translationKey?: string }> = ({
 
   return (
     <div>
-      <button onClick={handleClick}>
+      <button className="triangle" onClick={handleClick}>
         {t(`${category}.${translationKey}`)}
       </button>
     </div>

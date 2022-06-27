@@ -32,6 +32,10 @@ export type SelectionMachineEvents =
       size: ScenarioParameter
       income: ScenarioParameter
     }
+  | { type: 'OPEN_MENU_SIZE' }
+  | { type: 'SELECT_SIZE'; size: ScenarioParameter }
+  | { type: 'OPEN_MENU_INCOME' }
+  | { type: 'SELECT_INCOME'; income: ScenarioParameter }
   | { type: 'OPEN_MENU_ERROR' }
   | { type: 'RESET' }
 

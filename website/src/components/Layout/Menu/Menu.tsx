@@ -7,7 +7,7 @@ import { SelectionStateString } from '../../../types/selectionMachine'
 import styles from './menu.module.css'
 import { MenuCategory } from './MenuCategory'
 import { MenuOverview } from './MenuOverview'
-import { MenuScenario } from './MenuScenario'
+import { MenusParameters } from './MenusParameters'
 import { resolveStateArrayToClosedStr } from './utils'
 
 const menuClosedStates: SelectionStateString[] = [
@@ -24,7 +24,7 @@ export const Menu: FC = () => {
   return (
     <div className={styles.menu} data-state={menuState}>
       <MenuOverview />
-      <MenuScenario />
+      <MenusParameters />
       <MenuCategory />
     </div>
   )

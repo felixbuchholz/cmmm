@@ -2,10 +2,11 @@ import React, { FC } from 'react'
 
 import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 import { SelectionStateString } from '../../../types/selectionMachine'
+import { ModeToggleButton } from '../Navigation/ModeToggleButton'
 
 import { MenuOverviewCategorySelection } from './MenuOverviewCategorySelection'
 import { MenuOverviewConfirmButton } from './MenuOverviewConfirmButton'
-import { MenuOverviewScenarioSelection } from './MenuOverviewScenarioSelection'
+import { MenuOverviewParametersSelection } from './MenuOverviewParametersSelection'
 import { MenuOverviewTitle } from './MenuOverviewTitle'
 
 export const MenuOverview: FC = () => {
@@ -14,7 +15,8 @@ export const MenuOverview: FC = () => {
       <div>
         <MenuOverviewTitle />
         <MenuOverviewCategorySelection />
-        <MenuOverviewScenarioSelection />
+        <ModeToggleButton />
+        <MenuOverviewParametersSelection />
         <MenuOverviewConfirmButton />
       </div>
     </WrapperIsActive>

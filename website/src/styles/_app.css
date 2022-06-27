@@ -6,8 +6,14 @@
   --menu-left: 50%;
   --menu-top: var(--header-height);
   --menu-width: 50%;
-  --visualization_section_height: 100%;
-  --visualization_section_width: 50%;
+  --visualization-section-height: 100%;
+  --visualization-section-width: 50%;
+  --color-interactive: green;
+  --color-interactive-hover: #22bb00;
+  --color-interactive-outline: #ffd700;
+  --color-interactive-disabled: #ccc;
+  --bold: 700;
+  --transition-duration: 100ms;
 }
 
 @media (max-width: 600px) {
@@ -16,8 +22,8 @@
     --menu-left: 0;
     --menu-top: 0;
     --menu-width: 100%;
-    --visualization_section_height: 50%;
-    --visualization_section_width: 100%;
+    --visualization-section-height: 50%;
+    --visualization-section-width: 100%;
   }
 }
 
@@ -43,6 +49,102 @@ a {
   display: inline;
 }
 
+/* TODO: Move to Map config */
 .mapboxgl-control-container {
   display: none;
 }
+
+
+
+button,
+butto[type="button"],
+button[type="reset"],
+button[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 0;
+  padding: 0;
+}
+
+button { 
+  text-transform: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: var(--bold);
+  color: var(--color-interactive);
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--color-interactive-hover);
+  /* border-color: var(--color-interactive-hover); */
+}
+
+button:focus,
+select:focus {
+  color: var(--color-interactive-hover);
+  outline-offset: 0.15em;
+  outline-width: 0.1em;
+  outline-style: solid;
+  outline-color: var(--color-interactive-outline);
+} 
+
+button:disabled,
+button[disabled] {
+  color: var(--color-interactive-disabled);
+  cursor: not-allowed;
+}
+
+button.triangle {
+  padding-left: 1em;
+  position: relative;
+
+}
+
+button.triangle::before {
+    content: "▶";
+    display: block;
+    left: 0;
+    position: absolute;
+    transition: all var(--transition-duration);
+    font-size: 0.8em;
+    top: 10%;
+}
+
+button.triangle:hover::before {
+    left: 3px;
+}
+
+button.padded {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-interactive);
+  border-radius: 0.2em;
+}
+
+button.padded:hover {
+  border-color: var(--color-interactive-hover);
+}
+
+button.padded:disabled,
+button.padded[disabled] {
+  color: var(--color-interactive-disabled);
+  border-color: var(--color-interactive-disabled);
+}
+

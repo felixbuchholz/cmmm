@@ -42,7 +42,7 @@ export const getStaticProps: GetStaticProps = async () => {
   for (const translation of translations) {
     const result = await bundleMDX({
       file: `./i18n/${translation}/info.mdx`,
-      cwd: '/Users/felixbuchholz/home/do/cmmm/product/code/repo/website/',
+      cwd: process.cwd() + process.env.NEXT_PUBLIC_BUILD_SUBFOLDER,
     })
     mdxCode[translation] = result.code
   }

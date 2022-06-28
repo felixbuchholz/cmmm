@@ -38,11 +38,15 @@ const Info: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 export default Info
 
 export const getStaticProps: GetStaticProps = async () => {
+  const cwd = process.cwd() + process.env.NEXT_PUBLIC_BUILD_SUBFOLDER
+  console.log('***')
+  console.log(cwd)
+  console.log('***')
   const mdxCode: MDXLangCode = { en: '', srp: '' }
   for (const translation of translations) {
     const result = await bundleMDX({
       file: `./i18n/${translation}/info.mdx`,
-      cwd: process.cwd() + process.env.NEXT_PUBLIC_BUILD_SUBFOLDER,
+      cwd,
     })
     mdxCode[translation] = result.code
   }

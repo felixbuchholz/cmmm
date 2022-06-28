@@ -1,9 +1,8 @@
-import { useLanguageQuery, useTranslation } from 'next-export-i18n'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
 import styles from './header.module.css'
+import { InfoPageLink } from './InfoPageLink'
 
 export const Header: FC = () => {
   const { t } = useTranslation()
@@ -13,24 +12,3 @@ export const Header: FC = () => {
     </header>
   )
 }
-
-export const InfoPageLink: FC = () => {
-  const [query] = useLanguageQuery()
-  const { pathname: currentPath } = useRouter()
-  const pathname = routing[currentPath]
-  const symbol = symbols[currentPath]
-
-  return <Link href={{ pathname, query }}>{symbol}</Link>
-}
-
-const routing: Record<InfoPageLinkRoutes, InfoPageLinkRoutes> = {
-  '/': '/info',
-  '/info': '/',
-}
-
-const symbols: Record<InfoPageLinkRoutes, string> = {
-  '/': 'ⓘ',
-  '/info': '✕',
-}
-
-type InfoPageLinkRoutes = '/' | '/info'

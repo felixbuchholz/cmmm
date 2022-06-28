@@ -13,7 +13,7 @@
   --visualization-info-display: flex;
   --color-interactive: green;
   --color-interactive-hover: #22bb00;
-  --color-interactive-outline: #ffd700;
+  --color-interactive-outline: #ddd;
   --color-interactive-disabled: #ccc;
   --bold: 700;
   --transition-duration: 100ms;
@@ -100,8 +100,8 @@ button:hover {
 button:focus,
 select:focus {
   color: var(--color-interactive-hover);
-  outline-offset: 0.15em;
-  outline-width: 0.1em;
+  outline-offset: 0.05em;
+  outline-width: 1px;
   outline-style: solid;
   outline-color: var(--color-interactive-outline);
 } 

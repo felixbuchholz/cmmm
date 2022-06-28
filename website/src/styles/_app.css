@@ -153,3 +153,26 @@ button.padded[disabled] {
   border-color: var(--color-interactive-disabled);
 }
 
+.mdx {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mdx > section {
+  width: 50%;
+}
+
+.images p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images p a {
+  display: block;
+  width: 30%;
+}
+
+
+.images img {
+  width: 100%;
+}

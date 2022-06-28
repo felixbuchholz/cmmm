@@ -1,5 +1,8 @@
 {
+  "site": {
+		"title": "Наслов сајта"
+	},
   "ui": {
-    "languageSwitcher": "Test "
+    "languageSwitcher": "Изабери језик:"
   }
 }

@@ -21,7 +21,7 @@
 
 @media (max-width: 907px) {
   :root {
-    --navigation-height: 4em;
+    --navigation-height: 8em;
     --menu-left: 0;
     --menu-top: 0;
     --menu-width: 100%;
@@ -81,15 +81,16 @@ textarea {
 }
 
 button { 
-  text-transform: none;
-  -webkit-appearance: none;
   -moz-appearance: none;
-  text-decoration: underline;
+  -webkit-appearance: none;
   background-color: transparent;
   border-color: transparent;
-  font-weight: var(--bold);
   color: var(--color-interactive);
   cursor: pointer;
+  font-weight: var(--bold);
+  text-align: left;
+  text-decoration: underline;
+  text-transform: none;
 }
 
 button:hover {

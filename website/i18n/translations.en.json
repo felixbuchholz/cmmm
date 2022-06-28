@@ -41,7 +41,9 @@
 		"sizeSelect": "I have a household of",
 		"sizeSelectButtonEmpty": "select household size here ...",
 		"incomeSelect": "with a monthly income of",
-		"incomeSelectButtonEmpty": "select monthly income here"
+		"incomeSelectButtonEmpty": "select monthly income here",
+		"modeToggleTooltipOptions": "Switch to select options",
+		"modeToggleTooltipScenario": "Switch to select scenarios"
 	},
 	"scenarios": {
 		"singleArtist": "working as an artist",

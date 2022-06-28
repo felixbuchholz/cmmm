@@ -1,4 +1,27 @@
 .button {
+	position: relative;
 	font-size: 1.5em;	
 }
 
+.tooltipText {
+	background-color: #fffe;
+	border: 1px solid #ccc;
+	border-radius: 0.1em;
+	color: black;
+	font-size: 0.6em;
+	font-weight: 400;
+	min-width: 12em;
+	opacity: 0;
+	pointer-events: none;
+	transform: translateX(2em) translateY(-55%);
+	width: auto;
+  padding: 1em 0.5em;
+  position: absolute;
+	top: 50%;
+	transition: opacity var(--transition-duration) ease-in-out;
+  z-index: 1;
+}
+
+.button:hover .tooltipText {
+	opacity: 1;
+}

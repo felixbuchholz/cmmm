@@ -39,9 +39,6 @@ export default Info
 
 export const getStaticProps: GetStaticProps = async () => {
   const cwd = process.cwd()
-  console.log('***')
-  console.log(cwd)
-  console.log('***')
   const mdxCode: MDXLangCode = { en: '', srp: '' }
   for (const translation of translations) {
     const result = await bundleMDX({

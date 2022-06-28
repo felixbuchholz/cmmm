@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
 import {
@@ -8,9 +9,12 @@ import {
 import styles from './modeToggleButton.module.css'
 
 export const ModeToggleButton: FC = () => {
+  const { t } = useTranslation()
   const send = useSelectionSend()
   const isScenarioMode = useResolveStateArrayToBool(['menu.mode_scenario'])
   const icon = isScenarioMode ? <ToggleScenarioIcon /> : <ToggleOptionsIcon />
+  const translationKeyMode = isScenarioMode ? 'Options' : 'Scenario'
+  const translationKey = 'menuOverview.modeToggleTooltip' + translationKeyMode
 
   const handleClick = (): void => {
     send('TOGGLE_SELECTION_MODE')
@@ -19,6 +23,7 @@ export const ModeToggleButton: FC = () => {
   return (
     <aside>
       <button className={styles.button} onClick={handleClick}>
+        <span className={styles.tooltipText}>{t(translationKey)}</span>
         {icon}
       </button>
     </aside>

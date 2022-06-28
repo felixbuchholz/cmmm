@@ -12,9 +12,17 @@
   .navigation {
 		bottom: 0;
 		display: block;
+		flex-wrap: wrap;
+		flex-direction: row;
 		height: var(--navigation-height);
 		left: 0;
     top: unset;
 		width: 100%;
   }
+	.navigation div {
+		display: inline-block;
+	}
+	.navigation aside {
+		display: inline-block;
+	}
 }

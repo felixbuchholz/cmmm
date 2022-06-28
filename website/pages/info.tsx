@@ -38,7 +38,7 @@ const Info: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 export default Info
 
 export const getStaticProps: GetStaticProps = async () => {
-  const cwd = process.cwd() + process.env.NEXT_PUBLIC_BUILD_SUBFOLDER
+  const cwd = process.cwd()
   console.log('***')
   console.log(cwd)
   console.log('***')

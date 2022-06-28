@@ -30,7 +30,6 @@ jobs:
         env:
           NEXT_PUBLIC_SERVER_SUBFOLDER: "/cmmm/"
           NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN }}
-          NEXT_PUBLIC_BUILD_SUBFOLDER: "/website"
         run: |
           yarn
           yarn xstate:typegen

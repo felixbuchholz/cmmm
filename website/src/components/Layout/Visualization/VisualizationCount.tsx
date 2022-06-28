@@ -5,6 +5,7 @@ import { useSelectionContext } from '../../../state/selection/hooks'
 import { FeaturePropertiesKey } from '../../../types/Vizsualization'
 
 import { useCount } from './hooks/useCount'
+import styles from './visualizationCount.module.css'
 
 export const VisualizationCount: FC<{
   featurePropertiesKey: FeaturePropertiesKey
@@ -16,7 +17,7 @@ export const VisualizationCount: FC<{
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <h3>{count}</h3>
       <small>
         <VisualCountDescription featurePropertiesKey={featurePropertiesKey} />

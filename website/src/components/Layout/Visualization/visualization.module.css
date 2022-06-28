@@ -17,23 +17,13 @@
 
 .map {
 	position: relative;
-	height: 80%;
+	height: var(--visualization-map-height);
 	width: 100%;
 }
 
 .info {
-	display: flex;
+	display: var(--visualization-info-display);
 	flex-direction: row;
 	justify-content: space-between;
 	height: 20%;
-}
-
-/* TODO: Move this to ._app.css */
-@media (max-width: 600px) {
-  .map {
-    height: 100%;
-  }
-	.info{
-		display: none;
-	}
 }

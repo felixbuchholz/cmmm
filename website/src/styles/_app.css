@@ -8,6 +8,9 @@
   --menu-width: 50%;
   --visualization-section-height: 100%;
   --visualization-section-width: 50%;
+  --visualization-map-height: 80%;
+  --visualization-count-width: 10em;
+  --visualization-info-display: flex;
   --color-interactive: green;
   --color-interactive-hover: #22bb00;
   --color-interactive-outline: #ffd700;
@@ -16,7 +19,7 @@
   --transition-duration: 100ms;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 907px) {
   :root {
     --navigation-height: 4em;
     --menu-left: 0;
@@ -24,6 +27,8 @@
     --menu-width: 100%;
     --visualization-section-height: 50%;
     --visualization-section-width: 100%;
+    --visualization-map-height: 100%;
+    --visualization-info-display: none;
   }
 }
 

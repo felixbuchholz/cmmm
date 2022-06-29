@@ -7,11 +7,11 @@ import { MenuParameters } from './MenuParameters'
 
 export const MenusParameters: FC = () => {
   return (
-    <>
+    <div>
       {menus.map((it, index) => (
         <MenuParameters key={index} {...it} />
       ))}
-    </>
+    </div>
   )
 }
 

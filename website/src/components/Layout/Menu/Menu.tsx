@@ -22,7 +22,7 @@ export const Menu: FC = () => {
   )
 
   return (
-    <div className={styles.menu} data-state={menuState}>
+    <div className={styles.container} data-state={menuState}>
       <MenuOverview />
       <MenusParameters />
       <MenuCategory />

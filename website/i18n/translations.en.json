@@ -24,7 +24,7 @@
 		"singular": "person"
 	},
 	"units": {
-		"euroPerMonth": "Euro per month"
+		"euroPerMonth": "Euro/month"
 	},
 	"menuOverview": {
 		"confirm": "Show offers",
@@ -33,7 +33,7 @@
 		"categorySelect1": "I am interested in",
 		"categorySelect2": "offers in Belgrade",
 		"categorySelectExplainer": "Small explainer here, half sentence",
-		"scenarioSelect": "I have ",
+		"scenarioSelect": "I have",
 		"scenarioSelectExplainer": "Small explainer here, half sentence",
 		"scenarioSelectButton": " a household of {{size}} with an income of {{income}} Euro/month",
 		"scenarioSelectButtonEmpty": "select a scenario here",
@@ -43,7 +43,9 @@
 		"incomeSelect": "with a monthly income of",
 		"incomeSelectButtonEmpty": "select monthly income here",
 		"modeToggleTooltipOptions": "Switch to select options",
-		"modeToggleTooltipScenario": "Switch to select scenarios"
+		"modeToggleTooltipScenario": "Switch to select scenarios",
+		"disclaimerEmphasis": "This page shows",
+		"disclaimerBody": "Lorem ipsum"
 	},
 	"scenarios": {
 		"singleArtist": "working as an artist",
@@ -61,6 +63,7 @@
 		"countLegendSelected": "affordable offers in Belgrade"
 	},
 	"info": {
-		"squareChartHeadline": "How many offers are presented in Belgrade?"
+		"referenceHeadline": "How many offers are presented in Belgrade?",
+		"comparisonHeadline": "How many offers are affordable for me?"
 	}
 }

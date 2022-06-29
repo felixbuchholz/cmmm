@@ -1,16 +1,19 @@
 :root {
   --main-bg-color: #fff;
-  --header-height: 2em;
+  --main-font-color: black;
+  --root-font-size: 20px;
+  --header-height: 2.5em;
   --site-title-width: 10em;
-  --navigation-height: 0em;
+  --navigation-height: var(--header-height);
   --menu-left: 50%;
   --menu-top: var(--header-height);
   --menu-width: 50%;
   --visualization-section-height: 100%;
   --visualization-section-width: 50%;
   --visualization-map-height: 80%;
-  --visualization-count-width: 10em;
-  --visualization-info-display: flex;
+  --visualization-count-width: 11em;
+  --visualization-info-display: block;
+  --squareChartHeight: calc(17vh - var(--header-height));
   --color-interactive: #008b4a;
   --color-interactive-hover: #008b4aaa;
   --color-interactive-outline: #ddd;
@@ -22,6 +25,7 @@
 
 @media (max-width: 907px) {
   :root {
+    --root-font-size: 16px;
     --navigation-height: 8em;
     --menu-left: 0;
     --menu-top: 0;
@@ -36,10 +40,11 @@
 
 html,
 body {
+  color: var(--main-font-color);
   padding: 0;
   margin: 0;
   font-family: "Rubik", sans-serif;
-  font-size: 20px;
+  font-size: var(--root-font-size);
   line-height: 1.2;
 }
 
@@ -67,6 +72,11 @@ small, .margins {
 .number {
   font-family: "Rubik Mono One", monospace;
   font-weight: 400;
+}
+
+em {
+  font-style: normal;
+  font-weight: var(--bold);
 }
 
 
@@ -133,6 +143,7 @@ button {
   text-align: left;
   text-decoration: underline;
   text-transform: none;
+  white-space: normal;
 }
 
 button:hover {
@@ -218,4 +229,12 @@ button.padded[disabled] {
 
 .images img {
   width: 100%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.nowrap button {
+  width: 80%;
 }

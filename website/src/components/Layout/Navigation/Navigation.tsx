@@ -17,7 +17,7 @@ const navigationStates: SelectionStateString[] = [
 export const Navigation: FC = () => {
   return (
     <WrapperIsActive states={navigationStates}>
-      <nav className={styles.navigation}>
+      <nav className={styles.container}>
         <CategorySelectionButton translationKey="navigation" />
         <ModeToggleButton />
         <ScenarioSelectionButton />

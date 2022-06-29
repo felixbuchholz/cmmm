@@ -20,8 +20,10 @@ export const MenuOverviewConfirmButton: FC = () => {
   }
 
   return (
-    <button className="padded" onClick={handleClick} disabled={isDisabled}>
-      {t('menuOverview.confirm')}
-    </button>
+    <div>
+      <button className="padded" onClick={handleClick} disabled={isDisabled}>
+        {t('menuOverview.confirm')}
+      </button>
+    </div>
   )
 }

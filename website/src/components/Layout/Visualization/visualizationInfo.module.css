@@ -1,0 +1,22 @@
+.container {
+	display: var(--visualization-info-display);
+}
+
+.headline {
+	margin-top: 0.5em;
+	padding-left: 1em;
+	width: 100%;
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+	height: 20%;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+

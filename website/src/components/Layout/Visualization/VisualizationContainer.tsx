@@ -11,10 +11,9 @@ import { TooltipHover } from './Tooltip'
 import { defaultsMap, green, red } from './utils/configMap'
 import { getFromConfig } from './utils/configVisualization'
 import styles from './visualization.module.css'
-import { VisualizationCount } from './VisualizationCount'
+import { VisualizationInfo } from './VisualizationInfo'
 import { VisualizationMapLayer } from './VisualizationMapLayer'
 import { VisualizationMapSource } from './VisualizationMapSource'
-import { VisualizationSquareChart } from './VisualizationSquareChart'
 
 const visualizationConfigs: VisualizationConfig[] = [
   { id: 'reference', featurePropertiesKey: 'suitable', ...red },
@@ -52,16 +51,10 @@ export const VisualizationContainer: FC = () => {
                 </Map>
                 <TooltipHover featurePropertiesKey={featurePropertiesKey} />
               </div>
-              <div className={id}>
-                <div className={styles.info}>
-                  <VisualizationSquareChart
-                    featurePropertiesKey={featurePropertiesKey}
-                  />
-                  <VisualizationCount
-                    featurePropertiesKey={featurePropertiesKey}
-                  />
-                </div>
-              </div>
+              <VisualizationInfo
+                id={id}
+                featurePropertiesKey={featurePropertiesKey}
+              />
             </section>
           )
         }

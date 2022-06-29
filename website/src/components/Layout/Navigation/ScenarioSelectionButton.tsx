@@ -18,8 +18,8 @@ export const ScenarioSelectionButton: FC = () => {
 
   return (
     <WrapperIsActive states={['menu.mode_scenario']}>
-      <div>
-        {t('menuOverview.scenarioSelect')}{' '}
+      <div className="nowrap">
+        {t('menuOverview.scenarioSelect')}
         <button className="triangle" onClick={handleClick}>
           {text}
         </button>

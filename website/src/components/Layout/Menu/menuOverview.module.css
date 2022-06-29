@@ -1,0 +1,7 @@
+.container > div {
+	margin-bottom: 3em;
+}
+
+.container small {
+	margin-top: 0.5em;
+}

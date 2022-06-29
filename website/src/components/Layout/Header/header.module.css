@@ -1,4 +1,7 @@
 .container {
 	background-color: #fff;
 	height: var(--header-height);
+	display: flex;
+	align-items: center;
+	padding-left: 1em;
 }

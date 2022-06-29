@@ -1,6 +1,7 @@
-.navigation {
+.container {
+	align-items: center;
 	display: flex;
-	height: auto;
+	height: var(--navigation-height);
 	justify-content: space-around;
 	left: var(--site-title-width);
 	position: absolute;
@@ -9,20 +10,35 @@
 }
 
 @media (max-width: 907px) {
-  .navigation {
+  .container {
 		bottom: 0;
-		display: block;
-		flex-wrap: wrap;
-		flex-direction: row;
 		height: var(--navigation-height);
+		display: block;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		align-content: flex-start;
+		justify-content: flex-start;
 		left: 0;
     top: unset;
 		width: 100%;
+		margin-top: 0.5em;
+		padding-left: 1em;
+		padding-right: 1em;
   }
-	.navigation div {
-		display: inline-block;
+
+	.container > div {
+		width: 100%;
 	}
-	.navigation aside {
-		display: inline-block;
+
+	.container > aside {
+		margin-top: 0.4em;
+		order: 1;
 	}
+
+	
+	.container > div:not(:last-child) {
+		margin-bottom: 0.8em;
+	}
+
 }

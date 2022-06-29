@@ -1,23 +1,26 @@
 .button {
 	position: relative;
 	font-size: 1.5em;	
+	top: 0.08em;
 }
 
 .tooltipText {
 	background-color: #fffe;
-	border: 1px solid #ccc;
-	border-radius: 0.1em;
-	color: black;
+	border: 1px solid var(--color-interactive);
+	box-shadow: 0 0 10px #0002  ; 
+	-webkit-box-shadow: 0 0 10px #0002 ; 
+	-moz-box-shadow: 0 0 10px #0002 ; 
+	color: var(--color-interactive);
 	font-size: 0.6em;
 	font-weight: 400;
-	min-width: 12em;
+	white-space: nowrap;
 	opacity: 0;
 	pointer-events: none;
 	transform: translateX(2em) translateY(-55%);
 	width: auto;
-  padding: 1em 0.5em;
+  padding: 0.4em 0.8em;
   position: absolute;
-	top: 50%;
+	top: 45%;
 	transition: opacity var(--transition-duration) ease-in-out;
   z-index: 1;
 }

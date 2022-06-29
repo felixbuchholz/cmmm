@@ -20,12 +20,3 @@
 	height: var(--visualization-map-height);
 	width: 100%;
 }
-
-.info {
-	display: var(--visualization-info-display);
-	flex-direction: row;
-	justify-content: space-between;
-	height: 20%;
-}
-
-

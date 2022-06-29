@@ -8,32 +8,60 @@ import {
 import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 
 export const ScenarioSelectionButton: FC = () => {
-  const { t } = useTranslation()
-
-  const send = useSelectionSend()
-  const handleClick = (): void => {
-    send('OPEN_MENU_SCENARIO')
-  }
-  const text = useMenuOverviewScenarioSelectionButtonText()
-
   return (
     <WrapperIsActive states={['menu.mode_scenario']}>
-      <div className="nowrap">
-        {t('menuOverview.scenarioSelect')}
-        <button className="triangle" onClick={handleClick}>
-          {text}
-        </button>
+      <div>
+        <ScenarioSelectionButtonIntro />
+        <ScenarioSelectionButtons />
       </div>
     </WrapperIsActive>
   )
 }
 
-export const useMenuOverviewScenarioSelectionButtonText = (): string => {
+export const ScenarioSelectionButtonIntro: FC = () => {
   const { t } = useTranslation()
+  return t('menuOverview.scenarioSelect')
+}
+
+export const ScenarioSelectionButtons: FC = () => {
   const [income, size] = useSelectionContext(['income', 'size'])
 
   if (!income || !size) {
-    return t('menuOverview.scenarioSelectButtonEmpty')
+    return <ScenarioSelectButtonEmpty />
   }
-  return t('menuOverview.scenarioSelectButton', { income, size })
+
+  return <ScenarioSelectButtonSelected />
+}
+
+export const ScenarioSelectButtonEmpty: FC = () => {
+  const { t } = useTranslation()
+  const handleClick = useHandleClickSendOpenMenuScenario()
+  return (
+    <button className="triangle" onClick={handleClick}>
+      {t('menuOverview.scenarioSelectEmpty')}
+    </button>
+  )
+}
+
+const useHandleClickSendOpenMenuScenario = (): (() => void) => {
+  const send = useSelectionSend()
+  return (): void => {
+    send('OPEN_MENU_SCENARIO')
+  }
+}
+
+export const ScenarioSelectButtonSelected: FC = () => {
+  const { t } = useTranslation()
+  const handleClick = useHandleClickSendOpenMenuScenario()
+  const [income, size] = useSelectionContext(['income', 'size'])
+  return (
+    <div className="connectButtons">
+      <button className="triangle" onClick={handleClick}>
+        {t('menuOverview.scenarioSelectSize', { size })}
+      </button>{' '}
+      <button onClick={handleClick}>
+        {t('menuOverview.scenarioSelectIncome', { income })}
+      </button>
+    </div>
+  )
 }

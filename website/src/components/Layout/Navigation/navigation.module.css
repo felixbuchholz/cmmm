@@ -22,7 +22,7 @@
 		left: 0;
     top: unset;
 		width: 100%;
-		margin-top: 0.5em;
+		padding-top: 0.4em;
 		padding-left: 1em;
 		padding-right: 1em;
   }
@@ -32,13 +32,14 @@
 	}
 
 	.container > aside {
-		margin-top: 0.4em;
+		margin-top: 0.2em;
 		order: 1;
+		width: 100%;
 	}
 
 	
 	.container > div:not(:last-child) {
-		margin-bottom: 0.8em;
+		margin-bottom: 0.5em;
 	}
 
 }

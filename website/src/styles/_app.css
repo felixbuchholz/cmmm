@@ -148,7 +148,6 @@ button {
 
 button:hover {
   color: var(--color-interactive-hover);
-  /* border-color: var(--color-interactive-hover); */
 }
 
 button:focus,
@@ -166,13 +165,13 @@ button[disabled] {
   cursor: not-allowed;
 }
 
-button.triangle {
+.triangle {
   padding-left: 1em;
   position: relative;
 
 }
 
-button.triangle::before {
+.triangle::before {
     content: "▶";
     display: block;
     left: 0.2em;
@@ -182,7 +181,7 @@ button.triangle::before {
     top: 25%;
 }
 
-button.triangle:hover::before {
+.triangle:hover::before {
     left: 0.4em;
 }
 
@@ -231,10 +230,16 @@ button.padded[disabled] {
   width: 100%;
 }
 
-.nowrap {
-  white-space: nowrap;
+.connectButtons {
+  display: inline;
 }
 
-.nowrap button {
-  width: 80%;
+
+
+.connectButtons:hover button {
+  color: var(--color-interactive-hover);
+}
+
+.connectButtons:hover .triangle::before {
+  left: 0.4em;
 }

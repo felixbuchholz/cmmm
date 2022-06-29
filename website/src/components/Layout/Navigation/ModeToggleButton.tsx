@@ -12,7 +12,7 @@ export const ModeToggleButton: FC = () => {
   const { t } = useTranslation()
   const send = useSelectionSend()
   const isScenarioMode = useResolveStateArrayToBool(['menu.mode_scenario'])
-  const icon = isScenarioMode ? <ToggleScenarioIcon /> : <ToggleOptionsIcon />
+  const icon = isScenarioMode ? <ToggleOptionsIcon /> : <ToggleScenarioIcon />
   const translationKeyMode = isScenarioMode ? 'Options' : 'Scenario'
   const translationKey = 'menuOverview.modeToggleTooltip' + translationKeyMode
 

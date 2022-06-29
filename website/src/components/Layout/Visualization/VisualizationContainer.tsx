@@ -8,7 +8,7 @@ import { VisualizationConfig } from '../../../types/Vizsualization'
 
 import { useSyncMove } from './hooks/useSyncMove'
 import { TooltipHover } from './Tooltip'
-import { defaultsMap } from './utils/configMap'
+import { defaultsMap, green, red } from './utils/configMap'
 import { getFromConfig } from './utils/configVisualization'
 import styles from './visualization.module.css'
 import { VisualizationCount } from './VisualizationCount'
@@ -17,8 +17,8 @@ import { VisualizationMapSource } from './VisualizationMapSource'
 import { VisualizationSquareChart } from './VisualizationSquareChart'
 
 const visualizationConfigs: VisualizationConfig[] = [
-  { id: 'reference', featurePropertiesKey: 'suitable', color: 'red' },
-  { id: 'comparison', featurePropertiesKey: 'affordable', color: 'green' },
+  { id: 'reference', featurePropertiesKey: 'suitable', ...red },
+  { id: 'comparison', featurePropertiesKey: 'affordable', ...green },
 ]
 
 const ids = getFromConfig(visualizationConfigs, 'id')
@@ -30,7 +30,7 @@ export const VisualizationContainer: FC = () => {
   return (
     <main className={styles.container}>
       {visualizationConfigs.map(
-        ({ id, color, featurePropertiesKey }, index) => {
+        ({ id, color, colorOpacity, featurePropertiesKey }, index) => {
           const mapProps = {
             ...defaultsMap,
             ...viewState,
@@ -45,19 +45,22 @@ export const VisualizationContainer: FC = () => {
                   <VisualizationMapSource>
                     <VisualizationMapLayer
                       color={color}
+                      colorOpacity={colorOpacity}
                       featurePropertiesKey={featurePropertiesKey}
                     />
                   </VisualizationMapSource>
                 </Map>
                 <TooltipHover featurePropertiesKey={featurePropertiesKey} />
               </div>
-              <div className={styles.info}>
-                <VisualizationSquareChart
-                  featurePropertiesKey={featurePropertiesKey}
-                />
-                <VisualizationCount
-                  featurePropertiesKey={featurePropertiesKey}
-                />
+              <div className={id}>
+                <div className={styles.info}>
+                  <VisualizationSquareChart
+                    featurePropertiesKey={featurePropertiesKey}
+                  />
+                  <VisualizationCount
+                    featurePropertiesKey={featurePropertiesKey}
+                  />
+                </div>
               </div>
             </section>
           )

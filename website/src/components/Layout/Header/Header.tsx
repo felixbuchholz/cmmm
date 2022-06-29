@@ -8,7 +8,9 @@ export const Header: FC = () => {
   const { t } = useTranslation()
   return (
     <header className={styles.container}>
-      <InfoPageLink /> {t('site.title')}
+      <h1 className="subheadline">
+        <InfoPageLink /> {t('site.title')}
+      </h1>
     </header>
   )
 }

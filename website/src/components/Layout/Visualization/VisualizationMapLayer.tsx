@@ -3,15 +3,17 @@ import { Layer } from 'react-map-gl'
 
 import { VisualizationMapLayerConfig } from '../../../types/Vizsualization'
 
-import { getLayersPropsFromConfig } from './utils/configLayer'
+import { getLayerPropsFromConfig } from './utils/configLayer'
 
 export const VisualizationMapLayer: FC<VisualizationMapLayerConfig> = ({
   color,
-  featurePropertiesKey: featureKey,
+  colorOpacity,
+  featurePropertiesKey,
 }) => {
-  const layerProps = getLayersPropsFromConfig({
+  const layerProps = getLayerPropsFromConfig({
     color,
-    featurePropertiesKey: featureKey,
+    colorOpacity,
+    featurePropertiesKey,
   })
   return <Layer {...layerProps} />
 }

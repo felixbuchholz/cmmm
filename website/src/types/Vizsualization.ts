@@ -1,3 +1,4 @@
+import { CirclePaint } from 'mapbox-gl'
 import { ReactNode } from 'react'
 
 import { LayerColor, MapPropsSynced } from './Map'
@@ -8,6 +9,7 @@ export type FeaturePropertiesKey = 'total' | 'suitable' | 'affordable'
 export type VisualizationMapLayerConfig = {
   featurePropertiesKey: FeaturePropertiesKey
   color: LayerColor
+  colorOpacity: CirclePaint['circle-opacity']
 }
 
 export type VisualizationConfig = {

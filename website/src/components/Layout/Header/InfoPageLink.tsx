@@ -8,7 +8,6 @@ import { envSubFolder } from '../../../utils/environment'
 export const InfoPageLink: FC = () => {
   const [query] = useLanguageQuery()
   const { pathname: currentPath } = useRouter()
-  console.log(currentPath)
   const pathname = routing[currentPath]
   const symbol = symbols[currentPath]
 

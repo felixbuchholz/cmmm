@@ -15,6 +15,8 @@
     "xstate:typegen": "yarn xstate typegen \"./src/**/*.ts?(x)\""
   },
   "dependencies": {
+    "@fontsource/rubik": "^4.5.10",
+    "@fontsource/rubik-mono-one": "^4.5.9",
     "@xstate/react": "^3.0.0",
     "dotenv": "^16.0.1",
     "esbuild": "^0.14.47",

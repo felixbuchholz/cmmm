@@ -5,7 +5,7 @@ export const MenuOverviewTitle: FC = () => {
   const { t } = useTranslation()
   return (
     <div>
-      <h2>{t('menuOverview.title')}</h2>
+      <h2 className="subheadline">{t('menuOverview.title')}</h2>
       <small>{t('menuOverview.titleExplainer')}</small>
     </div>
   )

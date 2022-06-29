@@ -4,8 +4,9 @@ import { VisualizationMapLayerConfig } from '../../../../types/Vizsualization'
 
 export const hoverDataFeatureKey = 'mag'
 
-export const getLayerProps: GetLayerProps = ({
+export const getLayerPropsFromConfig: GetLayerProps = ({
   color,
+  colorOpacity,
   featurePropertiesKey,
 }) => {
   return {
@@ -13,7 +14,7 @@ export const getLayerProps: GetLayerProps = ({
     type: 'circle',
     filter: ['has', featurePropertiesKey],
     paint: {
-      ...paintDefault,
+      'circle-opacity': colorOpacity,
       'circle-color': color,
       'circle-radius': [
         'interpolate',
@@ -39,15 +40,4 @@ const rangeEnd = 2000
 const baseDefault = {
   id: 'data',
   source: 'data',
-}
-
-const paintDefault: mapboxgl.CirclePaint = {
-  'circle-opacity': 0.3,
-}
-
-export const getLayersPropsFromConfig = ({
-  color,
-  featurePropertiesKey,
-}: VisualizationMapLayerConfig): LayerProps => {
-  return getLayerProps({ color, featurePropertiesKey })
 }

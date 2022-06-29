@@ -32,8 +32,8 @@ height: 100%;
 	background-image: linear-gradient(to right,#fff0, #fff);
 	position: absolute;
 	width: 50%;
-	height: 100%;
+	height: calc(17vh - var(--header-height));
 	right: 0;
-	top: 0;
+	bottom: 0;
 	pointer-events: none;
 }

@@ -59,5 +59,8 @@
 	"affordable": {
 		"countLegendNull": "affordable offers in Belgrade",
 		"countLegendSelected": "affordable offers in Belgrade"
+	},
+	"info": {
+		"squareChartHeadline": "How many offers are presented in Belgrade?"
 	}
 }

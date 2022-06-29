@@ -2,6 +2,8 @@
 	color: #fff;
 	font-weight: 800;
 	font-size: 2em;
+	text-shadow: #999 0px 0px 4px;
+  -webkit-font-smoothing: antialiased;
 	left: 0;
 	pointer-events: none;
 	position: absolute;

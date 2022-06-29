@@ -22,7 +22,7 @@ const maxZoom = 14
 const height = 500
 const width = 500
 const interactiveLayerId = 'data'
-const mapStyle = 'mapbox://styles/mapbox/streets-v9'
+const mapStyle = 'mapbox://styles/cmmm/cl0tpnok2000215o0jm9e2w8g'
 
 export const initialViewState: ViewState = {
   longitude,
@@ -57,3 +57,6 @@ export const defaultsMap = {
   maxZoom,
   maxBounds,
 }
+
+export const red = { color: '#d24f40', colorOpacity: 0.35 }
+export const green = { color: '#008b4a', colorOpacity: 0.4 }

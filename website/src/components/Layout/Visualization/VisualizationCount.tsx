@@ -18,7 +18,7 @@ export const VisualizationCount: FC<{
 
   return (
     <div className={styles.container}>
-      <h3>{count}</h3>
+      <h3 className="number">{count}</h3>
       <small>
         <VisualCountDescription featurePropertiesKey={featurePropertiesKey} />
       </small>

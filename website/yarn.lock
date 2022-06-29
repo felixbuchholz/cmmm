@@ -322,6 +322,16 @@
   resolved "https://registry.yarnpkg.com/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz#c05ed35ad82df8e6ac616c68b92c2282bd083ba4"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
+"@fontsource/rubik-mono-one@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/rubik-mono-one/-/rubik-mono-one-4.5.9.tgz#9962f11a6b48b88449f28fceb700a5d661095a23"
+  integrity sha512-EAXkUvE0g0Ukli3ImMp00Pq7GVGzH+CUwH2t+VisswTjt+ecaEt1n1aEAKTp0sHEbS2pw68CSDK82K1ZQnUquw==
+
+"@fontsource/rubik@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/rubik/-/rubik-4.5.10.tgz#da291ed751850d9f79d957a23369125aacb20f03"
+  integrity sha512-VQuuko0lAKgI6p9lylpeJ/xcG/FpQqUYgPC+NUwVGvYvZNSQYT20UT13MKjPk2bPuxSuSHeeOyZ9x/6eRy4pfQ==
+
 "@glimmer/env@0.1.7":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@glimmer/env/-/env-0.1.7.tgz#fd2d2b55a9029c6b37a6c935e8c8871ae70dfa07"

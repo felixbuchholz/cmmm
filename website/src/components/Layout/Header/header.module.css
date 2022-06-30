@@ -7,3 +7,16 @@
 	align-items: center;
 	padding-left: 1em;
 }
+
+.container svg {
+	height: 1.1em;
+	width: 1.1em;
+}
+
+.container h1, .container span {
+	vertical-align: middle;
+}
+
+.close {
+	color: var(--color-emphasis)
+}

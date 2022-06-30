@@ -1,24 +1,41 @@
 import { useLanguageQuery } from 'next-export-i18n'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import React, { FC } from 'react'
+import React, { FC, ReactElement } from 'react'
 
 import { envSubFolder } from '../../../utils/environment'
+
+import styles from './header.module.css'
+import { InfoIcon } from './InfoIcon'
 
 export const InfoPageLink: FC = () => {
   const [query] = useLanguageQuery()
   const { pathname: currentPath } = useRouter()
   const pathname = routing[currentPath]
   const symbol = symbols[currentPath]
+  const className = classes[currentPath]
 
-  return <Link href={{ pathname, query }}>{symbol}</Link>
+  return (
+    <span className={styles[className]}>
+      <Link href={{ pathname, query }}>
+        <span className="link">{symbol}</span>
+      </Link>
+    </span>
+  )
 }
 const routing: Record<InfoPageLinkRoutes, string> = {
   '/': envSubFolder + '/info',
   '/info': envSubFolder + '/',
 }
-const symbols: Record<InfoPageLinkRoutes, string> = {
-  '/': 'ⓘ',
-  '/info': '✕',
+
+const symbols: Record<InfoPageLinkRoutes, string | ReactElement> = {
+  '/': <InfoIcon />,
+  '/info': <InfoIcon />,
 }
+
+const classes: Record<InfoPageLinkRoutes, string> = {
+  '/': 'info',
+  '/info': 'close',
+}
+
 type InfoPageLinkRoutes = '/' | '/info'

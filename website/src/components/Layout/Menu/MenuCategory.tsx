@@ -7,10 +7,12 @@ import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 import { Category, SelectionStateString } from '../../../types/selectionMachine'
 import { HighlightExplainer } from '../../Typography/HighlightExplainer'
 
+import styles from './menuParameter.module.css'
+
 export const MenuCategory: FC = () => {
   return (
     <WrapperIsActive states={menuCategoryStates}>
-      <div>
+      <div className={styles.container}>
         {categories.map(it => (
           <CategoryItem key={it} category={it} />
         ))}

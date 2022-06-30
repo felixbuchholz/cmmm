@@ -21,6 +21,8 @@
   --color-emphasis: #d24f40;
   --bold: 700;
   --transition-duration: 100ms;
+  --content-padding: 2em;
+  --content-section-width: 50%;
 }
 
 @media (max-width: 907px) {
@@ -32,6 +34,7 @@
     --menu-width: 100%;
     --visualization-section-height: 50%;
     --visualization-section-width: 100%;
+    --content-section-width: 100%;
     --visualization-map-height: 100%;
     --visualization-info-display: none;
   }
@@ -172,7 +175,8 @@ button[disabled] {
 }
 
 .triangle::before {
-    content: "▶";
+    font-family: "Rubik", sans-serif;
+    content: "▶\FE0E";
     display: block;
     left: 0.2em;
     position: absolute;
@@ -209,10 +213,34 @@ button.padded[disabled] {
 .mdx {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 2em;
+  margin: auto;
 }
 
 .mdx > section {
-  width: 50%;
+  width: var(--content-section-width);
+}
+
+.mdx h1 {
+  margin-bottom: 1em;
+}
+
+.mdx h2 {
+  margin-bottom: 1em;
+}
+
+.mdx h2:not(:first-child) {
+  margin-top: 2em;
+}
+
+.mdx h3 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.mdx p {
+  margin-bottom: 1em;
 }
 
 .images p {

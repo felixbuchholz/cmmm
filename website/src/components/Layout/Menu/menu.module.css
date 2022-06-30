@@ -6,7 +6,7 @@
   top: var(--header-height);
   width: var(--menu-width);
   opacity: 1;
-  /* overflow: scroll; */
+  overflow: scroll;
   padding: 4em;
   pointer-events: all;
   transform: translateX(0%);

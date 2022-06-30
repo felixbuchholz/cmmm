@@ -1,42 +1,45 @@
 :root {
+  --bold: 700;
+  --color-emphasis: #d24f40;
+  --color-interactive-disabled: #ccc;
+  --color-interactive-hover: #008b4aaa;
+  --color-interactive-outline: #ddd;
+  --color-interactive: #008b4a;
+  --content-padding: 2em;
+  --header-height: 2.5em;
   --main-bg-color: #fff;
   --main-font-color: black;
-  --root-font-size: 20px;
-  --header-height: 2.5em;
   --site-title-width: 10em;
-  --navigation-height: var(--header-height);
+  --squareChartHeight: calc(17vh - var(--header-height));
+  --transition-duration: 100ms;
+  --visualization-count-width: 11em;
+}
+
+:root {
+  --content-section-width: 50%;
+  --info-display: block;
+  --main-font-size: 20px;
+  --map-height: 80%;
+  --map-width: 50%;
   --menu-left: 50%;
   --menu-top: var(--header-height);
   --menu-width: 50%;
-  --visualization-section-height: 100%;
-  --visualization-section-width: 50%;
-  --visualization-map-height: 80%;
-  --visualization-count-width: 11em;
-  --visualization-info-display: block;
-  --squareChartHeight: calc(17vh - var(--header-height));
-  --color-interactive: #008b4a;
-  --color-interactive-hover: #008b4aaa;
-  --color-interactive-outline: #ddd;
-  --color-interactive-disabled: #ccc;
-  --color-emphasis: #d24f40;
-  --bold: 700;
-  --transition-duration: 100ms;
-  --content-padding: 2em;
-  --content-section-width: 50%;
+  --navigation-height: var(--header-height);
+  --visualization-height: calc(100% - var(--header-height));
 }
 
 @media (max-width: 907px) {
   :root {
-    --root-font-size: 16px;
-    --navigation-height: 8em;
+    --content-section-width: 100%;
+    --info-display: none;
+    --main-font-size: 16px;
+    --map-height: 50%;
+    --map-width: 100%;
     --menu-left: 0;
     --menu-top: 0;
     --menu-width: 100%;
-    --visualization-section-height: 50%;
-    --visualization-section-width: 100%;
-    --content-section-width: 100%;
-    --visualization-map-height: 100%;
-    --visualization-info-display: none;
+    --navigation-height: 8em;
+    --visualization-height: calc(100% - (var(--header-height) + var(--navigation-height)));
   }
 }
 
@@ -47,7 +50,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Rubik", sans-serif;
-  font-size: var(--root-font-size);
+  font-size: var(--main-font-size);
   line-height: 1.2;
 }
 

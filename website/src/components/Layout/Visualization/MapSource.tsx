@@ -4,7 +4,7 @@ import { Source } from 'react-map-gl'
 import { useSelectionContext } from '../../../state/selection/hooks'
 import { FCC } from '../../../types/FCC'
 
-export const VisualizationMapSource: FCC = ({ children }) => {
+export const MapSource: FCC = ({ children }) => {
   const [data] = useSelectionContext(['data'])
 
   return (

@@ -3,9 +3,9 @@ import { FC } from 'react'
 import { FeaturePropertiesKey } from '../../../types/Vizsualization'
 
 import { useCount } from './hooks/useCount'
-import styles from './visualizationSquareChart.module.css'
+import styles from './squareChart.module.css'
 
-export const VisualizationSquareChart: FC<{
+export const SquareChart: FC<{
   featurePropertiesKey: FeaturePropertiesKey
 }> = ({ featurePropertiesKey }) => {
   const count = useCount(featurePropertiesKey)

@@ -6,7 +6,7 @@ import { LayerColor, MapPropsSynced } from './Map'
 // TODO: narrow to keyof feature.properties :)
 export type FeaturePropertiesKey = 'total' | 'suitable' | 'affordable'
 
-export type VisualizationMapLayerConfig = {
+export type MapLayerConfig = {
   featurePropertiesKey: FeaturePropertiesKey
   color: LayerColor
   colorOpacity: CirclePaint['circle-opacity']
@@ -14,7 +14,7 @@ export type VisualizationMapLayerConfig = {
 
 export type VisualizationConfig = {
   id: string
-} & VisualizationMapLayerConfig
+} & MapLayerConfig
 
 export type VisualizationProps = {
   config: VisualizationConfig

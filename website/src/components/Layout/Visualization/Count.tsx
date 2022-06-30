@@ -4,10 +4,10 @@ import { FC } from 'react'
 import { useSelectionContext } from '../../../state/selection/hooks'
 import { FeaturePropertiesKey } from '../../../types/Vizsualization'
 
+import styles from './count.module.css'
 import { useCount } from './hooks/useCount'
-import styles from './visualizationCount.module.css'
 
-export const VisualizationCount: FC<{
+export const Count: FC<{
   featurePropertiesKey: FeaturePropertiesKey
 }> = ({ featurePropertiesKey }) => {
   const count = useCount(featurePropertiesKey)

@@ -1,6 +1,6 @@
 import { LayerProps } from 'react-map-gl'
 
-import { VisualizationMapLayerConfig } from '../../../../types/Vizsualization'
+import { MapLayerConfig } from '../../../../types/Vizsualization'
 
 export const hoverDataFeatureKey = 'mag'
 
@@ -29,7 +29,7 @@ export const getLayerPropsFromConfig: GetLayerProps = ({
   }
 }
 
-type GetLayerPropsProps = VisualizationMapLayerConfig
+type GetLayerPropsProps = MapLayerConfig
 type GetLayerProps = (props: GetLayerPropsProps) => LayerProps
 
 const domainStart = 0

@@ -25,10 +25,12 @@ export const useUpdateQueryWithContext = (): void => {
     if (router.isReady) {
       const shouldUpdateContext = getShouldUpdateContext({ router, context })
       if (shouldUpdateContext) {
-        send({
-          type: 'ENTER_QUERY_PARAMS',
-          ...encodeQueryToContext(router.query),
-        })
+        setTimeout(() => {
+          send({
+            type: 'ENTER_QUERY_PARAMS',
+            ...encodeQueryToContext(router.query),
+          })
+        }, durationTillUpdate)
       } else {
         const shouldUpdateQuery = getShouldUpdateQuery({ router, context })
         if (shouldUpdateQuery) {
@@ -38,6 +40,7 @@ export const useUpdateQueryWithContext = (): void => {
     }
   }, [context, router, send])
 }
+const durationTillUpdate = 1000
 
 const useContextParams = (): Context => {
   const [category, income, size] = useSelectionContext(comparisonParams)

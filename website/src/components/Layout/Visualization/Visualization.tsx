@@ -1,3 +1,5 @@
+/* eslint-disable max-lines-per-function */
+
 import React, { FC } from 'react'
 
 import { Infos } from './Infos'

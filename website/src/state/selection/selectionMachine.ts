@@ -49,6 +49,10 @@ export const selectionMachine =
                     OPEN_MENU_SCENARIO: {
                       target: 'menu_scenario',
                     },
+                    ENTER_QUERY_PARAMS: {
+                      actions: 'selectQueryParams',
+                      target: ['#entered_query_params', '#viz_load_data'],
+                    },
                   },
                 },
                 menu_category: {
@@ -137,6 +141,7 @@ export const selectionMachine =
                   },
                 },
                 menu_off: {
+                  id: 'entered_query_params',
                   on: {
                     OPEN_MENU_OVERVIEW: {
                       target: 'menu_overview',
@@ -215,7 +220,6 @@ export const selectionMachine =
             failure_viz: {},
           },
         },
-        visualization_comparsion: {},
         error: {
           initial: 'disabled',
           states: {
@@ -241,6 +245,26 @@ export const selectionMachine =
               return event.data
             }
             return context.data
+          },
+        }),
+        selectQueryParams: assign({
+          category: (context, event) => {
+            if ('category' in event) {
+              return event.category
+            }
+            return context.category
+          },
+          income: (context, event) => {
+            if ('income' in event) {
+              return event.income
+            }
+            return context.income
+          },
+          size: (context, event) => {
+            if ('size' in event) {
+              return event.size
+            }
+            return context.size
           },
         }),
         selectCategory: assign({

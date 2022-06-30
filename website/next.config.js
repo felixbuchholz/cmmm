@@ -11,6 +11,7 @@ const nextConfig = {
   reactStrictMode: true,
   // Server / GitHub pages config
   assetPrefix: serverSubFolder,
+  basePath: serverSubFolder,
 }
 
 module.exports = nextConfig

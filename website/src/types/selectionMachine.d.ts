@@ -8,6 +8,8 @@ export type Data =
   | GeoJSON.FeatureCollection<GeoJSON.Geometry>
 export type ScenarioParameter = number | null
 
+export type OptionsKey = 'category' | 'size' | 'income'
+
 export type SelectionMachineContext = {
   category: Category
   data: Data
@@ -16,8 +18,8 @@ export type SelectionMachineContext = {
 }
 
 export type ScenarioParameters = {
-  income: number
-  size: number
+  income: ScenarioParameter
+  size: ScenarioParameter
 }
 
 export type SelectionMachineEvents =
@@ -26,6 +28,12 @@ export type SelectionMachineEvents =
   | { type: 'TOGGLE_SELECTION_MODE' }
   | { type: 'CONFIRM_SELECTION' }
   | { type: 'OPEN_MENU_SCENARIO' }
+  | {
+      type: 'ENTER_QUERY_PARAMS'
+      category: Category
+      size: ScenarioParameter
+      income: ScenarioParameter
+    }
   | { type: 'OPEN_MENU_OVERVIEW' }
   | {
       type: 'SELECT_SCENARIO'

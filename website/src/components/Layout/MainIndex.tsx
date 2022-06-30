@@ -1,14 +1,20 @@
+import dynamic from 'next/dynamic'
 import React, { FC } from 'react'
 
 import { Menu } from './Menu/Menu'
 import { Navigation } from './Navigation/Navigation'
-import { Visualization } from './Visualization/Visualization'
+import { useUpdateQueryWithContext } from './Visualization/hooks/useUpdateQueryWithContext'
+
+const DynamicVisualization = dynamic(() =>
+  import('./Visualization/Visualization').then(it => it.Visualization)
+)
 
 export const MainIndex: FC = () => {
+  useUpdateQueryWithContext()
   return (
     <>
       <Navigation />
-      <Visualization />
+      <DynamicVisualization />
       <Menu />
     </>
   )

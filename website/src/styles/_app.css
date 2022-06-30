@@ -1,3 +1,4 @@
+/* const */
 :root {
   --bold: 700;
   --color-emphasis: #d24f40;
@@ -10,11 +11,17 @@
   --main-bg-color: #fff;
   --main-font-color: black;
   --site-title-width: 10em;
-  --squareChartHeight: calc(17vh - var(--header-height));
   --transition-duration: 100ms;
   --visualization-count-width: 11em;
 }
 
+/* derived from const */
+:root {
+  --border: 1px solid var(--main-font-color);
+  --squareChartHeight: calc(17vh - var(--header-height));
+}
+
+/* responsive */
 :root {
   --content-section-width: 50%;
   --info-display: block;

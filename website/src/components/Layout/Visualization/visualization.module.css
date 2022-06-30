@@ -4,16 +4,27 @@
 	height: var(--visualization-height);
 }
 
+.container > :nth-child(odd) {
+	border-right: var(--border);
+}
+
 .map {
-	border: 1px solid black;
 	height: var(--map-height);
 	position: relative;
 	width: var(--map-width);
 }
 
 .info {
-	border: 1px solid black;
 	display: var(--info-display);
 	height: 20%;
 	width: 50%;
+}
+
+@media (max-width: 907px) {
+	.container > :nth-child(odd) {
+		border-right: none;
+	}
+	.container > section {
+		border-bottom: var(--border);
+	}
 }

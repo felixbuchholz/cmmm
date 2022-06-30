@@ -1,4 +1,6 @@
 .container {
+	border: var(--border);
+	border-top: none;
 	background-color: #fff;
 	height: var(--header-height);
 	display: flex;

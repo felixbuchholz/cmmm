@@ -3,8 +3,6 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { FC, ReactElement } from 'react'
 
-import { serverSubFolderPrefix } from '../../../utils/environment'
-
 import styles from './header.module.css'
 import { InfoIcon } from './InfoIcon'
 
@@ -24,8 +22,8 @@ export const InfoPageLink: FC = () => {
   )
 }
 const routing: Record<InfoPageLinkRoutes, string> = {
-  '/': serverSubFolderPrefix + '/info',
-  '/info': serverSubFolderPrefix + '/',
+  '/': '/info',
+  '/info': '/',
 }
 
 const symbols: Record<InfoPageLinkRoutes, string | ReactElement> = {

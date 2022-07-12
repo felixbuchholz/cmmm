@@ -249,7 +249,6 @@ export const selectionMachine =
         }),
         selectQueryParams: assign({
           category: (context, event) => {
-            console.log('selectQueryParams')
             if ('category' in event) {
               return event.category
             }
@@ -278,7 +277,6 @@ export const selectionMachine =
         }),
         selectScenario: assign({
           income: (context, event) => {
-            console.log('selectScenario')
             if ('income' in event) {
               return event.income
             }
@@ -347,7 +345,6 @@ export const getDataPathFromContext = ({
   size,
   income,
 }: SelectionMachineContext): string => {
-  console.log('loading data', category, size, income)
   return `${basePath}/data/c=${category}&size=${size}&income=${income}${dataFileSuffix}`
 }
 

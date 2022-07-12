@@ -1,12 +1,12 @@
-import { MapboxGeoJSONFeature } from 'mapbox-gl'
 import { useTranslation } from 'next-export-i18n'
 import { CSSProperties, FC } from 'react'
 
 import { useHoverStore } from '../../../state/store/hover'
-import { Coordinates, HoverData, HoverInfo } from '../../../types/HoverInfo'
+import { Coordinates, HoverInfo } from '../../../types/HoverInfo'
 import { FeaturePropertiesKey } from '../../../types/Vizsualization'
 
 import styles from './tooltip.module.css'
+import { getHoverData } from './utils/getHoverData'
 
 const defaultTranslateKey = 'map.tooltipDescription'
 
@@ -57,13 +57,6 @@ type TooltipProps = {
   text: string
   state: DisplayState
 } & Coordinates
-
-export const getHoverData = (
-  feature: MapboxGeoJSONFeature,
-  featurePropertiesKey: FeaturePropertiesKey
-): HoverData => {
-  return feature ? feature.properties[featurePropertiesKey] : null
-}
 
 export const getDisplayState = (bool: boolean): DisplayState => {
   return bool ? 'active' : 'disabled'

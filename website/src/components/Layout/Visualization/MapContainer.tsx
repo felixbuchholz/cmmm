@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import Map from 'react-map-gl'
 
-import { MapLayerConfig } from '../../../types/Vizsualization'
+import { MapLayersConfig } from '../../../types/Vizsualization'
 
-import { MapLayer } from './MapLayer'
+import { MapLayers } from './MapLayers'
 import { MapSource } from './MapSource'
 
 export const MapContainer: FC<MapContainerProps> = ({
@@ -13,7 +13,7 @@ export const MapContainer: FC<MapContainerProps> = ({
   return (
     <Map {...mapProps}>
       <MapSource>
-        <MapLayer {...layerProps} />
+        <MapLayers {...layerProps} />
       </MapSource>
     </Map>
   )
@@ -22,5 +22,5 @@ export const MapContainer: FC<MapContainerProps> = ({
 type MapProps = React.ComponentProps<typeof Map>
 type MapContainerProps = {
   mapProps: MapProps
-  layerProps: MapLayerConfig
+  layerProps: MapLayersConfig
 }

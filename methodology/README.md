@@ -19,23 +19,22 @@ users can retrace the results of this investigation.
 
 ## Scope
 
-Housing listings we were able to find on {listings platform}
-for Belgrade
+Housing listings we were able to find on https://www.halooglasi.com for Belgrade
 
 ## Time frame
 
-From {start date scraping} to {end date scraping}. 
+From 05.05.2022 to 06.05.2022 (Timeframe when Data was scraped). 
 
 ## About us
 
-{site title} is a collaboration of {…} 
+{site title} is a collaboration of {the CMMM Belgrade Team, Visual Intelligence and Felix Buchholz} 
 as part of the [Critical Mapping in Municipalist Movements research project](https://cmmm.eu/) 
 
 ## Methodology
 
 {site title} is realized via these steps:
 
-1. We scrape listings data from {listings platform}
+1. We scrape listings data from https://www.halooglasi.com
 2. We geo-locate all listings we found. And we use the result to make a list of all locations that had listings.
 3. For each locaction we count three values: 
    1. the _total_ amount of listings
@@ -44,13 +43,29 @@ as part of the [Critical Mapping in Municipalist Movements research project](htt
 4. Loading the generated data based on the selection of listings category, household size and household income.
 
 
-### 1. Scrape listings data from {listings platform}
+### 1. Scrape listings data from serian real estate platform (https://www.halooglasi.com)
 
-{description Robin}
+In order to scrape the data from the given real estate platform, we are preselecting the wanted city (Belgrade) as well as the mode of availibility of the real estate  (to rent or to buy). As the domain is then updated with the provided parameters (e.g.: https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd?) we can input the respective domain into the scraping chain.
+The scraping chain is build in python, using selenium and a headless webdriver. The main chain is structured in a simple loop, while the range of the loop is defined by the amount of pages (which is manually checked before scraping via the domain structure). Before the loop is launched, the cookies banner is targeted via xpath and accepted. 
+After that the loop targets the maincontainer of each real estate offer via css selector on each page which provides the following informations:
+
+- City
+- Municipality
+- informal district
+- street (if provided)
+- area of the real estate in square meters
+- price of the rent or purchase
+
+In order to jump to the next page, a line in the beginning of the loop looks for the css selector of the »next page« button. If found the webdriver slowly (via a time set) scrolls the button into view. The slow speed allows each offer to be processed. After another time out at the end the »next page« button is clicked and the loop starts from the beginning.
+
+The data was saved and structured in a csv.
+
 
 ### 2. Geo-locate all listings
 
-{description Robin}
+In order to geolocate the above described data we had 4 different geo-categories available (city, municipality, informal district and street). We decided to use the informal district as the category to geocode on, as this was the most consistent category with the highest granularity (a good part of the offers did not provide the street category).
+For the actual geocoding process we used python and the Google Geocode API. The results were then again saved and structured in a csv.
+
 
 ### 3. Calculate the sum of total, suitable and suitable-and-affordable listings per location
 
@@ -80,7 +95,7 @@ in a more structured format for further analysis.
 
 We scraped data from {listings platform}
 for Belgrade
-from {start date scraping} to {end date scraping}.
+from 05.05.2022 to 06.05.2022.
 
 ### Listing category
 

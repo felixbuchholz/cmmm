@@ -139,3 +139,5 @@ for a selected household size and income.
 ### Scenario
 
 We use the term _scenario_ to describe a possible set of the three selectable parameters on the website: listing category (rent or purchase), household size (people in the household) and household income (in € / month).
+
+{delete this line}

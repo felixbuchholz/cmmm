@@ -1,0 +1,2475 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4667137,
+          44.8787385
+        ]
+      },
+      "properties": {
+        "group": "44.8787385,20.4667137",
+        "name": "Borča",
+        "total": 4,
+        "suitable": 1,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3432558,
+          44.8035245
+        ]
+      },
+      "properties": {
+        "group": "44.8035245,20.3432558",
+        "name": "Ledine",
+        "total": 5,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4683341,
+          44.7621061
+        ]
+      },
+      "properties": {
+        "group": "44.7621061,20.4683341",
+        "name": "Banjica",
+        "total": 6,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4626885,
+          44.8154752
+        ]
+      },
+      "properties": {
+        "group": "44.8154752,20.4626885",
+        "name": "Dom omladine",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4298488,
+          44.7318473
+        ]
+      },
+      "properties": {
+        "group": "44.7318473,20.4298488",
+        "name": "Kneževac",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1959593,
+          44.6574109
+        ]
+      },
+      "properties": {
+        "group": "44.6574109,20.1959593",
+        "name": "Rvati",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4940689,
+          44.7953694
+        ]
+      },
+      "properties": {
+        "group": "44.7953694,20.4940689",
+        "name": "Lipov lad",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4599624,
+          44.816088
+        ]
+      },
+      "properties": {
+        "group": "44.816088,20.4599624",
+        "name": "Trg Republike",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4132254,
+          44.8128631
+        ]
+      },
+      "properties": {
+        "group": "44.8128631,20.4132254",
+        "name": "Blok 28",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4658261,
+          44.8115854
+        ]
+      },
+      "properties": {
+        "group": "44.8115854,20.4658261",
+        "name": "Skupština",
+        "total": 166,
+        "suitable": 165,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4028275,
+          44.7501553
+        ]
+      },
+      "properties": {
+        "group": "44.7501553,20.4028275",
+        "name": "Bele vode",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5479417,
+          44.8282294
+        ]
+      },
+      "properties": {
+        "group": "44.8282294,20.5479417",
+        "name": "Višnjica",
+        "total": 2,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5067648,
+          44.7827202
+        ]
+      },
+      "properties": {
+        "group": "44.7827202,20.5067648",
+        "name": "Konjarnik",
+        "total": 6,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.458374,
+          44.7108421
+        ]
+      },
+      "properties": {
+        "group": "44.7108421,20.458374",
+        "name": "Resnik",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4375457,
+          44.7921816
+        ]
+      },
+      "properties": {
+        "group": "44.7921816,20.4375457",
+        "name": "Senjak",
+        "total": 8,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4235866,
+          44.7281854
+        ]
+      },
+      "properties": {
+        "group": "44.7281854,20.4235866",
+        "name": "Labudovo brdo",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5037812,
+          44.7929494
+        ]
+      },
+      "properties": {
+        "group": "44.7929494,20.5037812",
+        "name": "Cvetkova pijaca",
+        "total": 3,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4830673,
+          44.771663
+        ]
+      },
+      "properties": {
+        "group": "44.771663,20.4830673",
+        "name": "Darvinova pošta",
+        "total": 2,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3229809,
+          44.8713495
+        ]
+      },
+      "properties": {
+        "group": "44.8713495,20.3229809",
+        "name": "Zemun polje",
+        "total": 4,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4697987,
+          44.8507114
+        ]
+      },
+      "properties": {
+        "group": "44.8507114,20.4697987",
+        "name": "Kotež",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4205895,
+          44.7383997
+        ]
+      },
+      "properties": {
+        "group": "44.7383997,20.4205895",
+        "name": "Vidikovac",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4125119,
+          44.8280022
+        ]
+      },
+      "properties": {
+        "group": "44.8280022,20.4125119",
+        "name": "Stari Merkator",
+        "total": 3,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4979187,
+          44.7751713
+        ]
+      },
+      "properties": {
+        "group": "44.7751713,20.4979187",
+        "name": "Medaković 2",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2748158,
+          44.9061323
+        ]
+      },
+      "properties": {
+        "group": "44.9061323,20.2748158",
+        "name": "Batajnica",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5185941,
+          44.8475573
+        ]
+      },
+      "properties": {
+        "group": "44.8475573,20.5185941",
+        "name": "Krnjača",
+        "total": 3,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3767304,
+          44.8596448
+        ]
+      },
+      "properties": {
+        "group": "44.8596448,20.3767304",
+        "name": "Gornji grad",
+        "total": 7,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3672942,
+          44.8570829
+        ]
+      },
+      "properties": {
+        "group": "44.8570829,20.3672942",
+        "name": "Galenika",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4518071,
+          44.7470721
+        ]
+      },
+      "properties": {
+        "group": "44.7470721,20.4518071",
+        "name": "Miljakovac",
+        "total": 3,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4130631,
+          44.7615346
+        ]
+      },
+      "properties": {
+        "group": "44.7615346,20.4130631",
+        "name": "Žarkovo",
+        "total": 3,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3863092,
+          44.8481064
+        ]
+      },
+      "properties": {
+        "group": "44.8481064,20.3863092",
+        "name": "Meandri",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5559331,
+          44.7522835
+        ]
+      },
+      "properties": {
+        "group": "44.7522835,20.5559331",
+        "name": "Kaluđerica",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4643411,
+          44.8184554
+        ]
+      },
+      "properties": {
+        "group": "44.8184554,20.4643411",
+        "name": "Centar",
+        "total": 14,
+        "suitable": 11,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4912167,
+          44.7856266
+        ]
+      },
+      "properties": {
+        "group": "44.7856266,20.4912167",
+        "name": "Šumice",
+        "total": 3,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.509558,
+          44.8172662
+        ]
+      },
+      "properties": {
+        "group": "44.8172662,20.509558",
+        "name": "Karaburma",
+        "total": 6,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4820642,
+          44.8027133
+        ]
+      },
+      "properties": {
+        "group": "44.8027133,20.4820642",
+        "name": "Bulevar kralja Aleksandra",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.53607,
+          44.7744443
+        ]
+      },
+      "properties": {
+        "group": "44.7744443,20.53607",
+        "name": "Mali Mokri Lug",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5168098,
+          44.7897293
+        ]
+      },
+      "properties": {
+        "group": "44.7897293,20.5168098",
+        "name": "Kluz",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4057772,
+          44.8456972
+        ]
+      },
+      "properties": {
+        "group": "44.8456972,20.4057772",
+        "name": "Ćukovac",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5461547,
+          44.7854051
+        ]
+      },
+      "properties": {
+        "group": "44.7854051,20.5461547",
+        "name": "Mirijevo",
+        "total": 175,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4096266,
+          44.7676092
+        ]
+      },
+      "properties": {
+        "group": "44.7676092,20.4096266",
+        "name": "Julino brdo",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5015404,
+          44.8091387
+        ]
+      },
+      "properties": {
+        "group": "44.8091387,20.5015404",
+        "name": "Zvezdara 2",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4155629,
+          44.7767729
+        ]
+      },
+      "properties": {
+        "group": "44.7767729,20.4155629",
+        "name": "Banovo brdo",
+        "total": 8,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5096174,
+          44.7941017
+        ]
+      },
+      "properties": {
+        "group": "44.7941017,20.5096174",
+        "name": "Olimp",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4943111,
+          44.7705535
+        ]
+      },
+      "properties": {
+        "group": "44.7705535,20.4943111",
+        "name": "Braće Jerković",
+        "total": 10,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3936839,
+          44.844921
+        ]
+      },
+      "properties": {
+        "group": "44.844921,20.3936839",
+        "name": "Save Kovačevića",
+        "total": 5,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5079556,
+          44.7722771
+        ]
+      },
+      "properties": {
+        "group": "44.7722771,20.5079556",
+        "name": "Medaković 3",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5193333,
+          44.7900404
+        ]
+      },
+      "properties": {
+        "group": "44.7900404,20.5193333",
+        "name": "Zeleno brdo",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4316466,
+          44.7532443
+        ]
+      },
+      "properties": {
+        "group": "44.7532443,20.4316466",
+        "name": "Filmski grad",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4882292,
+          44.795856
+        ]
+      },
+      "properties": {
+        "group": "44.795856,20.4882292",
+        "name": "Crveni krst",
+        "total": 17,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4832729,
+          44.8046413
+        ]
+      },
+      "properties": {
+        "group": "44.8046413,20.4832729",
+        "name": "Vukov Spomenik",
+        "total": 164,
+        "suitable": 162,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.460523,
+          44.8252158
+        ]
+      },
+      "properties": {
+        "group": "44.8252158,20.460523",
+        "name": "Dorćol",
+        "total": 333,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4695084,
+          44.7945158
+        ]
+      },
+      "properties": {
+        "group": "44.7945158,20.4695084",
+        "name": "Neimar",
+        "total": 164,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4569476,
+          44.7981748
+        ]
+      },
+      "properties": {
+        "group": "44.7981748,20.4569476",
+        "name": "Klinički centar",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5028696,
+          44.7615321
+        ]
+      },
+      "properties": {
+        "group": "44.7615321,20.5028696",
+        "name": "Vojvode Vlahovića",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.402188,
+          44.800409
+        ]
+      },
+      "properties": {
+        "group": "44.800409,20.402188",
+        "name": "Blok 70a",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3919853,
+          44.6759957
+        ]
+      },
+      "properties": {
+        "group": "44.6759957,20.3919853",
+        "name": "Sremčica",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3800881,
+          44.8099561
+        ]
+      },
+      "properties": {
+        "group": "44.8099561,20.3800881",
+        "name": "Opština",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.336079,
+          44.8531925
+        ]
+      },
+      "properties": {
+        "group": "44.8531925,20.336079",
+        "name": "Plavi horizonti",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3742101,
+          44.7984982
+        ]
+      },
+      "properties": {
+        "group": "44.7984982,20.3742101",
+        "name": "Blok 45 (TC Enjub)",
+        "total": 169,
+        "suitable": 169,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4752233,
+          44.7726817
+        ]
+      },
+      "properties": {
+        "group": "44.7726817,20.4752233",
+        "name": "FON - Bilećka",
+        "total": 3,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.49656,
+          44.75355
+        ]
+      },
+      "properties": {
+        "group": "44.75355,20.49656",
+        "name": "Naselje Stepa Stepanović",
+        "total": 3,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.378662,
+          44.8328343
+        ]
+      },
+      "properties": {
+        "group": "44.8328343,20.378662",
+        "name": "Kolonija Zmaj",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4947692,
+          44.7891937
+        ]
+      },
+      "properties": {
+        "group": "44.7891937,20.4947692",
+        "name": "Lekino brdo",
+        "total": 6,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3796226,
+          44.8200035
+        ]
+      },
+      "properties": {
+        "group": "44.8200035,20.3796226",
+        "name": "Bežanijska kosa 3",
+        "total": 162,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4569894,
+          44.8177356
+        ]
+      },
+      "properties": {
+        "group": "44.8177356,20.4569894",
+        "name": "Knez Mihailova",
+        "total": 4,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.410414,
+          44.8211636
+        ]
+      },
+      "properties": {
+        "group": "44.8211636,20.410414",
+        "name": "Fontana",
+        "total": 3,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4175168,
+          44.8100237
+        ]
+      },
+      "properties": {
+        "group": "44.8100237,20.4175168",
+        "name": "Blok 24 (Super Vero)",
+        "total": 2,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4773131,
+          44.7954768
+        ]
+      },
+      "properties": {
+        "group": "44.7954768,20.4773131",
+        "name": "Čubura",
+        "total": 165,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4753125,
+          44.7753641
+        ]
+      },
+      "properties": {
+        "group": "44.7753641,20.4753125",
+        "name": "Vojvode Stepe",
+        "total": 164,
+        "suitable": 162,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4541963,
+          44.8029445
+        ]
+      },
+      "properties": {
+        "group": "44.8029445,20.4541963",
+        "name": "Sarajevska",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4872266,
+          44.8013332
+        ]
+      },
+      "properties": {
+        "group": "44.8013332,20.4872266",
+        "name": "Đeram pijaca",
+        "total": 5,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4809591,
+          44.793588
+        ]
+      },
+      "properties": {
+        "group": "44.793588,20.4809591",
+        "name": "Južni bulevar",
+        "total": 166,
+        "suitable": 165,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4717445,
+          44.7822375
+        ]
+      },
+      "properties": {
+        "group": "44.7822375,20.4717445",
+        "name": "Bioskop Voždovac",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4711979,
+          44.779525
+        ]
+      },
+      "properties": {
+        "group": "44.779525,20.4711979",
+        "name": "Voždovačka crkva",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5098129,
+          44.7394333
+        ]
+      },
+      "properties": {
+        "group": "44.7394333,20.5098129",
+        "name": "Kumodraž",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.492606,
+          44.8028978
+        ]
+      },
+      "properties": {
+        "group": "44.8028978,20.492606",
+        "name": "Bulbulder",
+        "total": 3,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.376525,
+          44.8039695
+        ]
+      },
+      "properties": {
+        "group": "44.8039695,20.376525",
+        "name": "Blok 62",
+        "total": 3,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4626509,
+          44.9398868
+        ]
+      },
+      "properties": {
+        "group": "44.9398868,20.4626509",
+        "name": "Centar",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4570323,
+          44.8083711
+        ]
+      },
+      "properties": {
+        "group": "44.8083711,20.4570323",
+        "name": "Savski trg - Pristanište",
+        "total": 3,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3694329,
+          44.8000403
+        ]
+      },
+      "properties": {
+        "group": "44.8000403,20.3694329",
+        "name": "Dr Ivana Ribara",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.494329,
+          44.7471263
+        ]
+      },
+      "properties": {
+        "group": "44.7471263,20.494329",
+        "name": "Farmaceutski fakultet",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4201481,
+          44.8295445
+        ]
+      },
+      "properties": {
+        "group": "44.8295445,20.4201481",
+        "name": "Hotel Jugoslavija",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4960362,
+          44.7968154
+        ]
+      },
+      "properties": {
+        "group": "44.7968154,20.4960362",
+        "name": "Lion",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3718846,
+          44.8072486
+        ]
+      },
+      "properties": {
+        "group": "44.8072486,20.3718846",
+        "name": "Stara Bežanija",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.46634,
+          44.7902717
+        ]
+      },
+      "properties": {
+        "group": "44.7902717,20.46634",
+        "name": "Autokomanda",
+        "total": 4,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4994395,
+          44.7999794
+        ]
+      },
+      "properties": {
+        "group": "44.7999794,20.4994395",
+        "name": "Gradska bolnica",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3948763,
+          44.8174406
+        ]
+      },
+      "properties": {
+        "group": "44.8174406,20.3948763",
+        "name": "Tošin bunar",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5195324,
+          44.784341
+        ]
+      },
+      "properties": {
+        "group": "44.784341,20.5195324",
+        "name": "Bulevar kralja Aleksandra",
+        "total": 162,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3975132,
+          44.83816
+        ]
+      },
+      "properties": {
+        "group": "44.83816,20.3975132",
+        "name": "Kalvarija",
+        "total": 2,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4264583,
+          44.811609
+        ]
+      },
+      "properties": {
+        "group": "44.811609,20.4264583",
+        "name": "Blok 22",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4171526,
+          44.8157598
+        ]
+      },
+      "properties": {
+        "group": "44.8157598,20.4171526",
+        "name": "Blok 29",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3918182,
+          44.8027884
+        ]
+      },
+      "properties": {
+        "group": "44.8027884,20.3918182",
+        "name": "Blok 70 (kineski tržni centar)",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4538718,
+          44.8275932
+        ]
+      },
+      "properties": {
+        "group": "44.8275932,20.4538718",
+        "name": "K-District",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3867304,
+          44.8417656
+        ]
+      },
+      "properties": {
+        "group": "44.8417656,20.3867304",
+        "name": "Prvomajska",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.534591,
+          44.82226
+        ]
+      },
+      "properties": {
+        "group": "44.82226,20.534591",
+        "name": "Višnjička Banja",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4240856,
+          44.8084235
+        ]
+      },
+      "properties": {
+        "group": "44.8084235,20.4240856",
+        "name": "Blok 23",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4718475,
+          44.813181
+        ]
+      },
+      "properties": {
+        "group": "44.813181,20.4718475",
+        "name": "Takovska",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.418225,
+          44.8224293
+        ]
+      },
+      "properties": {
+        "group": "44.8224293,20.418225",
+        "name": "YUBC",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.475025,
+          44.7995311
+        ]
+      },
+      "properties": {
+        "group": "44.7995311,20.475025",
+        "name": "Centar",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4582228,
+          44.8120378
+        ]
+      },
+      "properties": {
+        "group": "44.8120378,20.4582228",
+        "name": "Zeleni venac",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.475769,
+          44.8001747
+        ]
+      },
+      "properties": {
+        "group": "44.8001747,20.475769",
+        "name": "Kalenić pijaca",
+        "total": 170,
+        "suitable": 170,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4635488,
+          44.8072274
+        ]
+      },
+      "properties": {
+        "group": "44.8072274,20.4635488",
+        "name": "Beograđanka",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4671323,
+          44.81868
+        ]
+      },
+      "properties": {
+        "group": "44.81868,20.4671323",
+        "name": "Bajlonijeva pijaca",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.465944,
+          44.8027838
+        ]
+      },
+      "properties": {
+        "group": "44.8027838,20.465944",
+        "name": "Slavija",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4049409,
+          44.8377664
+        ]
+      },
+      "properties": {
+        "group": "44.8377664,20.4049409",
+        "name": "Zelena avenija",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4092411,
+          44.8060321
+        ]
+      },
+      "properties": {
+        "group": "44.8060321,20.4092411",
+        "name": "Blok 67 (Belvil)",
+        "total": 10,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4015421,
+          44.8061288
+        ]
+      },
+      "properties": {
+        "group": "44.8061288,20.4015421",
+        "name": "Blok 67a (A blok)",
+        "total": 9,
+        "suitable": 8,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3980309,
+          44.8126665
+        ]
+      },
+      "properties": {
+        "group": "44.8126665,20.3980309",
+        "name": "Blok 65",
+        "total": 12,
+        "suitable": 11,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3823845,
+          44.805903
+        ]
+      },
+      "properties": {
+        "group": "44.805903,20.3823845",
+        "name": "Blok 63",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3917616,
+          44.808996
+        ]
+      },
+      "properties": {
+        "group": "44.808996,20.3917616",
+        "name": "Blok 64",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.477074,
+          44.7761819
+        ]
+      },
+      "properties": {
+        "group": "44.7761819,20.477074",
+        "name": "Centar",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.448043,
+          44.8048828
+        ]
+      },
+      "properties": {
+        "group": "44.8048828,20.448043",
+        "name": "Beograd na vodi",
+        "total": 31,
+        "suitable": 30,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4681403,
+          44.814295
+        ]
+      },
+      "properties": {
+        "group": "44.814295,20.4681403",
+        "name": "Atelje 212",
+        "total": 1,
+        "suitable": 0,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4691058,
+          44.7981492
+        ]
+      },
+      "properties": {
+        "group": "44.7981492,20.4691058",
+        "name": "Hram svetog Save",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4303868,
+          44.8145051
+        ]
+      },
+      "properties": {
+        "group": "44.8145051,20.4303868",
+        "name": "Blok 21",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4295152,
+          44.8062034
+        ]
+      },
+      "properties": {
+        "group": "44.8062034,20.4295152",
+        "name": "Blok 19a",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3870691,
+          44.8019719
+        ]
+      },
+      "properties": {
+        "group": "44.8019719,20.3870691",
+        "name": "Blok 44 (TC Piramida)",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3855902,
+          44.8149788
+        ]
+      },
+      "properties": {
+        "group": "44.8149788,20.3855902",
+        "name": "Blok 60",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4795778,
+          44.8173075
+        ]
+      },
+      "properties": {
+        "group": "44.8173075,20.4795778",
+        "name": "Bulevar despota Stefana",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3699008,
+          44.8033864
+        ]
+      },
+      "properties": {
+        "group": "44.8033864,20.3699008",
+        "name": "Blok 61",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4074632,
+          44.8205858
+        ]
+      },
+      "properties": {
+        "group": "44.8205858,20.4074632",
+        "name": "Blok 33",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4705836,
+          44.8090071
+        ]
+      },
+      "properties": {
+        "group": "44.8090071,20.4705836",
+        "name": "Tašmajdan",
+        "total": 162,
+        "suitable": 161,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4702672,
+          44.8052638
+        ]
+      },
+      "properties": {
+        "group": "44.8052638,20.4702672",
+        "name": "Krunska",
+        "total": 162,
+        "suitable": 162,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.505115,
+          44.7757766
+        ]
+      },
+      "properties": {
+        "group": "44.7757766,20.505115",
+        "name": "Medaković 1",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4560195,
+          44.7740688
+        ]
+      },
+      "properties": {
+        "group": "44.7740688,20.4560195",
+        "name": "Dedinje",
+        "total": 349,
+        "suitable": 349,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5199615,
+          44.7061419
+        ]
+      },
+      "properties": {
+        "group": "44.7061419,20.5199615",
+        "name": "Beli potok",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4562265,
+          44.8118107
+        ]
+      },
+      "properties": {
+        "group": "44.8118107,20.4562265",
+        "name": "Centar",
+        "total": 164,
+        "suitable": 164,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3540302,
+          44.855914
+        ]
+      },
+      "properties": {
+        "group": "44.855914,20.3540302",
+        "name": "Altina",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2753092,
+          44.9062467
+        ]
+      },
+      "properties": {
+        "group": "44.9062467,20.2753092",
+        "name": "Centar",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4573839,
+          44.8189483
+        ]
+      },
+      "properties": {
+        "group": "44.8189483,20.4573839",
+        "name": "Studentski trg",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4538059,
+          44.7189343
+        ]
+      },
+      "properties": {
+        "group": "44.7189343,20.4538059",
+        "name": "Centar",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3882486,
+          44.8220753
+        ]
+      },
+      "properties": {
+        "group": "44.8220753,20.3882486",
+        "name": "Bežanijska kosa 1",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4103691,
+          44.8007004
+        ]
+      },
+      "properties": {
+        "group": "44.8007004,20.4103691",
+        "name": "Blok 58",
+        "total": 2,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4508992,
+          44.8222662
+        ]
+      },
+      "properties": {
+        "group": "44.8222662,20.4508992",
+        "name": "Kalemegdan",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3886462,
+          44.8544096
+        ]
+      },
+      "properties": {
+        "group": "44.8544096,20.3886462",
+        "name": "Cara Dušana",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4690457,
+          44.8203336
+        ]
+      },
+      "properties": {
+        "group": "44.8203336,20.4690457",
+        "name": "Gundulićev venac",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.488473,
+          44.8151594
+        ]
+      },
+      "properties": {
+        "group": "44.8151594,20.488473",
+        "name": "Bogoslovija",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4612717,
+          44.8126696
+        ]
+      },
+      "properties": {
+        "group": "44.8126696,20.4612717",
+        "name": "Terazije",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4635596,
+          44.8083301
+        ]
+      },
+      "properties": {
+        "group": "44.8083301,20.4635596",
+        "name": "Kneza Miloša",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5132406,
+          44.8008537
+        ]
+      },
+      "properties": {
+        "group": "44.8008537,20.5132406",
+        "name": "Zvezdarska šuma",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4778975,
+          44.8112897
+        ]
+      },
+      "properties": {
+        "group": "44.8112897,20.4778975",
+        "name": "Dalmatinska",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4714699,
+          44.8035531
+        ]
+      },
+      "properties": {
+        "group": "44.8035531,20.4714699",
+        "name": "Krunski venac",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.431998,
+          44.8085099
+        ]
+      },
+      "properties": {
+        "group": "44.8085099,20.431998",
+        "name": "Sava centar",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.414231,
+          44.8205925
+        ]
+      },
+      "properties": {
+        "group": "44.8205925,20.414231",
+        "name": "Novi Merkator",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.472733,
+          44.8072896
+        ]
+      },
+      "properties": {
+        "group": "44.8072896,20.472733",
+        "name": "Pravni fakultet",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    }
+  ],
+  "metadata": {
+    "total": 3368,
+    "suitable": 2085,
+    "affordable": 2
+  }
+}

@@ -1,23 +1,25 @@
 import { ParameterItemProps } from '../../types/MenusParameter'
 
-export const scenarios: ParameterItemProps[] = [
-  { size: 1, income: 1000, translateKey: 'scenarios.singleArtist' },
-  { size: 2, income: 500, translateKey: 'scenarios.generic' },
-]
+import incomes from './incomes.json'
+import scenarios from './scenarios.json'
+import sizes from './sizes.json'
 
-export const sizes: ParameterItemProps[] = [{ size: 1 }, { size: 2 }]
+export const scenarioParameters = scenarios as ParameterItemProps[]
 
-export const incomes: ParameterItemProps[] = [{ income: 500 }, { income: 1000 }]
+export const sizeParameters: ParameterItemProps[] = sizes.map(it => ({
+  size: it,
+}))
+
+export const incomeParameters: ParameterItemProps[] = incomes.map(it => ({
+  income: it,
+}))
 
 export const allSizes = [
-  ...new Set([...sizes.map(it => it.size), ...scenarios.map(it => it.size)]),
+  ...new Set([...sizes, ...scenarios.map(it => it.size)]),
 ]
 
 export const allIncomes = [
-  ...new Set([
-    ...incomes.map(it => it.income),
-    ...scenarios.map(it => it.income),
-  ]),
+  ...new Set([...incomes, ...scenarios.map(it => it.income)]),
 ]
 
 export const allOptions = {

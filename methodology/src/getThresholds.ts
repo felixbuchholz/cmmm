@@ -1,9 +1,9 @@
 import { getThesholdSize } from './getThesholdSize'
 import { getThresholdPrice } from './getThresholdPrice'
-import { Category, Scenario } from './types/scenario'
+import { Category, ScenarioParameterOnly } from './types/scenario'
 
 export const getThresholds = (
-  { income, size: houseHoldSize }: Scenario,
+  { income, size: houseHoldSize }: ScenarioParameterOnly,
   category: Category
 ): { price: number; size: number } => {
   const price = getThresholdPrice[category](income)

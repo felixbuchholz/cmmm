@@ -8,3 +8,9 @@ export type CategoryConfig = {
   category: Category
   dataPathRelative: string
 }
+
+export type IncomeRangeDefinition = {
+  rangeStart: number
+  rangeEnd: number
+  interval: number
+}

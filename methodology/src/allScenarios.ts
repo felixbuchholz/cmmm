@@ -1,14 +1,32 @@
 /* eslint-disable no-magic-numbers */
+import { getIncomesFromRangeDefinitions } from './getIncomesFromRangeAndIntervall'
+import { getNumbersFromOneUpTo } from './getNumbersUpTo'
 import { MergeParameters } from './types/mergeParameters'
 import { Income, Size, Scenario } from './types/scenario'
+import { writeJSON } from './writeData'
 
-const incomes: Income[] = [null]
+export const incomeRangesAndIntervals = [
+  { rangeStart: 200, rangeEnd: 2000, interval: 50 },
+  { rangeStart: 2000, rangeEnd: 4000, interval: 100 },
+  { rangeStart: 4000, rangeEnd: 8000, interval: 200 },
+]
 
-const sizes: Size[] = [null]
+const incomes: Income[] = [
+  null,
+  ...getIncomesFromRangeDefinitions(incomeRangesAndIntervals),
+]
+
+writeJSON('../website/src/state/selection/incomes.json', incomes)
+
+const sizes: Size[] = [null, ...getNumbersFromOneUpTo(6)]
+writeJSON('../website/src/state/selection/sizes.json', sizes)
 
 const scenarios: Scenario[] = [
-  { income: 1000, size: 1 },
-  { income: 500, size: 2 },
+  { income: 600, size: 1 }, // Teacher living alone
+  { income: 1200, size: 2 }, // Couple working in education with no kids
+  { income: 1600, size: 5 }, // Couple with average salary and 3 kids
+  { income: 450, size: 2 }, // Single mother with a kid working in a local grocery store
+  { income: 350, size: 1 }, // Retired firefighter
 ]
 
 export const getAllScenarios = (): Scenario[] => {

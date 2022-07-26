@@ -10,8 +10,11 @@ export const writeData = (
   summaryStats: SummaryStat[]
 ): void => {
   const filePath = getPathFromParameters(category, size, income)
-  const json = JSON.stringify(summaryStats, null, jsonIndent)
+  writeJSON(filePath, summaryStats)
+}
 
+export const writeJSON = (filePath: string, variable: unknown): void => {
+  const json = JSON.stringify(variable, null, jsonIndent)
   fs.writeFileSync(filePath, json)
 }
 

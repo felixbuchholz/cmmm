@@ -8,15 +8,15 @@
 	"buy": {
 		"categorySelect": "buying",
 		"categoryConfirm": "Buying",
-		"highlight": "Small Explanation",
-		"description": "lorem ipsum",
+		"highlight": "Refers to ",
+		"description": "current offers for apartments to buy. The results will be shown according to an average interest rate of 2.55% in Belgrade, assuming that the household is eligible for a 30 year loan, and is able to put immediately downpayment of 20% of apartment price.",
 		"navigation": "Buy"
 	},
 	"rent": {
 		"categorySelect": "renting",
 		"categoryConfirm": "Renting",
-		"highlight": "Small Explanation",
-		"description": "lorem ipsum",
+		"highlight": "Refers to ",
+		"description": "current offers for apartment rentals",
 		"navigation": "Rent"
 	},
 	"person": {
@@ -28,28 +28,32 @@
 	},
 	"menuOverview": {
 		"confirm": "Show offers",
-		"title": "Select the case information you want to compare",
-		"titleExplainer": "Small explainer here, half sentence",
+		"title": "Select your situation:",
+		"titleExplainer": "Or another situation you would like to explore",
 		"categorySelect1": "I am interested in",
 		"categorySelect2": "offers in Belgrade",
-		"categorySelectExplainer": "Small explainer here, half sentence",
+		"categorySelectExplainer": "Select one option",
 		"scenarioSelect": "I have",
-		"scenarioSelectExplainer": "Small explainer here, half sentence",
+		"scenarioSelectExplainer": "Select the option that is closest to your situation",
 		"scenarioSelectEmpty": "select a scenario",
 		"scenarioSelectSize": " a household of {{size}}",
 		"scenarioSelectIncome": "with an income of {{income}} Euro/month",
-		"optionsSelectExplainer": "Small explainer here, half sentence",
+		"optionsSelectExplainer": "Select the option that is closest to your situation",
 		"sizeSelect": "I have a household of",
 		"sizeSelectButtonEmpty": "select household size",
 		"incomeSelect": "with a monthly income of",
 		"incomeSelectButtonEmpty": "select monthly income",
 		"modeToggleTooltipOptions": "Switch to select options",
 		"modeToggleTooltipScenario": "Switch to select scenarios",
-		"disclaimerEmphasis": "This page shows",
-		"disclaimerBody": "Lorem ipsum"
-	},
+		"disclaimerEmphasis": "The information you are entering",
+		"disclaimerBody": "serves to illustrate the amount of spatially suitable and affordable offers for your situation/situation you would like to show, taking into account the minimal legal standards for apartment size per household size, as well as housing affordability which indicates that rent or loan rate has to amount to a third of household monthly income or less."
+		},
 	"scenarios": {
-		"singleArtist": "working as an artist",
+		"teacherAlone": "Teacher living alone (600e/month)",
+		"workingInEducationCouple": "A couple working in education with no kids (1200e/month)",
+		"averageFamily3Kids": "A couple with average salaries and 3 kids (1600e/month)",
+		"singleMomGroceryStore1Kid": "Single mother with a kid working in a local grocery store (450e/month)",
+		"retiredFirefighter": "Retired firefighter (350e/month)",
 		"generic": "working"
 	},
 	"map": {
@@ -57,7 +61,7 @@
 	},
 	"suitable": {
 		"countLegendNull": "existing offers in Belgrade",
-		"countLegendSelected": "suitable offers in Belgrade"
+		"countLegendSelected": "spatially suitable offers in Belgrade"
 	},
 	"affordable": {
 		"countLegendNull": "affordable offers in Belgrade",

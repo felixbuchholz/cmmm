@@ -1,8 +1,74 @@
 {
-  "site": {
+	"site": {
 		"title": "Koliko je (ne)priuštivo stanovanje u Beogradu?"
 	},
-  "ui": {
-    "languageSwitcher": "Изабери језик:"
-  }
+	"ui": {
+		"languageSwitcher": "Odaberi jezik:"
+	},
+	"buy": {
+		"categorySelect": "kupovina stana",
+		"categoryConfirm": "Kupovina stana",
+		"highlight": "Odnosi se ",
+		"description": "na trenutnu ponudu stanova za kupovinu. Prikazuje rezultate na osnovu prosečne kamatne stope od 2.55% u Beogradu, sa pretpostavkom da je domaćinstvo kreditno sposobno za period otplate od 30 godina i mogućnosšću da u jednom trenutku isplati i učešće od 20% cene stana.",
+		"navigation": "Za kupovinu"
+	},
+	"rent": {
+		"categorySelect": "iznajmljivanje stana",
+		"categoryConfirm": "Iznajmljivanje stana",
+		"highlight": "Odnosi se ",
+		"description": "na trenutnu ponudu stanova za iznajmljivanje",
+		"navigation": "Za iznajmljivanje"
+	},
+	"person": {
+		"plural": "Ljudi",
+		"singular": "Osoba"
+	},
+	"units": {
+		"euroPerMonth": "Evro/mesec"
+	},
+	"menuOverview": {
+		"confirm": "Prikaži rezultate",
+		"title": "Unesite svoju situaciju:",
+		"titleExplainer": "Ili drugu situaciju koju biste želeli da istražite",
+		"categorySelect1": "Zainteresovan/a sam za",
+		"categorySelect2": "stana u Beogradu",
+		"categorySelectExplainer": "Odaberite jednu opciju",
+		"scenarioSelect": "Ukupan prihod",
+		"scenarioSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
+		"scenarioSelectEmpty": "izbor scenarija",
+		"scenarioSelectSize": " domaćinstva u kom živim je {{size}}",
+		"scenarioSelectIncome": "sa prihodom od {{income}} Evro/mesec",
+		"optionsSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
+		"sizeSelect": "Ukupan prihod domaćinstva u kom živim je",
+		"sizeSelectButtonEmpty": "izaberite veličinu domaćinstva",
+		"incomeSelect": "sa mesečnim primanjima",
+		"incomeSelectButtonEmpty": "izbor mesečnog prihoda",
+		"modeToggleTooltipOptions": "Prebacivanje da biste izabrali opcije",
+		"modeToggleTooltipScenario": "Prebacivanje na izbor scenarija",
+		"disclaimerEmphasis": "Podaci koje unosite",
+		"disclaimerBody": "služe kako bi se prikazala slika o tome koliko prostorno odgovarajućih i priuštivih ponuda postoji za vašu situaciju/situaciju koju želite da prikažete, uzimajući u obzir minimalne zakonske standarde za površinu stana po veličini domaćinstva, kao i standard preopterećnosti stambenim troškovima iz kog se izvodi da iznos zakupa ili rate kredita smeju iznositi trećinu ukupnih mesečnih prihoda domaćinstva ili manje od toga."
+	},
+	"scenarios": {
+		"teacherAlone": "Učitelj samac (600e mesečno)",
+		"workingInEducationCouple": "Bračni par prosvetnih radnika bez dece (1200e mesečno)",
+		"averageFamily3Kids": "Bračni par sa prosečnim platama i troje dece (1600e mesečno)",
+		"singleMomGroceryStore1Kid": "Samohrana majka jednog deteta, radnica u prodavnici (450 mesečno)",
+		"retiredFirefighter": "Penzionisani vatrogasac (350e mesečno)",
+		"generic": "working"
+	},
+	"map": {
+		"tooltipDescription": "Rezultate"
+	},
+	"suitable": {
+		"countLegendNull": "postojećih ponuda u Beogradu",
+		"countLegendSelected": "prostorno odgovarajućih ponuda"
+	},
+	"affordable": {
+		"countLegendNull": "priuštivih ponuda u Beogradu",
+		"countLegendSelected": "priuštivih ponuda u Beogradu"
+	},
+	"info": {
+		"referenceHeadline": "Koliko ponuda postoji u Beogradu?",
+		"comparisonHeadline": "Koliko ponuda mogu da priuštim?"
+	}
 }

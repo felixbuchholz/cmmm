@@ -3,10 +3,14 @@
 	display: flex;
 	height: var(--navigation-height);
 	justify-content: space-around;
-	left: var(--site-title-width);
+	left: var(--title-width);
 	position: absolute;
 	top: 0;
-	width: calc(100% - var(--site-title-width));
+	width: calc(100% - var(--title-width) - var(--cmmm-link-width));
+}
+
+.container > div, .container > aside {
+	margin-right: 0.75em;
 }
 
 @media (max-width: 907px) {

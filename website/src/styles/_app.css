@@ -7,10 +7,11 @@
   --color-interactive-outline: #ddd;
   --color-interactive: #008b4a;
   --content-padding: 2em;
+  --cmmm-link-width: 4em;
   --header-height: 2.5em;
   --main-bg-color: #fff;
   --main-font-color: black;
-  --site-title-width: 10em;
+  --title-width: 14em;
   --transition-duration: 100ms;
   --visualization-count-width: 11em;
 }
@@ -33,6 +34,9 @@
   --menu-top: var(--header-height);
   --menu-width: 50%;
   --navigation-height: var(--header-height);
+  --title-display: inline-block;
+  --title-font-size: 0.7em;
+  --title-inner-width: 50%;
   --visualization-height: calc(100% - var(--header-height));
 }
 
@@ -47,6 +51,9 @@
     --menu-top: 0;
     --menu-width: 100%;
     --navigation-height: 8em;
+    --title-display: inline;
+    --title-font-size: 1em;
+    --title-inner-width: 100%;
     --visualization-height: calc(100% - (var(--header-height) + var(--navigation-height)));
   }
 }
@@ -279,12 +286,14 @@ button.padded[disabled] {
   display: inline;
 }
 
-
-
 .connectButtons:hover button {
   color: var(--color-interactive-hover);
 }
 
 .connectButtons:hover .triangle::before {
   left: 0.4em;
+}
+
+svg .cmmm {
+  fill: #ff1d25;
 }

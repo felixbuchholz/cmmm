@@ -1,12 +1,10 @@
 import { ParameterItemProps } from '../../types/MenusParameter'
 
 import incomes from './incomes.json'
+import scenarios from './scenarios.json'
 import sizes from './sizes.json'
 
-export const scenarios: ParameterItemProps[] = [
-  { size: 1, income: 1000, translateKey: 'scenarios.singleArtist' },
-  { size: 2, income: 500, translateKey: 'scenarios.generic' },
-]
+export const scenarioParameters = scenarios as ParameterItemProps[]
 
 export const sizeParameters: ParameterItemProps[] = sizes.map(it => ({
   size: it,

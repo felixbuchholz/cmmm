@@ -1,12 +1,15 @@
 import * as fs from 'fs'
 
+import { incomes, scenarios, sizes } from './allScenarios'
 import { getPathFromParameters } from './getPathFromParameters'
-import { Category, Scenario } from './types/scenario'
+import { Category, ScenarioParameterOnly } from './types/scenario'
 import { SummaryStat } from './types/summary'
+
+const jsonIndent = 2
 
 export const writeData = (
   category: Category,
-  { size, income }: Scenario,
+  { size, income }: ScenarioParameterOnly,
   summaryStats: SummaryStat[]
 ): void => {
   const filePath = getPathFromParameters(category, size, income)
@@ -18,4 +21,16 @@ export const writeJSON = (filePath: string, variable: unknown): void => {
   fs.writeFileSync(filePath, json)
 }
 
-const jsonIndent = 2
+const excludeInitialNull = 1
+
+writeJSON(
+  '../website/src/state/selection/incomes.json',
+  incomes.slice(excludeInitialNull)
+)
+
+writeJSON(
+  '../website/src/state/selection/sizes.json',
+  sizes.slice(excludeInitialNull)
+)
+
+writeJSON('../website/src/state/selection/scenarios.json', scenarios)

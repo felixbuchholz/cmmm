@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 
 import {
   incomeParameters,
-  scenarios,
+  scenarioParameters,
   sizeParameters,
 } from '../../../state/selection/scenarios'
 import { MenuParamterProps } from '../../../types/MenusParameter'
@@ -21,10 +21,13 @@ export const MenusParameters: FC = () => {
 
 const menus: MenuParamterProps[] = [
   {
-    parameters: scenarios,
+    parameters: scenarioParameters,
     activeStates: ['menu.mode_scenario.menu_scenario'],
   },
-  { parameters: sizeParameters, activeStates: ['menu.mode_options.menu_size'] },
+  {
+    parameters: sizeParameters,
+    activeStates: ['menu.mode_options.menu_size'],
+  },
   {
     parameters: incomeParameters,
     activeStates: ['menu.mode_options.menu_income'],

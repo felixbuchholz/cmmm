@@ -1,6 +1,7 @@
 export type Size = number | null
 export type Income = number | null
-export type Scenario = { size: Size; income: Income }
+export type Scenario = { size: Size; income: Income; translateKey: string }
+export type ScenarioParameterOnly = Omit<Scenario, 'translateKey'>
 
 export type Category = 'buy' | 'rent'
 

@@ -1,14 +1,17 @@
+/* eslint-disable max-lines-per-function */
 import { useTranslation } from 'next-export-i18n'
 import Head from 'next/head'
 import { FC } from 'react'
 
 import { basePath } from '../../utils/environment'
 
+const server = process.env.NEXT_PUBLIC_SERVER ?? ''
+
 export const HeadMeta: FC = () => {
   const { t } = useTranslation()
   return (
     <Head>
-      <meta property="og:url" content="https://cmmm.eu/belgrade/" />
+      <meta property="og:url" content={`${server}${basePath}`} />
 
       <title>{t('site.title')}</title>
       <meta property="og:title" content={t('site.title')} key="title" />
@@ -17,7 +20,17 @@ export const HeadMeta: FC = () => {
       <meta property="og:description" content={description} />
       <meta name="keywords" content={keywords} />
 
-      <meta property="og:image" content={`${basePath}/cmmm-192x192.png`} />
+      <meta
+        property="og:image"
+        content={`${server}${basePath}/preview-image.jpg`}
+      />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:width" content="2500" />
+      <meta property="og:image:height" content="1313" />
+      <meta
+        property="og:image:alt"
+        content="A side-by-side comparison of available and suitable and affordable housing in Belgrade for a middle-class income"
+      />
       <link rel="icon" href={`${basePath}/cmmm-32x32.png`} />
       <link rel="icon" href={`${basePath}/cmmm-192x192.png`} />
 

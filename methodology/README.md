@@ -1,17 +1,17 @@
-# {site title}
+# _How (un)affordable is housing in Belgrade?_
 
 
 
 ## What we build
 
-The critical mapping project {site title}
+The critical mapping project _How (un)affordable is housing in Belgrade?_
 compares the amount and location of open housing listings in Belgrade
 with the subset of those listings that are suitable and affordable
 for different households.
 
 ## Motivation
 
-The goal of {site title} is to interrogate 
+The goal of _How (un)affordable is housing in Belgrade?_ is to interrogate 
 how different socio-economic strata of the population are affected 
 by rising housing prices and gentrification in Belgrade. 
 By selecting different scenarios or household size and income parameters, 
@@ -27,12 +27,12 @@ From 05.05.2022 to 06.05.2022 (Timeframe when Data was scraped).
 
 ## About us
 
-{site title} is a collaboration of {the CMMM Belgrade Team, Visual Intelligence and Felix Buchholz} 
+_How (un)affordable is housing in Belgrade?_ is a cooperation between Ministry of Space and Visual Intelligence & Felix Buchholz 
 as part of the [Critical Mapping in Municipalist Movements research project](https://cmmm.eu/) 
 
 ## Methodology
 
-{site title} is realized via these steps:
+_How (un)affordable is housing in Belgrade?_ is realized via these steps:
 
 1. We scrape listings data from https://www.halooglasi.com
 2. We geo-locate all listings we found. And we use the result to make a list of all locations that had listings.
@@ -93,7 +93,7 @@ When a _scenario_ is selected on the website:
 Often the intent is to extract and store information available on the site 
 in a more structured format for further analysis.
 
-We scraped data from {listings platform}
+We scraped data from [halooglasi.com](https://www.halooglasi.com)
 for Belgrade
 from 05.05.2022 to 06.05.2022.
 
@@ -115,13 +115,13 @@ suitable = minOfferSize + householdSize * factorSizePerPerson
 Where 
 - `minOfferSize` stands for a constant minimum size each listing should have. We set this constant to 20 m<sup>2</sup>.
 - `householdSize` stands for the amount of people permanently living in the apartment (or house). And the 
-- `factorSizePerPerson` describes the space needed for each person. We used 15 m<sup>2</sup> for this constant according to [{reference to suitable formula}](https://google.com)
+- `factorSizePerPerson` describes the space needed for each person. We used 15 m<sup>2</sup> for this constant according to the minimal legal standards for apartment size.
 
 ### Affordable (listings)
 
 Our definition of _affordable_ is based on the listing category. 
 
-We consider a listing for **rent** as affordable if the monthly price in the listing is not higher than 30 % of the household income. ([{reference for affordable rent}](https://google.com))
+We consider a listing for **rent** as affordable if the monthly price in the listing is not higher than 30 % of the household income.
 
 We consider a listing for **purchase** as affordable if a loan of 30 years can be paid off with a mortgage that is not higher than 30 % of the household income. To caclulate the affordable purchase price we use an interest rate of 2.55 % and a down payment of 20 % of the price in the listing.
 

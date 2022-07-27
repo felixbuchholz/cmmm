@@ -51,9 +51,9 @@ export const ScenarioItem: FC<ScenarioItemProps> = ({
           handleClick({ size, income })
         }}
       >
-        {size} {t(`person${p(size)}`)} {t(translateKey)}
+        {t(translateKey)}
       </button>{' '}
-      ({income} {t('units.euroPerMonth')})
+      ({size} {t(`person${p(size)}`)}, {income} {t('units.euroPerMonth')})
     </div>
   )
 }

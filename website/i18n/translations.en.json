@@ -49,12 +49,11 @@
 		"disclaimerBody": "serves to illustrate the amount of spatially suitable and affordable offers for your situation/situation you would like to show, taking into account the minimal legal standards for apartment size per household size, as well as housing affordability which indicates that rent or loan rate has to amount to a third of household monthly income or less."
 		},
 	"scenarios": {
-		"teacherAlone": "Teacher living alone (600e/month)",
-		"workingInEducationCouple": "A couple working in education with no kids (1200e/month)",
-		"averageFamily3Kids": "A couple with average salaries and 3 kids (1600e/month)",
-		"singleMomGroceryStore1Kid": "Single mother with a kid working in a local grocery store (450e/month)",
-		"retiredFirefighter": "Retired firefighter (350e/month)",
-		"generic": "working"
+		"teacherAlone": "A teacher living alone",
+		"workingInEducationCouple": "A couple working in education with no kids",
+		"averageFamily3Kids": "A couple with average salaries and 3 kids",
+		"singleMomGroceryStore1Kid": "Single mother with a kid working in a local grocery store",
+		"retiredFirefighter": "A retired firefighter"
 	},
 	"map": {
 		"tooltipDescription": "Offers"

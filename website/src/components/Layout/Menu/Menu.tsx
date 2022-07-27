@@ -3,6 +3,7 @@ import React, { FC, useContext } from 'react'
 
 import { GlobalStateContext } from '../../../context/GlobalStateContext'
 import { SelectionStateString } from '../../../types/selectionMachine'
+import { LanguagePicker } from '../../Language/LanguagePicker'
 
 import styles from './menu.module.css'
 import { MenuCategory } from './MenuCategory'
@@ -23,6 +24,7 @@ export const Menu: FC = () => {
 
   return (
     <div className={styles.container} data-state={menuState}>
+      <LanguagePicker />
       <MenuOverview />
       <MenusParameters />
       <MenuCategory />

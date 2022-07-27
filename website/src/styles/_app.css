@@ -159,7 +159,7 @@ textarea {
   padding: 0;
 }
 
-button { 
+button, span[role="button"] { 
   -moz-appearance: none;
   -webkit-appearance: none;
   background-color: transparent;
@@ -173,12 +173,12 @@ button {
   white-space: normal;
 }
 
-button:hover {
+button:hover, span[role="button"]:hover {
   color: var(--color-interactive-hover);
 }
 
 button:focus,
-select:focus {
+select:focus, span[role="button"]:focus {
   color: var(--color-interactive-hover);
   outline-offset: 0.05em;
   outline-width: 1px;

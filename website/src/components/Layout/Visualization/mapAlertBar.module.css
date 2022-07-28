@@ -1,0 +1,27 @@
+.container {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--main-font-color);
+	color: var(--main-bg-color);
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	display: flex;
+}
+
+.close {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	color: var(--main-bg-color);
+	text-decoration: none;
+}
+
+.close:hover {
+	color: var(--color-emphasis)
+}
+
+.alertText {
+	font-size: 0.75em;
+	white-space: nowrap;
+}
+

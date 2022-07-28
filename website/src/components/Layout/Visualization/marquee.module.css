@@ -1,0 +1,33 @@
+.container {
+	position: relative;
+	overflow: hidden;
+}
+
+.container > div {
+	width: fit-content;
+	display: flex;
+	position: relative;
+	height: 100%;
+	align-items: center;
+	transform: translateX(0%);
+	animation: marquee 10s linear infinite;
+	animation-play-state: running;
+}
+
+@keyframes marquee {
+	0% {
+			transform: translateX(0%);
+	}
+
+	20% {
+		transform: translateX(0%);
+	}
+
+	90% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+}

@@ -25,7 +25,7 @@ export const Maps: FC = () => {
           onMove: onMove[index],
           onMoveStart: onMoveStart[index],
         }
-        const mapContainerProps = { mapProps, layerProps }
+        const mapContainerProps = { id, mapProps, layerProps }
         return (
           <section key={id} className={`${id} ${styles.map}`}>
             <MapContainer {...mapContainerProps} />

@@ -56,7 +56,8 @@
 		"retiredFirefighter": "Penzionisani vatrogasac"
 	},
 	"map": {
-		"tooltipDescription": "Rezultate"
+		"tooltipDescription": "Rezultate",
+		"alertDownPayment": "Prikazani rezultati podrazumevaju da domaćinstvo ima dovoljno veliku ušteđevinu za učešće u kupovini stana na kredit, “minimum 15.000 EUR, a prosečno 38.000 EUR."
 	},
 	"suitable": {
 		"countLegendNull": "postojećih ponuda u Beogradu",

@@ -56,7 +56,8 @@
 		"retiredFirefighter": "A retired firefighter"
 	},
 	"map": {
-		"tooltipDescription": "Offers"
+		"tooltipDescription": "Offers",
+		"alertDownPayment": "These results imply that household has enough savings for the downpayment of the loan, minimum 15.000 EUR and on average 38.000 EUR."
 	},
 	"suitable": {
 		"countLegendNull": "existing offers in Belgrade",

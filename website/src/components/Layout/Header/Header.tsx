@@ -1,18 +1,33 @@
 import { useTranslation } from 'next-export-i18n'
 import React, { FC } from 'react'
 
+import { useSelectionSend } from '../../../state/selection/hooks'
+
 import { CMMMButton } from './CMMMButton'
 import styles from './header.module.css'
 import { InfoPageLink } from './InfoPageLink'
 
 export const Header: FC = () => {
-  const { t } = useTranslation()
   return (
     <header className={styles.container}>
-      <h1 className="subheadline">
-        <InfoPageLink /> <span className={styles.title}>{t('site.title')}</span>
-      </h1>
+      <div className={styles.flexLinks}>
+        <InfoPageLink /> <HeaderTitleButton />
+      </div>
       <CMMMButton />
     </header>
+  )
+}
+
+export const HeaderTitleButton: FC = () => {
+  const { t } = useTranslation()
+  const send = useSelectionSend()
+  const handleClick = (): void => {
+    send({ type: 'OPEN_MENU_OVERVIEW' })
+  }
+
+  return (
+    <button className={styles.title} onClick={handleClick}>
+      <h1>{t('site.title')}</h1>
+    </button>
   )
 }

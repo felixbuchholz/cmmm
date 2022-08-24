@@ -5,7 +5,6 @@ import {
   useSelectionContext,
   useSelectionSend,
 } from '../../../state/selection/hooks'
-import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 import { p } from '../../../utils/translatePlurals'
 
 export const OptionsSelectionButtons: FC = () => {
@@ -19,18 +18,16 @@ export const OptionsSelectionButtons: FC = () => {
   }
 
   return (
-    <WrapperIsActive states={['menu.mode_options']}>
-      <div>
-        {t('menuOverview.sizeSelect')}{' '}
-        <button className="triangle" onClick={() => handleClick('SIZE')}>
-          {sizeText}
-        </button>{' '}
-        {t('menuOverview.incomeSelect')}{' '}
-        <button className="triangle" onClick={() => handleClick('INCOME')}>
-          {incomeText}
-        </button>
-      </div>
-    </WrapperIsActive>
+    <div>
+      {t('menuOverview.sizeSelect')}{' '}
+      <button className="triangle" onClick={() => handleClick('SIZE')}>
+        <span className="buttonSpan">{sizeText}</span>
+      </button>{' '}
+      {t('menuOverview.incomeSelect')}{' '}
+      <button className="triangle" onClick={() => handleClick('INCOME')}>
+        <span className="buttonSpan">{incomeText}</span>
+      </button>
+    </div>
   )
 }
 

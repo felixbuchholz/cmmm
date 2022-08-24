@@ -49,6 +49,12 @@ export const selectionMachine =
                     OPEN_MENU_SCENARIO: {
                       target: 'menu_scenario',
                     },
+                    OPEN_MENU_INCOME: {
+                      target: '#menu_income',
+                    },
+                    OPEN_MENU_SIZE: {
+                      target: '#menu_size',
+                    },
                     ENTER_QUERY_PARAMS: {
                       actions: 'selectQueryParams',
                       target: ['#viz_load_data', '#entered_query_params'],
@@ -71,6 +77,7 @@ export const selectionMachine =
                   },
                 },
                 menu_scenario: {
+                  id: 'menu_scenario',
                   on: {
                     SELECT_SCENARIO: [
                       {
@@ -123,6 +130,9 @@ export const selectionMachine =
                     OPEN_MENU_INCOME: {
                       target: 'menu_income',
                     },
+                    OPEN_MENU_SCENARIO: {
+                      target: '#menu_scenario',
+                    },
                   },
                 },
                 menu_category: {
@@ -158,6 +168,7 @@ export const selectionMachine =
                   },
                 },
                 menu_size: {
+                  id: 'menu_size',
                   on: {
                     SELECT_SIZE: [
                       {
@@ -173,6 +184,7 @@ export const selectionMachine =
                   },
                 },
                 menu_income: {
+                  id: 'menu_income',
                   on: {
                     SELECT_INCOME: [
                       {

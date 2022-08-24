@@ -13,8 +13,8 @@ export const MenuParameters: FC<MenuParamterProps> = ({
   return (
     <WrapperIsActive states={activeStates}>
       <div className={styles.container}>
-        {parameters.map(it => (
-          <ParameterItem key={`${it.size}-${it.income}`} {...it} />
+        {parameters.map((it, index) => (
+          <ParameterItem key={`${it.size}-${it.income}-${index}`} {...it} />
         ))}
       </div>
     </WrapperIsActive>

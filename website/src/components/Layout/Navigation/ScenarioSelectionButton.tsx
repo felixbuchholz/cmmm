@@ -5,16 +5,13 @@ import {
   useSelectionContext,
   useSelectionSend,
 } from '../../../state/selection/hooks'
-import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 
 export const ScenarioSelectionButton: FC = () => {
   return (
-    <WrapperIsActive states={['menu.mode_scenario']}>
-      <div>
-        <ScenarioSelectionButtonIntro />
-        <ScenarioSelectionButtons />
-      </div>
-    </WrapperIsActive>
+    <div>
+      <ScenarioSelectionButtonIntro />
+      <ScenarioSelectionButtons />
+    </div>
   )
 }
 
@@ -38,7 +35,9 @@ export const ScenarioSelectButtonEmpty: FC = () => {
   const handleClick = useHandleClickSendOpenMenuScenario()
   return (
     <button className="triangle" onClick={handleClick}>
-      {t('menuOverview.scenarioSelectEmpty')}
+      <span className="buttonSpan">
+        {t('menuOverview.scenarioSelectEmpty')}
+      </span>
     </button>
   )
 }
@@ -57,10 +56,14 @@ export const ScenarioSelectButtonSelected: FC = () => {
   return (
     <div className="connectButtons">
       <button className="triangle" onClick={handleClick}>
-        {t('menuOverview.scenarioSelectSize', { size })}
+        <span className="buttonSpan">
+          {t('menuOverview.scenarioSelectSize', { size })}
+        </span>
       </button>{' '}
       <button onClick={handleClick}>
-        {t('menuOverview.scenarioSelectIncome', { income })}
+        <span className="buttonSpan">
+          {t('menuOverview.scenarioSelectIncome', { income })}
+        </span>
       </button>
     </div>
   )

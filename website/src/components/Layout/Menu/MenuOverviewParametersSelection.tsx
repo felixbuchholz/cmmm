@@ -8,11 +8,11 @@ import { MenuOverviewParametersSelectionItem } from './MenuOverviewParametersSel
 
 export const MenuOverviewParametersSelection: FC = () => {
   return (
-    <div>
+    <>
       {parameterSelections.map(it => (
         <MenuOverviewParametersSelectionItem key={it.translateKey} {...it} />
       ))}
-    </div>
+    </>
   )
 }
 

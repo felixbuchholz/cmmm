@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 
 import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 import { SelectionStateString } from '../../../types/selectionMachine'
-import { ModeToggleButton } from '../Navigation/ModeToggleButton'
 
 import styles from './menuOverview.module.css'
 import { MenuOverviewCategorySelection } from './MenuOverviewCategorySelection'
@@ -17,7 +16,6 @@ export const MenuOverview: FC = () => {
       <div className={styles.container}>
         <MenuOverviewTitle />
         <MenuOverviewCategorySelection />
-        <ModeToggleButton />
         <MenuOverviewParametersSelection />
         <MenuOverviewConfirmButton />
         <MenuOverviewDisclaimer />

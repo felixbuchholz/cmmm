@@ -21,11 +21,25 @@
 	vertical-align: middle;
 }
 
+.flexLinks {
+	display: flex;
+	align-items: center;
+	font-size: 1.2em;
+}
+
 .title {
+	color: unset;
 	display: var(--title-display);
 	font-size: var(--title-font-size);
-	line-height: 1.1;
+	line-height: 1.05;
+	margin-left: 0.1em;
+	text-decoration: none;
 	width: var(--title-inner-width);
+}
+
+.title:hover {
+	color: var(--main-font-color);
+	opacity: 0.6;
 }
 
 .close {

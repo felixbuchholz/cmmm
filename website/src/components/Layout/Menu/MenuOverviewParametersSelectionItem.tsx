@@ -13,11 +13,9 @@ export const MenuOverviewParametersSelectionItem: FCC<MenuOverviewParametersSele
   const { t } = useTranslation()
 
   return (
-    <WrapperIsActive states={activeStates}>
-      <div>
-        <h3>{children}</h3>
-        <small>{t(translateKey)}</small>
-      </div>
+    <WrapperIsActive states={activeStates} useDataState>
+      <h3>{children}</h3>
+      <small>{t(translateKey)}</small>
     </WrapperIsActive>
   )
 }

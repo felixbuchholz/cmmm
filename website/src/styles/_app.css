@@ -3,6 +3,7 @@
   --bold: 700;
   --color-emphasis: #d24f40;
   --color-interactive-disabled: #ccc;
+  --color-interactive-muted: #008b4a77;
   --color-interactive-hover: #008b4aaa;
   --color-interactive-outline: #ddd;
   --color-interactive: #008b4a;
@@ -50,11 +51,17 @@
     --menu-left: 0;
     --menu-top: 0;
     --menu-width: 100%;
-    --navigation-height: 8em;
+    --navigation-height: 6em;
     --title-display: inline;
     --title-font-size: 1em;
     --title-inner-width: 100%;
     --visualization-height: calc(100% - (var(--header-height) + var(--navigation-height)));
+  }
+}
+
+@media (max-width: 580px) {
+  :root {
+    --title-font-size: 0.85em;
   }
 }
 
@@ -73,7 +80,11 @@ h1, h2, h3, h4, p {
   margin: 0;
 }
 
-h1, h2, .headline, .number {
+h1 {
+  font-size: 1em;
+}
+
+h2, .headline, .number {
   font-size: 2em;
   line-height: 1.2;
 }
@@ -300,4 +311,52 @@ button.padded[disabled] {
 
 svg .cmmm {
   fill: #ff1d25;
+}
+
+div[data-state='disabled'] button {
+  color: var(--color-interactive-muted)
+}
+
+div[data-state='disabled'] button:hover {
+  color: var(--color-interactive-hover)
+}
+
+div[data-state='active'] button {
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+
+div[data-state='active'] .buttonSpan {
+  background-color: var(--color-interactive);
+  border-radius: 0.2em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+div[data-state='active'] .triangle {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  margin-right: -0.1em;
+  margin-left: 1em;
+}
+
+div[data-state='active'] .triangle::before {
+  color: var(--color-interactive);
+  left: -1em;
+}
+
+div[data-state='active'] .triangle:hover::before {
+  color: var(--color-interactive-hover);
+  left: -0.75em;
+}
+
+div[data-state='active'] .connectButtons:hover .buttonSpan {
+  background-color: var(--color-interactive-hover);
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+
+div[data-state='active'] .connectButtons:hover .triangle::before {
+  color: var(--color-interactive-hover);
+  left: -0.75em;
 }

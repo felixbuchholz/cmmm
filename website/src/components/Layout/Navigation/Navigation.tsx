@@ -4,7 +4,6 @@ import { WrapperIsActive } from '../../../state/selection/WrapperIsActive'
 import { SelectionStateString } from '../../../types/selectionMachine'
 
 import { CategorySelectionButton } from './CategorySelectionButton'
-import { ModeToggleButton } from './ModeToggleButton'
 import styles from './navigation.module.css'
 import { OptionsSelectionButtons } from './OptionsSelectionButtons'
 import { ScenarioSelectionButton } from './ScenarioSelectionButton'
@@ -19,9 +18,12 @@ export const Navigation: FC = () => {
     <WrapperIsActive states={navigationStates}>
       <nav className={styles.container}>
         <CategorySelectionButton translationKey="navigation" />
-        <ModeToggleButton />
-        <ScenarioSelectionButton />
-        <OptionsSelectionButtons />
+        <WrapperIsActive states={['menu.mode_scenario']}>
+          <ScenarioSelectionButton />
+        </WrapperIsActive>
+        <WrapperIsActive states={['menu.mode_options']}>
+          <OptionsSelectionButtons />
+        </WrapperIsActive>
       </nav>
     </WrapperIsActive>
   )

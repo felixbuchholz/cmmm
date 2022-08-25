@@ -106,11 +106,6 @@ export const selectionMachine =
                   },
                 },
               },
-              on: {
-                TOGGLE_SELECTION_MODE: {
-                  target: 'mode_options',
-                },
-              },
             },
             mode_options: {
               initial: 'menu_overview',
@@ -198,11 +193,6 @@ export const selectionMachine =
                       },
                     ],
                   },
-                },
-              },
-              on: {
-                TOGGLE_SELECTION_MODE: {
-                  target: 'mode_scenario',
                 },
               },
             },

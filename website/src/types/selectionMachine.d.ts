@@ -25,7 +25,6 @@ export type ScenarioParameters = {
 export type SelectionMachineEvents =
   | { type: 'SELECT_CATEGORY'; category: Category }
   | { type: 'OPEN_MENU_CATEGORY' }
-  | { type: 'TOGGLE_SELECTION_MODE' }
   | { type: 'CONFIRM_SELECTION' }
   | { type: 'OPEN_MENU_SCENARIO' }
   | {

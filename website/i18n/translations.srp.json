@@ -20,11 +20,11 @@
 		"navigation": "Za iznajmljivanje"
 	},
 	"person": {
-		"plural": "Ljudi",
-		"singular": "Osoba"
+		"plural": "osobe",
+		"singular": "osoba"
 	},
 	"units": {
-		"euroPerMonth": "Evro/mesec"
+		"euroPerMonth": "evra mesečno"
 	},
 	"menuOverview": {
 		"confirm": "Prikaži rezultate",
@@ -33,15 +33,15 @@
 		"categorySelect1": "Zainteresovan/a sam za",
 		"categorySelect2": "stana u Beogradu",
 		"categorySelectExplainer": "Odaberite jednu opciju",
-		"scenarioSelect": "Ukupan prihod",
+		"scenarioSelect": "Živim u",
 		"scenarioSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
 		"scenarioSelectEmpty": "izbor scenarija",
 		"scenarioSelectSize": " domaćinstva u kom živim je {{size}}",
-		"scenarioSelectIncome": "sa prihodom od {{income}} Evro/mesec",
+		"scenarioSelectIncome": "sa prihodom od {{income}} evra mesečno",
 		"optionsSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
-		"sizeSelect": "Ukupan prihod domaćinstva u kom živim je",
+		"sizeSelect": "Živim u domaćinstvu od",
 		"sizeSelectButtonEmpty": "izaberite veličinu domaćinstva",
-		"incomeSelect": "sa mesečnim primanjima",
+		"incomeSelect": "sa mesečnim primanjima od",
 		"incomeSelectButtonEmpty": "izbor mesečnog prihoda",
 		"disclaimerEmphasis": "Podaci koje unosite",
 		"disclaimerBody": "služe kako bi se prikazala slika o tome koliko prostorno odgovarajućih i priuštivih ponuda postoji za vašu situaciju/situaciju koju želite da prikažete, uzimajući u obzir minimalne zakonske standarde za površinu stana po veličini domaćinstva, kao i standard preopterećnosti stambenim troškovima iz kog se izvodi da iznos zakupa ili rate kredita smeju iznositi trećinu ukupnih mesečnih prihoda domaćinstva ili manje od toga."
@@ -55,7 +55,7 @@
 	},
 	"map": {
 		"tooltipDescription": "Rezultate",
-		"alertDownPayment": "Prikazani rezultati podrazumevaju da domaćinstvo ima dovoljno veliku ušteđevinu za učešće u kupovini stana na kredit, “minimum 15.000 EUR, a prosečno 38.000 EUR."
+		"alertDownPayment": "Prikazani rezultati podrazumevaju da domaćinstvo ima dovoljno veliku ušteđevinu za učešće u kupovini stana na kredit, minimum 15.000 EUR, a prosečno 38.000 EUR."
 	},
 	"suitable": {
 		"countLegendNull": "postojećih ponuda u Beogradu",

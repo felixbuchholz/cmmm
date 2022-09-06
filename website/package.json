@@ -52,5 +52,9 @@
     "commitizen": {
       "path": "./website/node_modules/cz-conventional-changelog"
     }
+  },
+  "resolutions": {
+    "**/**/node-fetch": "^3.2.10",
+    "**/**/minimist": "^1.2.6"
   }
 }

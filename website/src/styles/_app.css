@@ -282,11 +282,6 @@ button.padded[disabled] {
   margin-bottom: 1em;
 }
 
-.images p {
-  display: flex;
-  justify-content: space-between;
-}
-
 .images p a {
   display: block;
   width: 30%;
@@ -294,7 +289,9 @@ button.padded[disabled] {
 
 
 .images img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 2.75em;
 }
 
 .connectButtons {

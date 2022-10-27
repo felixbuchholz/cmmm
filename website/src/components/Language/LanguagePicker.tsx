@@ -9,7 +9,7 @@ export const LanguagePicker: FC = () => {
     <nav className={styles.container}>
       {t('ui.languageSwitcher')}{' '}
       <LanguageSwitcher lang="srp" className="link">
-        Српски
+        Srpski
       </LanguageSwitcher>{' '}
       | <LanguageSwitcher lang="en">English</LanguageSwitcher>
     </nav>

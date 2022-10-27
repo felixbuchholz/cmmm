@@ -7,7 +7,7 @@ const i18n = {
     en,
     srp,
   },
-  defaultLang: 'en',
+  defaultLang: 'srp',
   useBrowserDefault: true,
 }
 

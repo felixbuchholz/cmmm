@@ -9,7 +9,7 @@
 		"categorySelect": "kupovina stana",
 		"categoryConfirm": "Kupovina stana",
 		"highlight": "Odnosi se ",
-		"description": "na trenutnu ponudu stanova za kupovinu. Prikazuje rezultate na osnovu prosečne kamatne stope od 2.55% u Beogradu, sa pretpostavkom da je domaćinstvo kreditno sposobno za period otplate od 30 godina i mogućnosšću da u jednom trenutku isplati i učešće od 20% cene stana.",
+		"description": "na trenutnu ponudu stanova za kupovinu. Prikazuje rezultate na osnovu prosečne kamatne stope od 2.55% u Beogradu, sa pretpostavkom da je domaćinstvo kreditno sposobno za period otplate od 30 godina i mogućnošću da u jednom trenutku isplati i učešće od 20% cene stana.",
 		"navigation": "Za kupovinu"
 	},
 	"rent": {
@@ -20,7 +20,7 @@
 		"navigation": "Za iznajmljivanje"
 	},
 	"person": {
-		"plural": "osobe",
+		"plural": "osoba",
 		"singular": "osoba"
 	},
 	"units": {
@@ -41,7 +41,7 @@
 		"optionsSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
 		"sizeSelect": "Živim u domaćinstvu od",
 		"sizeSelectButtonEmpty": "izaberite veličinu domaćinstva",
-		"incomeSelect": "sa mesečnim primanjima od",
+		"incomeSelect": "sa ukupnim mesečnim primanjima od",
 		"incomeSelectButtonEmpty": "izbor mesečnog prihoda",
 		"disclaimerEmphasis": "Podaci koje unosite",
 		"disclaimerBody": "služe kako bi se prikazala slika o tome koliko prostorno odgovarajućih i priuštivih ponuda postoji za vašu situaciju/situaciju koju želite da prikažete, uzimajući u obzir minimalne zakonske standarde za površinu stana po veličini domaćinstva, kao i standard preopterećnosti stambenim troškovima iz kog se izvodi da iznos zakupa ili rate kredita smeju iznositi trećinu ukupnih mesečnih prihoda domaćinstva ili manje od toga."

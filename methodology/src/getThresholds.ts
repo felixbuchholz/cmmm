@@ -15,8 +15,3 @@ export const getThresholds = (
 // Because the comparison is offer <= threshold
 // this will lead to all offers being NOT affordable
 export const nullThresholdPrice = 0
-
-// Because the comparison is offer >= threshold
-// this will lead to all offers being suitable
-// (for the reference visualization only)
-export const nullThresholdSize = 0

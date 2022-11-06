@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-export-i18n'
+import { useRouter } from 'next/router'
 import React, { FC } from 'react'
 
 import { useSelectionSend } from '../../../state/selection/hooks'
@@ -19,9 +20,13 @@ export const Header: FC = () => {
 }
 
 export const HeaderTitleButton: FC = () => {
+  const router = useRouter()
   const { t } = useTranslation()
   const send = useSelectionSend()
   const handleClick = (): void => {
+    if (router.pathname === '/info') {
+      router.push('/')
+    }
     send({ type: 'OPEN_MENU_OVERVIEW' })
   }
 

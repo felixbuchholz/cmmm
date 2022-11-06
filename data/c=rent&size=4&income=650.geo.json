@@ -14,8 +14,8 @@
         "group": "44.8787385,20.4667137",
         "name": "Borča",
         "total": 4,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -48,7 +48,7 @@
         "group": "44.7621061,20.4683341",
         "name": "Banjica",
         "total": 6,
-        "suitable": 3,
+        "suitable": 4,
         "affordable": 0
       }
     },
@@ -167,7 +167,7 @@
         "group": "44.8115854,20.4658261",
         "name": "Skupština",
         "total": 166,
-        "suitable": 163,
+        "suitable": 165,
         "affordable": 0
       }
     },
@@ -218,7 +218,7 @@
         "group": "44.7827202,20.5067648",
         "name": "Konjarnik",
         "total": 6,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -252,7 +252,7 @@
         "group": "44.7921816,20.4375457",
         "name": "Senjak",
         "total": 8,
-        "suitable": 3,
+        "suitable": 5,
         "affordable": 0
       }
     },
@@ -320,7 +320,7 @@
         "group": "44.8713495,20.3229809",
         "name": "Zemun polje",
         "total": 4,
-        "suitable": 0,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -371,7 +371,7 @@
         "group": "44.8280022,20.4125119",
         "name": "Stari Merkator",
         "total": 3,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -422,7 +422,7 @@
         "group": "44.8475573,20.5185941",
         "name": "Krnjača",
         "total": 3,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -439,7 +439,7 @@
         "group": "44.8596448,20.3767304",
         "name": "Gornji grad",
         "total": 7,
-        "suitable": 0,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -490,7 +490,7 @@
         "group": "44.7615346,20.4130631",
         "name": "Žarkovo",
         "total": 3,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -524,7 +524,7 @@
         "group": "44.7522835,20.5559331",
         "name": "Kaluđerica",
         "total": 2,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -541,7 +541,7 @@
         "group": "44.8184554,20.4643411",
         "name": "Centar",
         "total": 14,
-        "suitable": 8,
+        "suitable": 11,
         "affordable": 0
       }
     },
@@ -575,7 +575,7 @@
         "group": "44.8172662,20.509558",
         "name": "Karaburma",
         "total": 6,
-        "suitable": 0,
+        "suitable": 3,
         "affordable": 0
       }
     },
@@ -660,7 +660,7 @@
         "group": "44.7854051,20.5461547",
         "name": "Mirijevo",
         "total": 175,
-        "suitable": 1,
+        "suitable": 7,
         "affordable": 0
       }
     },
@@ -677,7 +677,7 @@
         "group": "44.7676092,20.4096266",
         "name": "Julino brdo",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -711,7 +711,7 @@
         "group": "44.7767729,20.4155629",
         "name": "Banovo brdo",
         "total": 8,
-        "suitable": 2,
+        "suitable": 6,
         "affordable": 0
       }
     },
@@ -745,7 +745,7 @@
         "group": "44.7705535,20.4943111",
         "name": "Braće Jerković",
         "total": 10,
-        "suitable": 2,
+        "suitable": 7,
         "affordable": 0
       }
     },
@@ -762,7 +762,7 @@
         "group": "44.844921,20.3936839",
         "name": "Save Kovačevića",
         "total": 5,
-        "suitable": 1,
+        "suitable": 4,
         "affordable": 0
       }
     },
@@ -779,7 +779,7 @@
         "group": "44.7722771,20.5079556",
         "name": "Medaković 3",
         "total": 2,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -830,7 +830,7 @@
         "group": "44.795856,20.4882292",
         "name": "Crveni krst",
         "total": 17,
-        "suitable": 6,
+        "suitable": 9,
         "affordable": 0
       }
     },
@@ -847,7 +847,7 @@
         "group": "44.8046413,20.4832729",
         "name": "Vukov Spomenik",
         "total": 164,
-        "suitable": 0,
+        "suitable": 162,
         "affordable": 0
       }
     },
@@ -864,7 +864,7 @@
         "group": "44.8252158,20.460523",
         "name": "Dorćol",
         "total": 333,
-        "suitable": 5,
+        "suitable": 9,
         "affordable": 0
       }
     },
@@ -898,7 +898,7 @@
         "group": "44.7981748,20.4569476",
         "name": "Klinički centar",
         "total": 2,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -915,7 +915,7 @@
         "group": "44.7615321,20.5028696",
         "name": "Vojvode Vlahovića",
         "total": 2,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -932,7 +932,7 @@
         "group": "44.800409,20.402188",
         "name": "Blok 70a",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -949,7 +949,7 @@
         "group": "44.6759957,20.3919853",
         "name": "Sremčica",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -983,7 +983,7 @@
         "group": "44.8531925,20.336079",
         "name": "Plavi horizonti",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1000,7 +1000,7 @@
         "group": "44.7984982,20.3742101",
         "name": "Blok 45 (TC Enjub)",
         "total": 169,
-        "suitable": 4,
+        "suitable": 169,
         "affordable": 0
       }
     },
@@ -1017,7 +1017,7 @@
         "group": "44.7726817,20.4752233",
         "name": "FON - Bilećka",
         "total": 3,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1068,7 +1068,7 @@
         "group": "44.7891937,20.4947692",
         "name": "Lekino brdo",
         "total": 6,
-        "suitable": 2,
+        "suitable": 4,
         "affordable": 0
       }
     },
@@ -1102,7 +1102,7 @@
         "group": "44.8177356,20.4569894",
         "name": "Knez Mihailova",
         "total": 4,
-        "suitable": 2,
+        "suitable": 3,
         "affordable": 0
       }
     },
@@ -1119,7 +1119,7 @@
         "group": "44.8211636,20.410414",
         "name": "Fontana",
         "total": 3,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1170,7 +1170,7 @@
         "group": "44.7753641,20.4753125",
         "name": "Vojvode Stepe",
         "total": 164,
-        "suitable": 161,
+        "suitable": 162,
         "affordable": 0
       }
     },
@@ -1187,7 +1187,7 @@
         "group": "44.8029445,20.4541963",
         "name": "Sarajevska",
         "total": 2,
-        "suitable": 0,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1204,7 +1204,7 @@
         "group": "44.8013332,20.4872266",
         "name": "Đeram pijaca",
         "total": 5,
-        "suitable": 0,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1221,7 +1221,7 @@
         "group": "44.793588,20.4809591",
         "name": "Južni bulevar",
         "total": 166,
-        "suitable": 0,
+        "suitable": 165,
         "affordable": 0
       }
     },
@@ -1238,7 +1238,7 @@
         "group": "44.7822375,20.4717445",
         "name": "Bioskop Voždovac",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1272,7 +1272,7 @@
         "group": "44.7394333,20.5098129",
         "name": "Kumodraž",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1340,7 +1340,7 @@
         "group": "44.8083711,20.4570323",
         "name": "Savski trg - Pristanište",
         "total": 3,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1374,7 +1374,7 @@
         "group": "44.7471263,20.494329",
         "name": "Farmaceutski fakultet",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1391,7 +1391,7 @@
         "group": "44.8295445,20.4201481",
         "name": "Hotel Jugoslavija",
         "total": 2,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1408,7 +1408,7 @@
         "group": "44.7968154,20.4960362",
         "name": "Lion",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1425,7 +1425,7 @@
         "group": "44.8072486,20.3718846",
         "name": "Stara Bežanija",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1442,7 +1442,7 @@
         "group": "44.7902717,20.46634",
         "name": "Autokomanda",
         "total": 4,
-        "suitable": 2,
+        "suitable": 3,
         "affordable": 0
       }
     },
@@ -1459,7 +1459,7 @@
         "group": "44.7999794,20.4994395",
         "name": "Gradska bolnica",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1476,7 +1476,7 @@
         "group": "44.8174406,20.3948763",
         "name": "Tošin bunar",
         "total": 3,
-        "suitable": 2,
+        "suitable": 3,
         "affordable": 0
       }
     },
@@ -1527,7 +1527,7 @@
         "group": "44.811609,20.4264583",
         "name": "Blok 22",
         "total": 4,
-        "suitable": 0,
+        "suitable": 4,
         "affordable": 0
       }
     },
@@ -1544,7 +1544,7 @@
         "group": "44.8157598,20.4171526",
         "name": "Blok 29",
         "total": 4,
-        "suitable": 1,
+        "suitable": 4,
         "affordable": 0
       }
     },
@@ -1595,7 +1595,7 @@
         "group": "44.8417656,20.3867304",
         "name": "Prvomajska",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1612,7 +1612,7 @@
         "group": "44.82226,20.534591",
         "name": "Višnjička Banja",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1629,7 +1629,7 @@
         "group": "44.8084235,20.4240856",
         "name": "Blok 23",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1663,7 +1663,7 @@
         "group": "44.8224293,20.418225",
         "name": "YUBC",
         "total": 3,
-        "suitable": 2,
+        "suitable": 3,
         "affordable": 0
       }
     },
@@ -1697,7 +1697,7 @@
         "group": "44.8120378,20.4582228",
         "name": "Zeleni venac",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1714,7 +1714,7 @@
         "group": "44.8001747,20.475769",
         "name": "Kalenić pijaca",
         "total": 170,
-        "suitable": 3,
+        "suitable": 170,
         "affordable": 0
       }
     },
@@ -1731,7 +1731,7 @@
         "group": "44.8072274,20.4635488",
         "name": "Beograđanka",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1765,7 +1765,7 @@
         "group": "44.8027838,20.465944",
         "name": "Slavija",
         "total": 6,
-        "suitable": 3,
+        "suitable": 6,
         "affordable": 0
       }
     },
@@ -1782,7 +1782,7 @@
         "group": "44.8377664,20.4049409",
         "name": "Zelena avenija",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1799,7 +1799,7 @@
         "group": "44.8060321,20.4092411",
         "name": "Blok 67 (Belvil)",
         "total": 10,
-        "suitable": 4,
+        "suitable": 5,
         "affordable": 0
       }
     },
@@ -1816,7 +1816,7 @@
         "group": "44.8061288,20.4015421",
         "name": "Blok 67a (A blok)",
         "total": 9,
-        "suitable": 3,
+        "suitable": 8,
         "affordable": 0
       }
     },
@@ -1833,7 +1833,7 @@
         "group": "44.8126665,20.3980309",
         "name": "Blok 65",
         "total": 12,
-        "suitable": 5,
+        "suitable": 11,
         "affordable": 0
       }
     },
@@ -1867,7 +1867,7 @@
         "group": "44.808996,20.3917616",
         "name": "Blok 64",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -1901,7 +1901,7 @@
         "group": "44.8048828,20.448043",
         "name": "Beograd na vodi",
         "total": 31,
-        "suitable": 20,
+        "suitable": 30,
         "affordable": 0
       }
     },
@@ -1935,7 +1935,7 @@
         "group": "44.7981492,20.4691058",
         "name": "Hram svetog Save",
         "total": 10,
-        "suitable": 9,
+        "suitable": 10,
         "affordable": 0
       }
     },
@@ -1952,7 +1952,7 @@
         "group": "44.8145051,20.4303868",
         "name": "Blok 21",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1969,7 +1969,7 @@
         "group": "44.8062034,20.4295152",
         "name": "Blok 19a",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -1986,7 +1986,7 @@
         "group": "44.8019719,20.3870691",
         "name": "Blok 44 (TC Piramida)",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -2003,7 +2003,7 @@
         "group": "44.8149788,20.3855902",
         "name": "Blok 60",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -2020,7 +2020,7 @@
         "group": "44.8173075,20.4795778",
         "name": "Bulevar despota Stefana",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -2122,7 +2122,7 @@
         "group": "44.7740688,20.4560195",
         "name": "Dedinje",
         "total": 349,
-        "suitable": 185,
+        "suitable": 349,
         "affordable": 0
       }
     },
@@ -2156,7 +2156,7 @@
         "group": "44.8118107,20.4562265",
         "name": "Centar",
         "total": 164,
-        "suitable": 162,
+        "suitable": 164,
         "affordable": 0
       }
     },
@@ -2173,7 +2173,7 @@
         "group": "44.855914,20.3540302",
         "name": "Altina",
         "total": 1,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -2207,7 +2207,7 @@
         "group": "44.8189483,20.4573839",
         "name": "Studentski trg",
         "total": 2,
-        "suitable": 1,
+        "suitable": 2,
         "affordable": 0
       }
     },
@@ -2258,7 +2258,7 @@
         "group": "44.8007004,20.4103691",
         "name": "Blok 58",
         "total": 2,
-        "suitable": 0,
+        "suitable": 1,
         "affordable": 0
       }
     },
@@ -2469,7 +2469,7 @@
   ],
   "metadata": {
     "total": 3368,
-    "suitable": 1138,
-    "affordable": 0
+    "suitable": 2085,
+    "affordable": 1
   }
 }

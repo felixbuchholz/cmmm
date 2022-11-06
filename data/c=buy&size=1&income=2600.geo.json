@@ -31,8 +31,8 @@
         "group": "44.7981492,20.4691058",
         "name": "Dubljanska",
         "total": 174,
-        "suitable": 164,
-        "affordable": 95
+        "suitable": 174,
+        "affordable": 105
       }
     },
     {
@@ -116,8 +116,8 @@
         "group": "44.8001747,20.475769",
         "name": "Nikolaja Hartviga",
         "total": 354,
-        "suitable": 343,
-        "affordable": 141
+        "suitable": 353,
+        "affordable": 151
       }
     },
     {
@@ -167,8 +167,8 @@
         "group": "44.7947239,20.5400886",
         "name": "Kapetana Miloša Žunjića",
         "total": 148,
-        "suitable": 140,
-        "affordable": 140
+        "suitable": 148,
+        "affordable": 148
       }
     },
     {
@@ -184,8 +184,8 @@
         "group": "44.8252158,20.460523",
         "name": "",
         "total": 14,
-        "suitable": 13,
-        "affordable": 4
+        "suitable": 14,
+        "affordable": 5
       }
     },
     {
@@ -252,8 +252,8 @@
         "group": "0,0",
         "name": "Knez Danilova",
         "total": 554,
-        "suitable": 519,
-        "affordable": 436
+        "suitable": 532,
+        "affordable": 449
       }
     },
     {
@@ -320,8 +320,8 @@
         "group": "44.8052638,20.4702672",
         "name": "Krunska",
         "total": 44,
-        "suitable": 42,
-        "affordable": 24
+        "suitable": 44,
+        "affordable": 26
       }
     },
     {
@@ -354,8 +354,8 @@
         "group": "44.7854051,20.5461547",
         "name": "",
         "total": 156,
-        "suitable": 153,
-        "affordable": 153
+        "suitable": 156,
+        "affordable": 156
       }
     },
     {
@@ -371,8 +371,8 @@
         "group": "44.80133319999999,20.4872266",
         "name": "VOJVODE BRANE",
         "total": 211,
-        "suitable": 204,
-        "affordable": 184
+        "suitable": 211,
+        "affordable": 191
       }
     },
     {
@@ -388,8 +388,8 @@
         "group": "44.8163707,20.4548842",
         "name": "Cara Lazara",
         "total": 23,
-        "suitable": 22,
-        "affordable": 12
+        "suitable": 23,
+        "affordable": 13
       }
     },
     {
@@ -456,8 +456,8 @@
         "group": "44.7882497,20.5167404",
         "name": "",
         "total": 66,
-        "suitable": 64,
-        "affordable": 47
+        "suitable": 66,
+        "affordable": 49
       }
     },
     {
@@ -524,8 +524,8 @@
         "group": "44.8000403,20.3694329",
         "name": "Dr Ivana Ribara",
         "total": 65,
-        "suitable": 64,
-        "affordable": 63
+        "suitable": 65,
+        "affordable": 64
       }
     },
     {
@@ -609,8 +609,8 @@
         "group": "44.8135097,20.466435",
         "name": "Majke Jevrosime",
         "total": 22,
-        "suitable": 21,
-        "affordable": 15
+        "suitable": 22,
+        "affordable": 16
       }
     },
     {
@@ -626,8 +626,8 @@
         "group": "44.7873768,20.4659798",
         "name": "Bulevar oslobođenja",
         "total": 27,
-        "suitable": 26,
-        "affordable": 7
+        "suitable": 27,
+        "affordable": 8
       }
     },
     {
@@ -677,8 +677,8 @@
         "group": "44.7683011,20.4192656",
         "name": "Blagoja Parovica",
         "total": 11,
-        "suitable": 9,
-        "affordable": 9
+        "suitable": 11,
+        "affordable": 11
       }
     },
     {
@@ -864,8 +864,8 @@
         "group": "44.7992794,20.4836421",
         "name": "Požarevačka",
         "total": 21,
-        "suitable": 20,
-        "affordable": 10
+        "suitable": 21,
+        "affordable": 11
       }
     },
     {
@@ -949,8 +949,8 @@
         "group": "44.7550765,20.5296076",
         "name": "Vladimira Dvornikovića 9B",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -983,8 +983,8 @@
         "group": "44.8056269,20.4653886",
         "name": "Kralja Milana",
         "total": 45,
-        "suitable": 44,
-        "affordable": 15
+        "suitable": 45,
+        "affordable": 16
       }
     },
     {
@@ -1034,8 +1034,8 @@
         "group": "44.8151958,20.4678793",
         "name": "Hilandarska",
         "total": 41,
-        "suitable": 40,
-        "affordable": 31
+        "suitable": 41,
+        "affordable": 32
       }
     },
     {
@@ -1102,8 +1102,8 @@
         "group": "44.779525,20.4711979",
         "name": "Kostolačka",
         "total": 66,
-        "suitable": 61,
-        "affordable": 46
+        "suitable": 66,
+        "affordable": 51
       }
     },
     {
@@ -1119,8 +1119,8 @@
         "group": "44.8090071,20.4705836",
         "name": "Svetozara Ćorovića",
         "total": 24,
-        "suitable": 21,
-        "affordable": 17
+        "suitable": 24,
+        "affordable": 20
       }
     },
     {
@@ -1153,8 +1153,8 @@
         "group": "44.815548,20.4847738",
         "name": "Bulevar despota Stefana",
         "total": 12,
-        "suitable": 11,
-        "affordable": 11
+        "suitable": 12,
+        "affordable": 12
       }
     },
     {
@@ -1170,8 +1170,8 @@
         "group": "44.7609441,20.4078887",
         "name": "Vodovodska",
         "total": 8,
-        "suitable": 7,
-        "affordable": 7
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -1255,8 +1255,8 @@
         "group": "44.8035245,20.3432558",
         "name": "Bukovacka",
         "total": 76,
-        "suitable": 66,
-        "affordable": 66
+        "suitable": 75,
+        "affordable": 75
       }
     },
     {
@@ -1357,8 +1357,8 @@
         "group": "44.7854228,20.4683656",
         "name": "Vojvode Stepe",
         "total": 19,
-        "suitable": 18,
-        "affordable": 13
+        "suitable": 19,
+        "affordable": 14
       }
     },
     {
@@ -1391,8 +1391,8 @@
         "group": "44.8192386,20.4701954",
         "name": "Šantićeva",
         "total": 6,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -1493,8 +1493,8 @@
         "group": "44.7985734,20.4880198",
         "name": "Branka Krsmanovića",
         "total": 122,
-        "suitable": 121,
-        "affordable": 108
+        "suitable": 122,
+        "affordable": 109
       }
     },
     {
@@ -1748,8 +1748,8 @@
         "group": "44.7891937,20.4947692",
         "name": "Rada Končara",
         "total": 48,
-        "suitable": 47,
-        "affordable": 40
+        "suitable": 48,
+        "affordable": 41
       }
     },
     {
@@ -1952,8 +1952,8 @@
         "group": "44.8038275,20.4822707",
         "name": "Zahumska",
         "total": 33,
-        "suitable": 31,
-        "affordable": 19
+        "suitable": 33,
+        "affordable": 21
       }
     },
     {
@@ -2003,8 +2003,8 @@
         "group": "44.8544096,20.3886462",
         "name": "Cara Dušana",
         "total": 6,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -2020,8 +2020,8 @@
         "group": "41.92748,21.4931713",
         "name": "Kisela voda",
         "total": 7,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -2037,8 +2037,8 @@
         "group": "44.7875163,20.4833174",
         "name": "Todora Dukina",
         "total": 14,
-        "suitable": 12,
-        "affordable": 12
+        "suitable": 14,
+        "affordable": 14
       }
     },
     {
@@ -2105,8 +2105,8 @@
         "group": "44.8201709,20.4554862",
         "name": "Kralja Petra",
         "total": 10,
-        "suitable": 5,
-        "affordable": 1
+        "suitable": 9,
+        "affordable": 5
       }
     },
     {
@@ -2139,8 +2139,8 @@
         "group": "44.8280022,20.4125119",
         "name": "",
         "total": 36,
-        "suitable": 32,
-        "affordable": 32
+        "suitable": 36,
+        "affordable": 36
       }
     },
     {
@@ -2173,8 +2173,8 @@
         "group": "44.8013597,20.4546331",
         "name": "Višegradska",
         "total": 8,
-        "suitable": 7,
-        "affordable": 2
+        "suitable": 8,
+        "affordable": 3
       }
     },
     {
@@ -2275,8 +2275,8 @@
         "group": "44.8221362,20.4604617",
         "name": "Strahinjića Bana",
         "total": 38,
-        "suitable": 37,
-        "affordable": 19
+        "suitable": 38,
+        "affordable": 20
       }
     },
     {
@@ -2394,8 +2394,8 @@
         "group": "44.8125449,20.46123",
         "name": "",
         "total": 268,
-        "suitable": 265,
-        "affordable": 34
+        "suitable": 268,
+        "affordable": 37
       }
     },
     {
@@ -2445,8 +2445,8 @@
         "group": "44.8278647,20.4595849",
         "name": "Sibinjanin Janka",
         "total": 12,
-        "suitable": 11,
-        "affordable": 4
+        "suitable": 12,
+        "affordable": 5
       }
     },
     {
@@ -2462,8 +2462,8 @@
         "group": "44.8252236,20.4597051",
         "name": "Visokog Stevana",
         "total": 25,
-        "suitable": 16,
-        "affordable": 15
+        "suitable": 24,
+        "affordable": 23
       }
     },
     {
@@ -2496,8 +2496,8 @@
         "group": "44.8047818,20.483623",
         "name": "Vojvode Brane",
         "total": 7,
-        "suitable": 5,
-        "affordable": 3
+        "suitable": 7,
+        "affordable": 5
       }
     },
     {
@@ -2581,8 +2581,8 @@
         "group": "44.7793343,20.471697",
         "name": "",
         "total": 20,
-        "suitable": 18,
-        "affordable": 11
+        "suitable": 20,
+        "affordable": 13
       }
     },
     {
@@ -2700,8 +2700,8 @@
         "group": "44.783058,20.4647974",
         "name": "Ljutice Bogdana",
         "total": 13,
-        "suitable": 10,
-        "affordable": 9
+        "suitable": 13,
+        "affordable": 12
       }
     },
     {
@@ -2853,8 +2853,8 @@
         "group": "44.8089774,20.4786942",
         "name": "Vladetina",
         "total": 8,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -3057,8 +3057,8 @@
         "group": "44.778298,20.4801841",
         "name": "",
         "total": 11,
-        "suitable": 10,
-        "affordable": 9
+        "suitable": 11,
+        "affordable": 10
       }
     },
     {
@@ -3074,8 +3074,8 @@
         "group": "44.8162419,20.4571706",
         "name": "Obilicev Venac",
         "total": 16,
-        "suitable": 11,
-        "affordable": 4
+        "suitable": 15,
+        "affordable": 8
       }
     },
     {
@@ -3091,8 +3091,8 @@
         "group": "45.2517156,19.8372067",
         "name": "",
         "total": 21,
-        "suitable": 19,
-        "affordable": 11
+        "suitable": 21,
+        "affordable": 13
       }
     },
     {
@@ -3227,8 +3227,8 @@
         "group": "44.793588,20.4809591",
         "name": "-",
         "total": 43,
-        "suitable": 41,
-        "affordable": 28
+        "suitable": 43,
+        "affordable": 30
       }
     },
     {
@@ -3261,8 +3261,8 @@
         "group": "44.8050588,20.4539077",
         "name": "Sarajevska",
         "total": 42,
-        "suitable": 41,
-        "affordable": 28
+        "suitable": 42,
+        "affordable": 29
       }
     },
     {
@@ -3363,8 +3363,8 @@
         "group": "44.8027838,20.465944",
         "name": "Beogradska",
         "total": 69,
-        "suitable": 67,
-        "affordable": 50
+        "suitable": 69,
+        "affordable": 52
       }
     },
     {
@@ -3431,8 +3431,8 @@
         "group": "44.7658643,20.4832307",
         "name": "Milice Milojković",
         "total": 19,
-        "suitable": 17,
-        "affordable": 14
+        "suitable": 19,
+        "affordable": 16
       }
     },
     {
@@ -3465,8 +3465,8 @@
         "group": "44.8077412,20.5178673",
         "name": "Aleksandra Fleminga 29",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -3499,8 +3499,8 @@
         "group": "44.7568979,20.5752892",
         "name": "Bulevar Revolucije",
         "total": 14,
-        "suitable": 13,
-        "affordable": 13
+        "suitable": 14,
+        "affordable": 14
       }
     },
     {
@@ -3567,8 +3567,8 @@
         "group": "44.7881602,20.4837225",
         "name": "Strumička",
         "total": 7,
-        "suitable": 6,
-        "affordable": 4
+        "suitable": 7,
+        "affordable": 5
       }
     },
     {
@@ -3618,8 +3618,8 @@
         "group": "44.8203336,20.4690457",
         "name": "",
         "total": 17,
-        "suitable": 14,
-        "affordable": 10
+        "suitable": 17,
+        "affordable": 13
       }
     },
     {
@@ -3720,8 +3720,8 @@
         "group": "44.81592999999999,20.45778",
         "name": "Marsala Birjuzova",
         "total": 14,
-        "suitable": 10,
-        "affordable": 8
+        "suitable": 14,
+        "affordable": 12
       }
     },
     {
@@ -3788,8 +3788,8 @@
         "group": "44.8103739,20.4933597",
         "name": "",
         "total": 16,
-        "suitable": 15,
-        "affordable": 11
+        "suitable": 16,
+        "affordable": 12
       }
     },
     {
@@ -3805,8 +3805,8 @@
         "group": "44.7726817,20.4752233",
         "name": "Jove Ilića",
         "total": 28,
-        "suitable": 21,
-        "affordable": 11
+        "suitable": 28,
+        "affordable": 18
       }
     },
     {
@@ -3924,8 +3924,8 @@
         "group": "44.82226,20.534591",
         "name": "Mirka Milojkovića 23",
         "total": 19,
-        "suitable": 15,
-        "affordable": 15
+        "suitable": 19,
+        "affordable": 19
       }
     },
     {
@@ -3958,8 +3958,8 @@
         "group": "44.7954768,20.4773131",
         "name": "",
         "total": 114,
-        "suitable": 113,
-        "affordable": 8
+        "suitable": 114,
+        "affordable": 9
       }
     },
     {
@@ -4145,8 +4145,8 @@
         "group": "44.7615321,20.5028696",
         "name": "",
         "total": 31,
-        "suitable": 27,
-        "affordable": 23
+        "suitable": 31,
+        "affordable": 27
       }
     },
     {
@@ -4162,8 +4162,8 @@
         "group": "44.7747902,20.4754259",
         "name": "Vojvode Stepe 172",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -4196,8 +4196,8 @@
         "group": "44.7875437,20.5068282",
         "name": "",
         "total": 17,
-        "suitable": 12,
-        "affordable": 12
+        "suitable": 17,
+        "affordable": 17
       }
     },
     {
@@ -4264,8 +4264,8 @@
         "group": "44.7522835,20.5559331",
         "name": "",
         "total": 28,
-        "suitable": 24,
-        "affordable": 24
+        "suitable": 27,
+        "affordable": 27
       }
     },
     {
@@ -4298,8 +4298,8 @@
         "group": "44.7752863,20.4166229",
         "name": "Udbinska",
         "total": 4,
-        "suitable": 2,
-        "affordable": 0
+        "suitable": 4,
+        "affordable": 2
       }
     },
     {
@@ -4468,8 +4468,8 @@
         "group": "44.8028978,20.492606",
         "name": "Tihomira Višnjevca",
         "total": 4,
-        "suitable": 3,
-        "affordable": 1
+        "suitable": 4,
+        "affordable": 2
       }
     },
     {
@@ -4485,8 +4485,8 @@
         "group": "44.813972,20.4808143",
         "name": "Braće Grim",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -4570,8 +4570,8 @@
         "group": "44.7737033,20.4788201",
         "name": "Ljube Šercera 3",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -4757,8 +4757,8 @@
         "group": "44.8148751,20.4802817",
         "name": "Primorska",
         "total": 5,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -4927,8 +4927,8 @@
         "group": "44.8158414,20.5305745",
         "name": "Slanački put",
         "total": 16,
-        "suitable": 15,
-        "affordable": 15
+        "suitable": 16,
+        "affordable": 16
       }
     },
     {
@@ -5250,8 +5250,8 @@
         "group": "44.7365405,20.4292629",
         "name": "Kneževačka",
         "total": 9,
-        "suitable": 8,
-        "affordable": 8
+        "suitable": 9,
+        "affordable": 9
       }
     },
     {
@@ -5284,8 +5284,8 @@
         "group": "44.7238733,20.4318468",
         "name": "Petra Jovanovića",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -5573,8 +5573,8 @@
         "group": "44.7503282,20.4751084",
         "name": "Kolonija",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -5658,8 +5658,8 @@
         "group": "44.8034926,20.491928",
         "name": "Krfska",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -5777,8 +5777,8 @@
         "group": "44.7682594,20.5075023",
         "name": "Dukatska",
         "total": 15,
-        "suitable": 14,
-        "affordable": 10
+        "suitable": 15,
+        "affordable": 11
       }
     },
     {
@@ -5811,8 +5811,8 @@
         "group": "44.7957156,20.4816574",
         "name": "Cerska",
         "total": 15,
-        "suitable": 14,
-        "affordable": 11
+        "suitable": 15,
+        "affordable": 12
       }
     },
     {
@@ -5862,8 +5862,8 @@
         "group": "44.8105579,20.4534753",
         "name": "Bulevar Vudroa Vilsona",
         "total": 50,
-        "suitable": 49,
-        "affordable": 9
+        "suitable": 50,
+        "affordable": 10
       }
     },
     {
@@ -5947,8 +5947,8 @@
         "group": "44.8117361,20.4561673",
         "name": "Gavrila Principa",
         "total": 24,
-        "suitable": 23,
-        "affordable": 21
+        "suitable": 24,
+        "affordable": 22
       }
     },
     {
@@ -6049,8 +6049,8 @@
         "group": "44.796618,20.5317956",
         "name": "Zagrađe",
         "total": 8,
-        "suitable": 6,
-        "affordable": 6
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -6066,8 +6066,8 @@
         "group": "44.8278186,20.4561996",
         "name": "Tadeuša Košćuška",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -6151,8 +6151,8 @@
         "group": "44.81927020000001,20.4700672",
         "name": "Šantićeva",
         "total": 3,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -6185,8 +6185,8 @@
         "group": "44.8813846,20.4591859",
         "name": "Mihaila Šolohova",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -6202,8 +6202,8 @@
         "group": "44.809217,20.3625645",
         "name": "Srđana Aleksića",
         "total": 8,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -6270,8 +6270,8 @@
         "group": "44.7674746,20.5139649",
         "name": "Cvetanova Ćuprija",
         "total": 16,
-        "suitable": 13,
-        "affordable": 13
+        "suitable": 16,
+        "affordable": 16
       }
     },
     {
@@ -6287,8 +6287,8 @@
         "group": "44.7800066,20.4780519",
         "name": "Stevana Jakovljevića",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -6304,8 +6304,8 @@
         "group": "44.83776640000001,20.4049409",
         "name": "Petra Kočića",
         "total": 7,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -6338,8 +6338,8 @@
         "group": "46.2961712,14.8062347",
         "name": "Alaska",
         "total": 15,
-        "suitable": 12,
-        "affordable": 12
+        "suitable": 15,
+        "affordable": 15
       }
     },
     {
@@ -6440,8 +6440,8 @@
         "group": "44.8220233,20.4620571",
         "name": "Kapetan Misina",
         "total": 8,
-        "suitable": 6,
-        "affordable": 5
+        "suitable": 8,
+        "affordable": 7
       }
     },
     {
@@ -6474,8 +6474,8 @@
         "group": "44.8099885,20.4501919",
         "name": "Hercegovačka",
         "total": 73,
-        "suitable": 72,
-        "affordable": 6
+        "suitable": 73,
+        "affordable": 7
       }
     },
     {
@@ -6491,8 +6491,8 @@
         "group": "44.8209547,20.4645655",
         "name": "Dobračina",
         "total": 10,
-        "suitable": 7,
-        "affordable": 5
+        "suitable": 10,
+        "affordable": 8
       }
     },
     {
@@ -6763,8 +6763,8 @@
         "group": "44.7952288,20.5257498",
         "name": "Danilova",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -6814,8 +6814,8 @@
         "group": "44.7315931,20.3746318",
         "name": "Radnih akcija",
         "total": 8,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -6848,8 +6848,8 @@
         "group": "44.8417656,20.3867304",
         "name": "Železnička",
         "total": 18,
-        "suitable": 15,
-        "affordable": 15
+        "suitable": 18,
+        "affordable": 18
       }
     },
     {
@@ -6950,8 +6950,8 @@
         "group": "44.7507107,20.4781041",
         "name": "Radomira Markovića",
         "total": 14,
-        "suitable": 12,
-        "affordable": 12
+        "suitable": 14,
+        "affordable": 14
       }
     },
     {
@@ -6967,8 +6967,8 @@
         "group": "44.813969,20.4523707",
         "name": "Svetozara Radića",
         "total": 8,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -7171,8 +7171,8 @@
         "group": "44.7927141,20.4874678",
         "name": "Šumatovačka",
         "total": 12,
-        "suitable": 11,
-        "affordable": 9
+        "suitable": 12,
+        "affordable": 10
       }
     },
     {
@@ -7239,8 +7239,8 @@
         "group": "44.8166063,20.4650864",
         "name": "Bulevar despota Stefana",
         "total": 11,
-        "suitable": 5,
-        "affordable": 4
+        "suitable": 11,
+        "affordable": 10
       }
     },
     {
@@ -7290,8 +7290,8 @@
         "group": "44.7910192,20.4724568",
         "name": "Anastasa Jovanovića",
         "total": 6,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -7307,8 +7307,8 @@
         "group": "45.2479154,19.8303062",
         "name": "Antona Čehova",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -7324,8 +7324,8 @@
         "group": "44.818451,20.472353",
         "name": "Budimska",
         "total": 11,
-        "suitable": 10,
-        "affordable": 10
+        "suitable": 11,
+        "affordable": 11
       }
     },
     {
@@ -7358,8 +7358,8 @@
         "group": "44.8459271,20.4950937",
         "name": "Grge Andrijanovića deo 7",
         "total": 7,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -7528,8 +7528,8 @@
         "group": "44.8172865,20.4790816",
         "name": "Bulevar despota Stefana",
         "total": 36,
-        "suitable": 30,
-        "affordable": 28
+        "suitable": 36,
+        "affordable": 34
       }
     },
     {
@@ -7545,8 +7545,8 @@
         "group": "45.8094724,15.9818632",
         "name": "Palmotićeva",
         "total": 5,
-        "suitable": 4,
-        "affordable": 0
+        "suitable": 5,
+        "affordable": 1
       }
     },
     {
@@ -7953,8 +7953,8 @@
         "group": "44.8276321,20.405238",
         "name": "Pariske komune",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -7987,8 +7987,8 @@
         "group": "44.7896754,20.459835",
         "name": "Ljutice Bogdan",
         "total": 14,
-        "suitable": 12,
-        "affordable": 7
+        "suitable": 14,
+        "affordable": 9
       }
     },
     {
@@ -8004,8 +8004,8 @@
         "group": "44.8000715,20.5282622",
         "name": "Sejkina",
         "total": 14,
-        "suitable": 13,
-        "affordable": 13
+        "suitable": 14,
+        "affordable": 14
       }
     },
     {
@@ -8055,8 +8055,8 @@
         "group": "44.8500559,20.3851721",
         "name": "Banijska",
         "total": 16,
-        "suitable": 15,
-        "affordable": 15
+        "suitable": 16,
+        "affordable": 16
       }
     },
     {
@@ -8106,8 +8106,8 @@
         "group": "44.7879041,20.4977417",
         "name": "Jasenička",
         "total": 4,
-        "suitable": 3,
-        "affordable": 1
+        "suitable": 4,
+        "affordable": 2
       }
     },
     {
@@ -8140,8 +8140,8 @@
         "group": "44.8268097,20.4585269",
         "name": "Brace Baruh",
         "total": 13,
-        "suitable": 12,
-        "affordable": 10
+        "suitable": 13,
+        "affordable": 11
       }
     },
     {
@@ -8157,8 +8157,8 @@
         "group": "44.762473,20.4085817",
         "name": "Siniše Stankovića",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -8463,8 +8463,8 @@
         "group": "44.8017912,20.5311245",
         "name": "Miodraga Protića",
         "total": 103,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 103,
+        "affordable": 103
       }
     },
     {
@@ -8497,8 +8497,8 @@
         "group": "44.8460842,20.3840504",
         "name": "Banijska",
         "total": 208,
-        "suitable": 107,
-        "affordable": 107
+        "suitable": 208,
+        "affordable": 208
       }
     },
     {
@@ -8548,8 +8548,8 @@
         "group": "44.8734412,20.330236",
         "name": "Elija Fincija",
         "total": 6,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -8667,8 +8667,8 @@
         "group": "44.7999794,20.4994395",
         "name": "Dimitrija Tucovića",
         "total": 14,
-        "suitable": 13,
-        "affordable": 9
+        "suitable": 14,
+        "affordable": 10
       }
     },
     {
@@ -8735,8 +8735,8 @@
         "group": "44.8208928,20.4683165",
         "name": "Gundulićev venac",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -8769,8 +8769,8 @@
         "group": "44.7980457,20.5382082",
         "name": "Vlastimira Đuze Stojiljkovića",
         "total": 19,
-        "suitable": 18,
-        "affordable": 18
+        "suitable": 19,
+        "affordable": 19
       }
     },
     {
@@ -9007,8 +9007,8 @@
         "group": "44.7621061,20.4683341",
         "name": "",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -9058,8 +9058,8 @@
         "group": "44.8475573,20.5185941",
         "name": "Meda Pucića",
         "total": 27,
-        "suitable": 21,
-        "affordable": 20
+        "suitable": 27,
+        "affordable": 26
       }
     },
     {
@@ -9245,8 +9245,8 @@
         "group": "44.7961328,20.477428",
         "name": "Cerska-Vračar",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -9347,8 +9347,8 @@
         "group": "44.7369548,20.4853147",
         "name": "Bulevar JNA",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -9619,8 +9619,8 @@
         "group": "44.7864254,20.470393",
         "name": "Triše Kaclerovića",
         "total": 3,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -9721,8 +9721,8 @@
         "group": "44.8241056,20.4587845",
         "name": "Cara Dušana",
         "total": 7,
-        "suitable": 6,
-        "affordable": 5
+        "suitable": 7,
+        "affordable": 6
       }
     },
     {
@@ -9738,8 +9738,8 @@
         "group": "44.8100657,20.4838175",
         "name": "Nikodima Milaša",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -9840,8 +9840,8 @@
         "group": "44.7780577,20.4065976",
         "name": "Mladena Mitrića",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -9908,8 +9908,8 @@
         "group": "44.7670094,20.3639827",
         "name": "Makiška kolonija",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -9942,8 +9942,8 @@
         "group": "44.7952437,20.4830436",
         "name": "Cerska",
         "total": 20,
-        "suitable": 17,
-        "affordable": 16
+        "suitable": 20,
+        "affordable": 19
       }
     },
     {
@@ -10384,8 +10384,8 @@
         "group": "44.7909101,20.4875777",
         "name": "Trebinjska",
         "total": 4,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -10452,8 +10452,8 @@
         "group": "44.8583542,20.357032",
         "name": "Ugrinovački put 21 deo",
         "total": 5,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -10503,8 +10503,8 @@
         "group": "43.3186073,21.8911924",
         "name": "Niška",
         "total": 5,
-        "suitable": 4,
-        "affordable": 0
+        "suitable": 5,
+        "affordable": 1
       }
     },
     {
@@ -10571,8 +10571,8 @@
         "group": "44.7890425,20.484261",
         "name": "Kruševačka",
         "total": 10,
-        "suitable": 8,
-        "affordable": 8
+        "suitable": 9,
+        "affordable": 9
       }
     },
     {
@@ -10588,8 +10588,8 @@
         "group": "44.810305,20.5105659",
         "name": "Dragoslava Srejovića",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -11064,8 +11064,8 @@
         "group": "44.8676685,20.465506",
         "name": "Psunjska",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -11234,8 +11234,8 @@
         "group": "45.3452377,19.0010204",
         "name": "Vukova",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -11285,8 +11285,8 @@
         "group": "44.7766728,20.4061905",
         "name": "Stevana Djurdjevića Trošarinca",
         "total": 7,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -11302,8 +11302,8 @@
         "group": "44.801971,20.4914278",
         "name": "Dimitrija Tucovića",
         "total": 20,
-        "suitable": 19,
-        "affordable": 11
+        "suitable": 20,
+        "affordable": 12
       }
     },
     {
@@ -11370,8 +11370,8 @@
         "group": "44.7636859,20.565037",
         "name": "Smederevski put",
         "total": 9,
-        "suitable": 8,
-        "affordable": 8
+        "suitable": 9,
+        "affordable": 9
       }
     },
     {
@@ -11693,8 +11693,8 @@
         "group": "44.7956332,20.5309451",
         "name": "DRAGOSLAVA DJORDJEVICA-GOSE",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -11931,8 +11931,8 @@
         "group": "44.7505847,20.4303658",
         "name": "Ilije Stojadinovića",
         "total": 5,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -11948,8 +11948,8 @@
         "group": "44.7971126,20.5337044",
         "name": "Ljube Tadića",
         "total": 6,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -12220,8 +12220,8 @@
         "group": "44.807875,20.5176979",
         "name": "Aleksandra Fleminga",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -12305,8 +12305,8 @@
         "group": "44.7956029,20.4661123",
         "name": "Graničarska",
         "total": 6,
-        "suitable": 5,
-        "affordable": 4
+        "suitable": 6,
+        "affordable": 5
       }
     },
     {
@@ -12475,8 +12475,8 @@
         "group": "44.7767729,20.4155629",
         "name": "",
         "total": 22,
-        "suitable": 21,
-        "affordable": 15
+        "suitable": 22,
+        "affordable": 16
       }
     },
     {
@@ -12662,8 +12662,8 @@
         "group": "44.837297,20.4108489",
         "name": "Aleksandra Dupčeka",
         "total": 4,
-        "suitable": 3,
-        "affordable": 1
+        "suitable": 4,
+        "affordable": 2
       }
     },
     {
@@ -12679,8 +12679,8 @@
         "group": "44.8172662,20.509558",
         "name": "Riharda Burjana",
         "total": 18,
-        "suitable": 17,
-        "affordable": 12
+        "suitable": 18,
+        "affordable": 13
       }
     },
     {
@@ -12900,8 +12900,8 @@
         "group": "44.81547519999999,20.4626885",
         "name": "Skadarska-Stari grad",
         "total": 9,
-        "suitable": 8,
-        "affordable": 5
+        "suitable": 9,
+        "affordable": 6
       }
     },
     {
@@ -13325,8 +13325,8 @@
         "group": "44.7979968,20.4796315",
         "name": "Cara Nikolaja II",
         "total": 11,
-        "suitable": 8,
-        "affordable": 6
+        "suitable": 11,
+        "affordable": 9
       }
     },
     {
@@ -13512,8 +13512,8 @@
         "group": "44.7966139,20.4762124",
         "name": "ČERNIŠEVSKOG",
         "total": 8,
-        "suitable": 7,
-        "affordable": 2
+        "suitable": 8,
+        "affordable": 3
       }
     },
     {
@@ -13580,8 +13580,8 @@
         "group": "44.8792546,20.4606872",
         "name": "Milana Ajvaza",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -13665,8 +13665,8 @@
         "group": "44.8282294,20.5479417",
         "name": "",
         "total": 7,
-        "suitable": 6,
-        "affordable": 6
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -13733,8 +13733,8 @@
         "group": "44.7962691,20.5027626",
         "name": "Brsjačka",
         "total": 20,
-        "suitable": 16,
-        "affordable": 16
+        "suitable": 20,
+        "affordable": 20
       }
     },
     {
@@ -13852,8 +13852,8 @@
         "group": "44.81573590000001,20.4607219",
         "name": "Kolarčeva",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -13920,8 +13920,8 @@
         "group": "44.8002056,20.3379176",
         "name": "Rubensova",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -14022,8 +14022,8 @@
         "group": "44.7318473,20.4298488",
         "name": "Humski put",
         "total": 3,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -14260,8 +14260,8 @@
         "group": "44.8748077,20.4616909",
         "name": "Ivana Milutinovića",
         "total": 8,
-        "suitable": 6,
-        "affordable": 6
+        "suitable": 8,
+        "affordable": 8
       }
     },
     {
@@ -14311,8 +14311,8 @@
         "group": "44.8219103,20.4619155",
         "name": "Kapetan Mišina",
         "total": 7,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -14379,8 +14379,8 @@
         "group": "44.795282,20.5176437",
         "name": "Murmanska",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -14430,8 +14430,8 @@
         "group": "44.7327475,20.4280742",
         "name": "Prvoboraca",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -14549,8 +14549,8 @@
         "group": "44.8139302,20.4618323",
         "name": "Nušićeva",
         "total": 6,
-        "suitable": 5,
-        "affordable": 1
+        "suitable": 6,
+        "affordable": 2
       }
     },
     {
@@ -14634,8 +14634,8 @@
         "group": "45.69176789999999,14.6666745",
         "name": "Jelenov žleb",
         "total": 6,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -14736,8 +14736,8 @@
         "group": "44.8067637,20.4848587",
         "name": "Slavujev venac",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -14940,8 +14940,8 @@
         "group": "44.8457853,20.4871216",
         "name": "Partizanski blok ulica 2.",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -14991,8 +14991,8 @@
         "group": "44.7937372,20.4407901",
         "name": "Svetog Nauma",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -15076,8 +15076,8 @@
         "group": "44.7653282,20.411328",
         "name": "Jurice Ribara",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -15450,8 +15450,8 @@
         "group": "44.8166682,20.4616982",
         "name": "Bulevar despota Stefana",
         "total": 2,
-        "suitable": 1,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 1
       }
     },
     {
@@ -15603,8 +15603,8 @@
         "group": "44.8414695,20.4845584",
         "name": "Bruska",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -15841,8 +15841,8 @@
         "group": "44.8011118,20.4575073",
         "name": "Resavska",
         "total": 8,
-        "suitable": 7,
-        "affordable": 3
+        "suitable": 8,
+        "affordable": 4
       }
     },
     {
@@ -15943,8 +15943,8 @@
         "group": "44.8614992,20.3240799",
         "name": "Kurirska",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -16011,8 +16011,8 @@
         "group": "44.757201,20.5671664",
         "name": "Save Kovačevića",
         "total": 16,
-        "suitable": 10,
-        "affordable": 10
+        "suitable": 16,
+        "affordable": 16
       }
     },
     {
@@ -16164,8 +16164,8 @@
         "group": "44.8067583,20.46591",
         "name": "Mišarska",
         "total": 5,
-        "suitable": 4,
-        "affordable": 2
+        "suitable": 5,
+        "affordable": 3
       }
     },
     {
@@ -16487,8 +16487,8 @@
         "group": "44.8013925,20.4759947",
         "name": "Hadži Prodanova",
         "total": 5,
-        "suitable": 4,
-        "affordable": 2
+        "suitable": 5,
+        "affordable": 3
       }
     },
     {
@@ -16572,8 +16572,8 @@
         "group": "44.7973324,20.5249737",
         "name": "Ladne Vode",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -16980,8 +16980,8 @@
         "group": "44.8120378,20.4582228",
         "name": "",
         "total": 6,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -17779,8 +17779,8 @@
         "group": "44.8007426,20.4846177",
         "name": "Vatroslava Jagića",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -17813,8 +17813,8 @@
         "group": "44.8113832,20.5167989",
         "name": "Đorđa Nešića",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -18085,8 +18085,8 @@
         "group": "43.896586,18.4185617",
         "name": "SARAJEVSKA",
         "total": 7,
-        "suitable": 5,
-        "affordable": 1
+        "suitable": 7,
+        "affordable": 3
       }
     },
     {
@@ -18221,8 +18221,8 @@
         "group": "44.754945,20.4835148",
         "name": "Porodice Trajković",
         "total": 5,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -18357,8 +18357,8 @@
         "group": "44.7956031,20.2998398",
         "name": "",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -18510,8 +18510,8 @@
         "group": "44.7209444,20.3772229",
         "name": "Stevana Sremca",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -18561,8 +18561,8 @@
         "group": "44.9061323,20.2748158",
         "name": "XXX",
         "total": 6,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -18969,8 +18969,8 @@
         "group": "44.7546441,20.4568155",
         "name": "Borska",
         "total": 6,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -19003,8 +19003,8 @@
         "group": "44.7945527,20.4822518",
         "name": "Šumatovačka",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -19020,8 +19020,8 @@
         "group": "44.8174406,20.3948763",
         "name": "",
         "total": 5,
-        "suitable": 4,
-        "affordable": 4
+        "suitable": 5,
+        "affordable": 5
       }
     },
     {
@@ -19190,8 +19190,8 @@
         "group": "44.7894498,20.5081278",
         "name": "Paje Jovanovića",
         "total": 13,
-        "suitable": 12,
-        "affordable": 12
+        "suitable": 13,
+        "affordable": 13
       }
     },
     {
@@ -19394,8 +19394,8 @@
         "group": "44.8137577,20.5441968",
         "name": "SESTARA JANKOVIC",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -19972,8 +19972,8 @@
         "group": "44.805827,20.4959668",
         "name": "Veljka Dugoševića",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -20278,8 +20278,8 @@
         "group": "45.8150108,15.981919",
         "name": "Joze Šćurle",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -20346,8 +20346,8 @@
         "group": "44.7961484,20.4819193",
         "name": "Sazonova",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -20431,8 +20431,8 @@
         "group": "44.7885911,20.4839856",
         "name": "Kruševačka",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -20550,8 +20550,8 @@
         "group": "44.7913153,20.4976881",
         "name": "Gospodara Vučića",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -21094,8 +21094,8 @@
         "group": "44.848428,20.4112861",
         "name": "Sindjelićeva",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -21179,8 +21179,8 @@
         "group": "44.8491216,20.4692183",
         "name": "Peke Tepavčevića",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -21213,8 +21213,8 @@
         "group": "44.7773594,20.5441404",
         "name": "BUL. KRALJA ALEKSANDRA",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -21655,8 +21655,8 @@
         "group": "44.8728466,20.4552021",
         "name": "Kod skole Stevan Sremac",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -21791,8 +21791,8 @@
         "group": "44.8704735,20.4660767",
         "name": "Dušana Maksina",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -21910,8 +21910,8 @@
         "group": "44.7358106,20.4279754",
         "name": "Mome Stanojlovića",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -21961,8 +21961,8 @@
         "group": "44.8164419,20.4565538",
         "name": "Topličin venac",
         "total": 3,
-        "suitable": 2,
-        "affordable": 1
+        "suitable": 3,
+        "affordable": 2
       }
     },
     {
@@ -22233,8 +22233,8 @@
         "group": "44.8722057,20.328241",
         "name": "Tomice Popovića",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -22369,8 +22369,8 @@
         "group": "44.7806891,20.202911",
         "name": "",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -22692,8 +22692,8 @@
         "group": "44.8303423,20.4045395",
         "name": "Sremskih odreda",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -22879,8 +22879,8 @@
         "group": "44.7982151,20.4657215",
         "name": "Nebojšina",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -22964,8 +22964,8 @@
         "group": "44.7556612,20.4047429",
         "name": "Vodovodska 125",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -23083,8 +23083,8 @@
         "group": "44.7893622,20.5069417",
         "name": "Belokrajinska",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -23219,8 +23219,8 @@
         "group": "44.7575218,20.4082411",
         "name": "Rajka Ružića",
         "total": 4,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -23287,8 +23287,8 @@
         "group": "44.7876471,20.5195964",
         "name": "Majke Angeline",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -23389,8 +23389,8 @@
         "group": "44.7940722,20.4733198",
         "name": "Hadži Melentijeva",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -23882,8 +23882,8 @@
         "group": "44.7252562,20.4312434",
         "name": "OPLENAČKA 5",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -23916,8 +23916,8 @@
         "group": "44.7982104,20.3323515",
         "name": "Šekspirova",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -23933,8 +23933,8 @@
         "group": "44.811018,20.4743623",
         "name": "27 marta",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -24035,8 +24035,8 @@
         "group": "44.7864168,20.5238794",
         "name": "Lošinjska donja",
         "total": 4,
-        "suitable": 3,
-        "affordable": 3
+        "suitable": 4,
+        "affordable": 4
       }
     },
     {
@@ -24205,8 +24205,8 @@
         "group": "44.787889,20.4929308",
         "name": "Rada Neimara",
         "total": 6,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 6,
+        "affordable": 6
       }
     },
     {
@@ -24256,8 +24256,8 @@
         "group": "44.6948726,20.3809735",
         "name": "Sare Bernar 9",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -24290,8 +24290,8 @@
         "group": "44.8093338,20.4795883",
         "name": "Vladetina",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -24307,8 +24307,8 @@
         "group": "44.8087716,20.481627",
         "name": "Nikodima Milasa",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -24766,8 +24766,8 @@
         "group": "44.7981748,20.4569476",
         "name": "Višegradska",
         "total": 3,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -25038,8 +25038,8 @@
         "group": "44.8012379,20.4548196",
         "name": "Višegradska",
         "total": 2,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -25055,8 +25055,8 @@
         "group": "44.788217,20.5166378",
         "name": "Bulevar kralja Aleksandra",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -25106,8 +25106,8 @@
         "group": "44.7913058,20.4645038",
         "name": "Veternička",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -25242,8 +25242,8 @@
         "group": "44.7810564,20.4860124",
         "name": "Peke Pavlovića",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -25259,8 +25259,8 @@
         "group": "44.8181686,20.4536839",
         "name": "Gračanička",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -25446,8 +25446,8 @@
         "group": "44.8094814,20.462932",
         "name": "Kralja Milana",
         "total": 3,
-        "suitable": 2,
-        "affordable": 2
+        "suitable": 3,
+        "affordable": 3
       }
     },
     {
@@ -25888,8 +25888,8 @@
         "group": "44.7546343,20.4486381",
         "name": "Vukasovićeva",
         "total": 2,
-        "suitable": 1,
-        "affordable": 1
+        "suitable": 2,
+        "affordable": 2
       }
     },
     {
@@ -26007,8 +26007,8 @@
         "group": "44.8082098,20.4979296",
         "name": "Nerodimska",
         "total": 7,
-        "suitable": 5,
-        "affordable": 5
+        "suitable": 7,
+        "affordable": 7
       }
     },
     {
@@ -26092,8 +26092,8 @@
         "group": "44.8352689,20.3949567",
         "name": "Grmečka",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -26211,8 +26211,8 @@
         "group": "44.8424083,20.3750575",
         "name": "Slaviše Vajnera",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -26415,8 +26415,8 @@
         "group": "44.8097174,20.4806103",
         "name": "Vladetina",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -26619,8 +26619,8 @@
         "group": "44.8520567,20.472743",
         "name": "Jovana Isailovica",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -26857,8 +26857,8 @@
         "group": "44.7901046,20.5097406",
         "name": "Hajduk Stankova",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27061,8 +27061,8 @@
         "group": "44.8377896,20.3736335",
         "name": "Slovenska-Zemun",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27095,8 +27095,8 @@
         "group": "44.8023691,20.3673696",
         "name": "Dr Ivana Ribara",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27231,8 +27231,8 @@
         "group": "44.80034,20.4877304",
         "name": "Jedrenska",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27316,8 +27316,8 @@
         "group": "44.816221,20.4833195",
         "name": "Mitropolita Petra",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27333,8 +27333,8 @@
         "group": "44.8495735,20.467514",
         "name": "Olge Jovičić",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27486,8 +27486,8 @@
         "group": "44.8569621,20.4812032",
         "name": "Zrenjaninski put",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27537,8 +27537,8 @@
         "group": "44.8093731,20.3624498",
         "name": "Srđana Aleksića",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -27622,8 +27622,8 @@
         "group": "44.9000036,20.2856406",
         "name": "MAJORA ZORANA RADOSAVLJEVICA",
         "total": 1,
-        "suitable": 0,
-        "affordable": 0
+        "suitable": 1,
+        "affordable": 1
       }
     },
     {
@@ -28071,7 +28071,7 @@
   ],
   "metadata": {
     "total": 11800,
-    "suitable": 11080,
-    "affordable": 8112
+    "suitable": 11730,
+    "affordable": 8762
   }
 }

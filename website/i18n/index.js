@@ -8,7 +8,7 @@ const i18n = {
     srp,
   },
   defaultLang: 'srp',
-  useBrowserDefault: true,
+  useBrowserDefault: false,
 }
 
 module.exports = i18n

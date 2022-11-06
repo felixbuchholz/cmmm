@@ -5,11 +5,12 @@ import {
   useSelectionContext,
   useSelectionSend,
 } from '../../../state/selection/hooks'
+import { scenarioParameters } from '../../../state/selection/scenarios'
+import { p } from '../../../utils/translatePlurals'
 
 export const ScenarioSelectionButton: FC = () => {
   return (
     <div>
-      <ScenarioSelectionButtonIntro />
       <ScenarioSelectionButtons />
     </div>
   )
@@ -22,12 +23,28 @@ export const ScenarioSelectionButtonIntro: FC = () => {
 
 export const ScenarioSelectionButtons: FC = () => {
   const [income, size] = useSelectionContext(['income', 'size'])
-
+  const matchedScenario = scenarioParameters.find(
+    it => it.income == income && it.size === size
+  )
   if (!income || !size) {
-    return <ScenarioSelectButtonEmpty />
+    return (
+      <>
+        <ScenarioSelectionButtonIntro />
+        <ScenarioSelectButtonEmpty />
+      </>
+    )
+  }
+  if (!matchedScenario) {
+    return (
+      <>
+        <ScenarioSelectionButtonIntro />
+        <ScenarioSelectButtonSelected />
+      </>
+    )
   }
 
-  return <ScenarioSelectButtonSelected />
+  const translateKey = matchedScenario.translateKey
+  return <ScenarioSelectButtonScenario translateKey={translateKey} />
 }
 
 export const ScenarioSelectButtonEmpty: FC = () => {
@@ -64,6 +81,22 @@ export const ScenarioSelectButtonSelected: FC = () => {
         <span className="buttonSpan">
           {t('menuOverview.scenarioSelectIncome', { income })}
         </span>
+      </button>
+    </div>
+  )
+}
+
+export const ScenarioSelectButtonScenario: FC<{ translateKey: string }> = ({
+  translateKey,
+}) => {
+  const { t } = useTranslation()
+  const handleClick = useHandleClickSendOpenMenuScenario()
+  const [income, size] = useSelectionContext(['income', 'size'])
+  return (
+    <div>
+      <button className="triangle" onClick={handleClick}>
+        <span className="buttonSpan">{t(translateKey)}</span> ({size}{' '}
+        {t(`person${p(size)}`)}, {income} {t('units.euroPerMonth')})
       </button>
     </div>
   )

@@ -5,3 +5,8 @@
 .container small {
 	margin-top: 0.5em;
 }
+
+.snug {
+	margin-bottom: 1.5em !important;
+	margin-top: -1.5em;
+}

@@ -6,17 +6,17 @@
 		"languageSwitcher": "Choose Language:"
 	},
 	"buy": {
-		"categorySelect": "buying",
-		"categoryConfirm": "Buying",
-		"highlight": "Refers to ",
-		"description": "current offers for apartments to buy. The results will be shown according to an average interest rate of 2.55% in Belgrade, assuming that the household is eligible for a 30 year loan, and is able to put immediately downpayment of 20% of apartment price.",
+		"categorySelect": "purchase",
+		"categoryConfirm": "Purchase",
+		"highlight": "This option shows ",
+		"description": "This option shows the offers for apartments on sale that are affordable under the selected scenario (based on May 2022 data). We used an average interest rate of 2.55% and assumed that the household is eligible for a 30-year loan and is able to immediately make a down payment of 20% of the price of the apartment.",
 		"navigation": "Buy"
 	},
 	"rent": {
-		"categorySelect": "renting",
-		"categoryConfirm": "Renting",
-		"highlight": "Refers to ",
-		"description": "current offers for apartment rentals",
+		"categorySelect": "rental",
+		"categoryConfirm": "Rental",
+		"highlight": "This option shows ",
+		"description": "the offers for apartment rentals that are affordable under the selected scenario (based on May 2022 data).",
 		"navigation": "Rent"
 	},
 	"person": {
@@ -35,27 +35,27 @@
 		"categorySelectExplainer": "Select one option",
 		"scenarioSelect": "I have",
 		"scenarioSelectExplainer": "Select the option that is closest to your situation",
-		"scenarioSelectEmpty": "select a scenario",
+		"scenarioSelectEmpty": "select preset scenario",
 		"scenarioSelectSize": " a household of {{size}}",
 		"scenarioSelectIncome": "with an income of {{income}} Euro/month",
 		"optionsSelectExplainer": "Select the option that is closest to your situation",
 		"sizeSelect": "I have a household of",
-		"sizeSelectButtonEmpty": "select household size",
+		"sizeSelectButtonEmpty": "select size",
 		"incomeSelect": "with a total monthly income of",
-		"incomeSelectButtonEmpty": "select monthly income",
+		"incomeSelectButtonEmpty": "select closest value",
 		"disclaimerEmphasis": "The information you are entering",
-		"disclaimerBody": "serves to illustrate the amount of spatially suitable and affordable offers for your situation/situation you would like to show, taking into account the minimal legal standards for apartment size per household size, as well as housing affordability which indicates that rent or loan rate has to amount to a third of household monthly income or less."
+		"disclaimerBody": "serves to illustrate the number of affordable offers and their spatial distribution in accordance with the situation you would like to explore. It considers the minimal legal standards for apartment size per household size, as well as housing affordability, which stipulates that the rent or mortgage does not exceed more than one third of the household’s monthly income (see Info section)."
 		},
 	"scenarios": {
-		"teacherAlone": "A teacher living alone",
-		"workingInEducationCouple": "A couple working in education with no kids",
-		"averageFamily3Kids": "A couple with average salaries and 3 kids",
-		"singleMomGroceryStore1Kid": "Single mother with a kid working in a local grocery store",
-		"retiredFirefighter": "A retired firefighter"
+		"teacherAlone": "An elementary school teacher living alone",
+		"workingInEducationCouple": "A couple with no children, working in high school education",
+		"averageFamily3Kids": "A couple with 3 children and average salaries",
+		"singleMomGroceryStore1Kid": "A single mother with 1 child, working in a grocery store",
+		"retiredFirefighter": "A retired firefighter, living alone "
 	},
 	"map": {
 		"tooltipDescription": "Offers",
-		"alertDownPayment": "These results imply that household has enough savings for the downpayment of the loan, minimum 15.000 EUR and on average 38.000 EUR."
+		"alertDownPayment": "These results imply that the household has enough savings for the down payment of the loan, minimum 15.000 euro and on average 38.000 euro."
 	},
 	"suitable": {
 		"countLegendNull": "existing offers in Belgrade",

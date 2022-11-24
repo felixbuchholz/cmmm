@@ -4,6 +4,7 @@ import React, { FC } from 'react'
 
 import { useSelectionSend } from '../../../state/selection/hooks'
 
+import { ANMButton } from './ANMButton'
 import { CMMMButton } from './CMMMButton'
 import styles from './header.module.css'
 import { InfoPageLink } from './InfoPageLink'
@@ -14,7 +15,10 @@ export const Header: FC = () => {
       <div className={styles.flexLinks}>
         <InfoPageLink /> <HeaderTitleButton />
       </div>
-      <CMMMButton />
+      <div>
+        <ANMButton />
+        <CMMMButton />
+      </div>
     </header>
   )
 }

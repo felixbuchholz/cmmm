@@ -24,7 +24,7 @@
 		"singular": "person"
 	},
 	"units": {
-		"euroPerMonth": "Euro/month"
+		"euroPerMonth": "euro/month"
 	},
 	"menuOverview": {
 		"confirm": "Show offers",
@@ -37,7 +37,7 @@
 		"scenarioSelectExplainer": "Select the option that is closest to your situation",
 		"scenarioSelectEmpty": "select preset scenario",
 		"scenarioSelectSize": " a household of {{size}}",
-		"scenarioSelectIncome": "with an income of {{income}} Euro/month",
+		"scenarioSelectIncome": "with an income of {{income}} euro/month",
 		"optionsSelectExplainer": "Select the option that is closest to your situation",
 		"sizeSelect": "I have a household of",
 		"sizeSelectButtonEmpty": "select size",
@@ -55,7 +55,7 @@
 	},
 	"map": {
 		"tooltipDescription": "Offers",
-		"alertDownPayment": "These results imply that the household has enough savings for the down payment of the loan, minimum 15.000 euro and on average 38.000 euro."
+		"alertDownPayment": "These results imply that the household has enough savings for the down payment of the loan, minimum 15,000 euro and on average 38,000 euro."
 	},
 	"suitable": {
 		"countLegendNull": "existing offers in Belgrade",

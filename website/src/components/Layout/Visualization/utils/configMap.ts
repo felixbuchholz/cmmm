@@ -59,4 +59,4 @@ export const defaultsMap = {
 }
 
 export const red = { color: '#d24f40', colorOpacity: 0.35 }
-export const green = { color: '#008b4a', colorOpacity: 0.4 }
+export const green = { color: '#008b4a', colorOpacity: 0.5 }

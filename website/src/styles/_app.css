@@ -85,7 +85,7 @@ h1 {
 }
 
 h2, .headline, .number {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.2;
 }
 
@@ -246,12 +246,10 @@ button.padded[disabled] {
 }
 
 .mdx {
-  display: flex;
   flex-wrap: wrap;
   height: 100%;
   justify-content: space-between;
-  margin: auto;
-  max-width: 1200px;
+  max-width: 1400px;
   overflow: scroll;
   padding: 2em;
   padding-bottom: 5em;
@@ -266,7 +264,7 @@ button.padded[disabled] {
 }
 
 .mdx h2 {
-  margin-bottom: 1em;
+  margin-bottom: 0.4em;
 }
 
 .mdx h2:not(:first-child) {

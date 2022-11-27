@@ -2,62 +2,73 @@
 
 ## About
 
-**As a consequence** of the dominant treatment of the apartment as a commodity that can be exchanged on the market and from which one can profit, even though it is a basic right, housing has become unaffordable for approx. 80% of the inhabitants of Serbia. In addition to the fact that such a high degree of housing unaffordability produces living situations in overcrowded apartments or spaces inadequate for living, as well as the risk of over-indebtedness due to housing costs, it encourages the development of spatial inequality or segregation.
-
-**This website** represents one possible way to quickly and clearly see the scope of the housing unaffordability problem, as well as its spatial consequences. Through exploring our own situations, as well as the situations of our neighbors or friends, we will see to what extent apartments are generally available on the market, but also in which parts of the city we can(not) afford to live. It is the initial step in understanding the problem that we all share and that we can only systematically change through wider mobilization.
-
-
-## Methodology
-
-**In mapping affordable housing** for the specific situation we all find ourselves in, we used two inputs:
-- number of household members (size of the household); and
-- self-assessed monthly household income.
-
-In order for the algorithm to calculate the final number of units, as well as the distribution of apartments that are adequate in terms of size and price, we relied on existing international and domestic standards.
-In both the cases of renting and buying, the results take into account the following:
-
-1) The first selection criterion refers to the spatially appropriate offers of apartments. Here, the minimum square footage of the apartment in relation to the number of household members was taken into account, according to the "adequate apartment" standard defined by the Law on Housing and Building Maintenance (Article 90).
-
-- for a single-member household - from 22 m2;
-- for a two-person household - from 30 m2;
-- for a three-member household - from 40 6 m2;
-- for a household of four - from 50 m2;
-- for a household of five - from 56 m2;
-- for a household of six or more - from 64 m2.
-
-This means that the result of the search are all "spatially suitable" apartments, according to the entered household size, corresponding to the legal minimum and those larger than that.
-
-2) The second criterion refers to affordability, based on the internationally adopted definition of the upper limit of the housing cost burden, which amounts to a maximum of 40% of the monthly household income. In the algorithm, however, a threshold of 30% was taken, given that the 40% includes housing costs other than rent and loan installments - utilities and heating.* Therefore, in the case of renting, the selection of "affordable" means all apartments that are spatially suitable, and whose monthly rent is equal to or less than a third of the entered monthly income of the household. In the case of the possibility of purchase, the algorithm will, as a result offer all apartments that are spatially suitable, and which you can buy with loan under the following conditions:
-
-- average interest rates of commercial mortgages in Serbia (2.55%);
-- household is creditworthy to apply for a 30-year loan;
-- household is able to put a down payment of 20% of the value of the apartment at one time;
-
-so that the monthly installment is in the amount of a third of the household's monthly income or less.
-Considering the complex process of downloading data that are not normally available to the public as databases, it is not possible to use the data in real-time mode. Data currently in use has been downloaded on 05.05.2022 / 06.05.2022.
+**“How (un)affordable is housing in Belgrade?”** is a map that was developed within the framework of the CMMM research project that has accompanied the wider activities of the [Ministry of Space](https://ministarstvoprostora.org/) (MoS) since March 2020. It is part of MoS’s larger work in providing evidence and pushing for reforms in policies and procedures related to housing. This map is the result of various exchanges within our networks, and we are particularly grateful for the support of the contributors (see below) and the visual intelligence team.
+[CMMM – Critical Mapping in Municipalist Movements](https://cmmm.eu/) is a 3.5-year research project that brings together an international team from Barcelona, Berlin, and Belgrade. It is hosted at [K LA](https://labor-k.org/), [TU Berlin](https://www.tu.berlin/en/), supported by the [Robert Bosch Stiftung](https://www.bosch-stiftung.de/de), and implemented in collaboration with [Observatori DESC](https://observatoridesc.org/en/who-we-are) (BCN), [AKS Gemeinwohl](https://aks.gemeinwohl.berlin/) (BLN), [Kollektiv Raumstation](https://raumstation.org/) (BLN), and [Ministarstvo Prostora](https://ministarstvoprostora.org/) (Ministry of Space) (BGD). In parallel to this Belgrade-based map, the Barcelona Team developed their “Stop Evictions!” [KDF4] map, and the Berlin Team produced their [“Commoning Berlin”](https://cmmm-maps.eu/berlin/) map.
 
 
-*While at the EU level this percentage is 40%, in the documents of the United Nations this threshold is 30%, which would mean an even smaller range of opportunities obtained as a result.
+## PROTOTYPE CONCEPT
+
+Even though housing is a basic right, it has become unaffordable for approx. 80% of the inhabitants of Serbia because apartments are now commodities that can be exchanged on the market for profit. This high degree of housing unaffordability produces overcrowded and inadequate living situations and increases the risk of indebtedness. It engenders spatial inequalities and segregation in our cities.
+Our map clearly shows the scope of housing unaffordability in Belgrade, as well as its socially segregationist spatial consequences. By exploring our own situation and that of our neighbors and friends, we can see to what extent apartments are generally available on the market and in which parts of the city we can or cannot afford to live. Understanding this problem, which many of us share, is the first step toward changing the situation systematically, through wider mobilization to make housing unaffordability a higher priority on the political agenda.
+The design of this map is the result of various exchanges within our local networks, including the findings from the three workshops: “The Housing [Utility Service] Burdens of Social Housing Tenants” (Nov ‘20), “How to Obtain Publicly-Owned Land for the Purpose of Non-Profit Housing?” (Dec ‘20), and “Critical Mapping of the Unaffordability of Housing in Belgrade” (April ’21), which featured guests from various backgrounds.[1] 
+ 
+To map affordable housing offers for the specific scenarios, we use TWO VARIABLES: the size of the household (number of members), and the self-assessed monthly household income. The algorithm behind this map relies on international and domestic standards in calculating the number of units on offer that are considered adequate in terms of size and price per scenario, as well as their locations. The results shown for both renting and buying are filtered as follows:
+
+1. **Spatial suitability:** According to the "adequate apartment" standard, which is defined by the Law on Housing and Building Maintenance (Article 90), the relation between the number of residents and the minimum total area of an apartment is as follows:
+
+- Single-member household: 22 m2 or more
+- Two-member household: 30 m2 or more
+- Three-member household: 40 m2 or more
+- Four-member household: 50 m2 or more
+- Five-member household: 56 m2 or more
+- Six-member household or larger: 64 m2 or more
+
+  This means that the result of the search displays all "spatially suitable" apartments that correspond to the legal minimum, as well as those that are larger.
+
+2. **Affordability:** The internationally adopted upper limit for the housing burden is 40% of the monthly household income. This value includes costs other than rent or mortgage payments, such as utilities and heating.[2] Therefore, the algorithm here sets a threshold of 30%. This means, in the case of renting, the displayed affordable offers are those where the monthly rent is equal to or less than one third of the household’s indicated monthly income. Additionally, in the case of purchasing, it is assumed that one can meet the following conditions:
+-	The household’s credit is good enough to apply for a 30-year loan
+-	The household can make a down payment of 20% of the price of the apartment at the time of purchase
+-	The household can cover the 2.55% average interest rate of commercial mortgages in Serbia
+
 </section>
 
 <section>
 
-## Partner
+## DATASET
+
+Unfortunately, due to the complex process of downloading data that are normally not available to the public as databases and scraping them, it is not possible to use real-time data for our map. The data that is currently being used was downloaded on 5 and 6 May 2022.
+
+</section>
+
+<section>
+
+## Contributors
+
+Marina Živaljević
 
 <div className='images'>
+[![Logo MOS](./img/mos.png)](https://cmmm.eu)<br />
 [![Logo CMMM](./img/cmmm.webp)](https://cmmm.eu)<br />
 [![Logo KLAB](./img/klab-logo.png)](https://labor-k.org)<br />
-[![Logo RBS](./img/rbs-logo.png)](https://www.bosch-stiftung.de/de)<br />
 [![Logo TUB](./img/tu-b-logo.png)](https://www.tu.berlin)
 </div>
 
+<div className='images'>
+The CMMM project is supported by:<br/><br/>
+[![Logo RBS](./img/rbs-logo.png)](https://www.bosch-stiftung.de/de)
+</div>
+
+
+Design and programming:<br/>
+visual intelligence and Felix Buchholz
+
 </section>
+
 
 <section>
 
-### Imprint
-
-Website: Cooperation between Ministry of Space and Visual Intelligence & Felix Buchholz<br />
-[Disclaimer](https://www.tu-berlin.de/servicemenue/impressum/)
-[Privacy](https://www.tu-berlin.de/servicemenue/impressum/)
+## Imprint
+[Disclaimer](https://www.tu-berlin.de/servicemenue/impressum/)<br/>
+[Privacy](https://www.tu-berlin.de/servicemenue/impressum/)<br/>
+Version 1.0
 </section>

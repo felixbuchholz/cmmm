@@ -22,7 +22,8 @@ export const OptionsSelectionButtons: FC = () => {
       {t('menuOverview.sizeSelect')}{' '}
       <button className="triangle" onClick={() => handleClick('SIZE')}>
         <span className="buttonSpan">{sizeText}</span>
-      </button>{' '}
+      </button>
+      <br />
       {t('menuOverview.incomeSelect')}{' '}
       <button className="triangle" onClick={() => handleClick('INCOME')}>
         <span className="buttonSpan">{incomeText}</span>

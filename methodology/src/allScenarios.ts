@@ -5,9 +5,9 @@ import { MergeParameters } from './types/mergeParameters'
 import { Income, Size, Scenario, ScenarioParameterOnly } from './types/scenario'
 
 export const incomeRangesAndIntervals = [
-  { rangeStart: 200, rangeEnd: 2000, interval: 50 },
-  { rangeStart: 2000, rangeEnd: 4000, interval: 100 },
-  { rangeStart: 4000, rangeEnd: 8000, interval: 200 },
+  { rangeStart: 200, rangeEnd: 1999, interval: 50 },
+  { rangeStart: 2000, rangeEnd: 3999, interval: 100 },
+  { rangeStart: 4000, rangeEnd: 8000, interval: 500 },
 ]
 
 const maxHouseholdSize = 6

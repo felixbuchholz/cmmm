@@ -95,8 +95,11 @@ export const ScenarioSelectButtonScenario: FC<{ translateKey: string }> = ({
   return (
     <div>
       <button className="triangle" onClick={handleClick}>
-        <span className="buttonSpan">{t(translateKey)}</span> ({size}{' '}
-        {t(`person${p(size)}`)}, {income} {t('units.euroPerMonth')})
+        <span className="buttonSpan">{t(translateKey)}</span>
+        <br />
+        <span className="comparison">
+          ({size} {t(`person${p(size)}`)}, {income} {t('units.euroPerMonth')})
+        </span>
       </button>
     </div>
   )

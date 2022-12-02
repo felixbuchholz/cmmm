@@ -8,15 +8,15 @@
 	"buy": {
 		"categorySelect": "purchase",
 		"categoryConfirm": "Purchase",
-		"highlight": "This option shows ",
+		"highlight": " ",
 		"description": "This option shows the offers for apartments on sale that are affordable under the selected scenario (based on May 2022 data). We used an average interest rate of 2.55% and assumed that the household is eligible for a 30-year loan and is able to immediately make a down payment of 20% of the price of the apartment.",
 		"navigation": "Buy"
 	},
 	"rent": {
 		"categorySelect": "rental",
 		"categoryConfirm": "Rental",
-		"highlight": "This option shows ",
-		"description": "the offers for apartment rentals that are affordable under the selected scenario (based on May 2022 data).",
+		"highlight": " ",
+		"description": "This option shows the offers for apartment rentals that are affordable under the selected scenario (based on May 2022 data).",
 		"navigation": "Rent"
 	},
 	"person": {
@@ -28,23 +28,25 @@
 	},
 	"menuOverview": {
 		"confirm": "Show offers",
-		"title": "Select your situation:",
-		"titleExplainer": "Or another situation you would like to explore",
+		"title": "Select the situation you would like to explore:",
+		"titleExplainer": " ",
 		"categorySelect1": "I am interested in",
 		"categorySelect2": "offers in Belgrade",
-		"categorySelectExplainer": "Select one option",
-		"scenarioSelect": "I have",
-		"scenarioSelectExplainer": "Select the option that is closest to your situation",
+		"categorySelectExplainer": " ",
+		"scenarioSelect": "For a household of",
+		"scenarioSelectExplainer": " ",
 		"scenarioSelectEmpty": "select preset scenario",
 		"scenarioSelectSize": " a household of {{size}}",
 		"scenarioSelectIncome": "with an income of {{income}} euro/month",
-		"optionsSelectExplainer": "Select the option that is closest to your situation",
+		"optionsSelectExplainer": " ",
 		"sizeSelect": "I have a household of",
 		"sizeSelectButtonEmpty": "select size",
 		"incomeSelect": "with a total monthly income of",
 		"incomeSelectButtonEmpty": "select closest value",
-		"disclaimerEmphasis": "The information you are entering",
-		"disclaimerBody": "serves to illustrate the number of affordable offers and their spatial distribution in accordance with the situation you would like to explore. It considers the minimal legal standards for apartment size per household size, as well as housing affordability, which stipulates that the rent or mortgage does not exceed more than one third of the household’s monthly income (see Info section)."
+		"disclaimerEmphasis": " ",
+		"disclaimerBody": "The information you are entering serves to illustrate the number of affordable offers and their spatial distribution in accordance with the situation you would like to explore. It considers the minimal legal standards for apartment size per household size, as well as housing affordability, which stipulates that the rent or mortgage does not exceed more than one third of the household’s monthly income (see Info section).",
+		"seperatorSelection": "or,"
+
 		},
 	"scenarios": {
 		"teacherAlone": "An elementary school teacher living alone",

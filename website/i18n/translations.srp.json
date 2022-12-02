@@ -6,21 +6,21 @@
 		"languageSwitcher": "Odaberi jezik:"
 	},
 	"buy": {
-		"categorySelect": "kupovina stana",
+		"categorySelect": "kupovinu",
 		"categoryConfirm": "Kupovina stana",
-		"highlight": "Odnosi se ",
-		"description": "na trenutnu ponudu stanova za kupovinu. Prikazuje rezultate na osnovu prosečne kamatne stope od 2.55% u Beogradu, sa pretpostavkom da je domaćinstvo kreditno sposobno za period otplate od 30 godina i mogućnošću da u jednom trenutku isplati i učešće od 20% cene stana.",
+		"highlight": " ",
+		"description": "Odnosi se na trenutnu ponudu stanova za kupovinu. Prikazuje rezultate na osnovu prosečne kamatne stope od 2.55% u Beogradu, sa pretpostavkom da je domaćinstvo kreditno sposobno za period otplate od 30 godina i mogućnošću da u jednom trenutku isplati i učešće od 20% cene stana.",
 		"navigation": "Za kupovinu"
 	},
 	"rent": {
-		"categorySelect": "iznajmljivanje stana",
+		"categorySelect": "iznajmljivanje",
 		"categoryConfirm": "Iznajmljivanje stana",
-		"highlight": "Odnosi se ",
-		"description": "na trenutnu ponudu stanova za iznajmljivanje",
+		"highlight": " ",
+		"description": "Odnosi se na trenutnu ponudu stanova za iznajmljivanje",
 		"navigation": "Za iznajmljivanje"
 	},
 	"person": {
-		"plural": "osoba",
+		"plural": "osobe",
 		"singular": "osoba"
 	},
 	"units": {
@@ -29,22 +29,23 @@
 	"menuOverview": {
 		"confirm": "Prikaži rezultate",
 		"title": "Unesite svoju situaciju:",
-		"titleExplainer": "Ili drugu situaciju koju biste želeli da istražite",
+		"titleExplainer": " ",
 		"categorySelect1": "Zainteresovan/a sam za",
 		"categorySelect2": "stana u Beogradu",
-		"categorySelectExplainer": "Odaberite jednu opciju",
-		"scenarioSelect": "Živim u",
-		"scenarioSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
-		"scenarioSelectEmpty": "izbor scenarija",
-		"scenarioSelectSize": " domaćinstva u kom živim je {{size}}",
-		"scenarioSelectIncome": "sa prihodom od {{income}} evra mesečno",
-		"optionsSelectExplainer": "Odaberite opciju koja je najbliža vašoj situaciji",
+		"categorySelectExplainer": " ",
+		"scenarioSelect": "Za domaćinstvo",
+		"scenarioSelectExplainer": " ",
+		"scenarioSelectEmpty": "izaberite scenario",
+		"scenarioSelectSize": " domaćinstvu od {{size}}",
+		"scenarioSelectIncome": "osobe sa prihodom od {{income}} evra mesečno",
+		"optionsSelectExplainer": " ",
 		"sizeSelect": "Živim u domaćinstvu od",
 		"sizeSelectButtonEmpty": "izaberite veličinu domaćinstva",
 		"incomeSelect": "sa ukupnim mesečnim primanjima od",
-		"incomeSelectButtonEmpty": "izbor mesečnog prihoda",
-		"disclaimerEmphasis": "Podaci koje unosite",
-		"disclaimerBody": "služe kako bi se prikazala slika o tome koliko prostorno odgovarajućih i priuštivih ponuda postoji za vašu situaciju/situaciju koju želite da prikažete, uzimajući u obzir minimalne zakonske standarde za površinu stana po veličini domaćinstva, kao i standard preopterećnosti stambenim troškovima iz kog se izvodi da iznos zakupa ili rate kredita smeju iznositi trećinu ukupnih mesečnih prihoda domaćinstva ili manje od toga."
+		"incomeSelectButtonEmpty": "izaberite najbližu vrednost",
+		"disclaimerEmphasis": " ",
+		"disclaimerBody": "Podaci koje unosite služe kako bi se prikazala slika o tome koliko prostorno odgovarajućih i priuštivih ponuda postoji za vašu situaciju/situaciju koju želite da prikažete, uzimajući u obzir minimalne zakonske standarde za površinu stana po veličini domaćinstva, kao i standard preopterećnosti stambenim troškovima iz kog se izvodi da iznos zakupa ili rate kredita smeju iznositi trećinu ukupnih mesečnih prihoda domaćinstva ili manje od toga.",
+		"seperatorSelection": "ili,"
 	},
 	"scenarios": {
 		"teacherAlone": "Učitelj samac",
@@ -54,7 +55,7 @@
 		"retiredFirefighter": "Penzionisani vatrogasac"
 	},
 	"map": {
-		"tooltipDescription": "Rezultate",
+		"tooltipDescription": "rezultata",
 		"alertDownPayment": "Prikazani rezultati podrazumevaju da domaćinstvo ima dovoljno veliku ušteđevinu za učešće u kupovini stana na kredit, minimum 15.000 EUR, a prosečno 38.000 EUR."
 	},
 	"suitable": {

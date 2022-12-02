@@ -1,6 +1,7 @@
 /* const */
 :root {
   --bold: 700;
+  --regular: 400;
   --color-emphasis: #d24f40;
   --color-interactive-disabled: #ccc;
   --color-interactive-muted: #008b4a77;
@@ -93,6 +94,11 @@ h3, .subheadline {
   font-size: 1.2em;
   line-height: 1.2;
 }
+
+.regular-weight{
+  font-weight: var(--regular);
+}
+
 
 small, .margins {
   font-size: 0.7em;
@@ -267,9 +273,6 @@ button.padded[disabled] {
   margin-bottom: 1em;
 }
 
-.mdx h2 {
-  margin-bottom: 0.4em;
-}
 
 .mdx h2:not(:first-child) {
   margin-top: 2em;
@@ -289,11 +292,15 @@ button.padded[disabled] {
   width: 30%;
 }
 
+a { 
+  text-decoration: underline;
+}
+
 
 .images img {
   width: auto;
   max-width: 100%;
-  max-height: 2.75em;
+  /* max-height: 2.75em; */
 }
 
 .connectButtons {

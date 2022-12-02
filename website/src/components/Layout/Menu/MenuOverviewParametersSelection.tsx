@@ -1,4 +1,5 @@
-import React, { FC, Fragment, useId } from 'react'
+import { useTranslation } from 'next-export-i18n'
+import React, { FC, Fragment } from 'react'
 
 import { ParameterSelection } from '../../../types/MenusParameter'
 import { OptionsSelectionButtons } from '../Navigation/OptionsSelectionButtons'
@@ -8,6 +9,8 @@ import styles from './menuOverview.module.css'
 import { MenuOverviewParametersSelectionItem } from './MenuOverviewParametersSelectionItem'
 
 export const MenuOverviewParametersSelection: FC = () => {
+  const { t } = useTranslation()
+
   return (
     <>
       {parameterSelections.map((it, index) => {
@@ -16,7 +19,7 @@ export const MenuOverviewParametersSelection: FC = () => {
             <MenuOverviewParametersSelectionItem {...it} />
             {index === dividerIndex && (
               <div key={index} className={styles.snug}>
-                <h3>or</h3>
+                <h3>{t('menuOverview.seperatorSelection')}</h3>
               </div>
             )}
           </Fragment>

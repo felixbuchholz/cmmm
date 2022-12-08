@@ -144,6 +144,10 @@ a:hover, .link:hover {
 	color: var(--color-interactive);
 }
 
+.text-black {
+  color: var(--main-font-color);
+}
+
 /* TODO: Move to Map config */
 .mapboxgl-control-container {
   display: none;

@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, Fragment, useId } from 'react'
 
 import { ParameterSelection } from '../../../types/MenusParameter'
 import { OptionsSelectionButtons } from '../Navigation/OptionsSelectionButtons'
@@ -10,16 +10,18 @@ import { MenuOverviewParametersSelectionItem } from './MenuOverviewParametersSel
 export const MenuOverviewParametersSelection: FC = () => {
   return (
     <>
-      {parameterSelections.map((it, index) => (
-        <>
-          <MenuOverviewParametersSelectionItem key={it.translateKey} {...it} />
-          {index === dividerIndex && (
-            <div className={styles.snug}>
-              <h3>or</h3>
-            </div>
-          )}
-        </>
-      ))}
+      {parameterSelections.map((it, index) => {
+        return (
+          <Fragment key={it.translateKey}>
+            <MenuOverviewParametersSelectionItem {...it} />
+            {index === dividerIndex && (
+              <div key={index} className={styles.snug}>
+                <h3>or</h3>
+              </div>
+            )}
+          </Fragment>
+        )
+      })}
     </>
   )
 }

@@ -6,832 +6,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4667137,
-          44.8787385
+          20.402188,
+          44.80040899999999
         ]
       },
       "properties": {
-        "group": "44.8787385,20.4667137",
-        "name": "Borča",
-        "total": 4,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3432558,
-          44.8035245
-        ]
-      },
-      "properties": {
-        "group": "44.8035245,20.3432558",
-        "name": "Ledine",
-        "total": 5,
-        "suitable": 4,
-        "affordable": 4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4683341,
-          44.7621061
-        ]
-      },
-      "properties": {
-        "group": "44.7621061,20.4683341",
-        "name": "Banjica",
-        "total": 6,
-        "suitable": 5,
-        "affordable": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4626885,
-          44.8154752
-        ]
-      },
-      "properties": {
-        "group": "44.8154752,20.4626885",
-        "name": "Dom omladine",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4298488,
-          44.7318473
-        ]
-      },
-      "properties": {
-        "group": "44.7318473,20.4298488",
-        "name": "Kneževac",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.1959593,
-          44.6574109
-        ]
-      },
-      "properties": {
-        "group": "44.6574109,20.1959593",
-        "name": "Rvati",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4940689,
-          44.7953694
-        ]
-      },
-      "properties": {
-        "group": "44.7953694,20.4940689",
-        "name": "Lipov lad",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4599624,
-          44.816088
-        ]
-      },
-      "properties": {
-        "group": "44.816088,20.4599624",
-        "name": "Trg Republike",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4132254,
-          44.8128631
-        ]
-      },
-      "properties": {
-        "group": "44.8128631,20.4132254",
-        "name": "Blok 28",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4658261,
-          44.8115854
-        ]
-      },
-      "properties": {
-        "group": "44.8115854,20.4658261",
-        "name": "Skupština",
-        "total": 166,
-        "suitable": 166,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4028275,
-          44.7501553
-        ]
-      },
-      "properties": {
-        "group": "44.7501553,20.4028275",
-        "name": "Bele vode",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5479417,
-          44.8282294
-        ]
-      },
-      "properties": {
-        "group": "44.8282294,20.5479417",
-        "name": "Višnjica",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5067648,
-          44.7827202
-        ]
-      },
-      "properties": {
-        "group": "44.7827202,20.5067648",
-        "name": "Konjarnik",
-        "total": 6,
-        "suitable": 6,
-        "affordable": 5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.458374,
-          44.7108421
-        ]
-      },
-      "properties": {
-        "group": "44.7108421,20.458374",
-        "name": "Resnik",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4375457,
-          44.7921816
-        ]
-      },
-      "properties": {
-        "group": "44.7921816,20.4375457",
-        "name": "Senjak",
-        "total": 8,
-        "suitable": 7,
+        "group": "44.80040899999999,20.402188",
+        "name": "Blok 70A, 3.0 stan, namesten",
+        "total": 23,
+        "suitable": 23,
         "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4235866,
-          44.7281854
-        ]
-      },
-      "properties": {
-        "group": "44.7281854,20.4235866",
-        "name": "Labudovo brdo",
-        "total": 1,
-        "suitable": 0,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5037812,
-          44.7929494
-        ]
-      },
-      "properties": {
-        "group": "44.7929494,20.5037812",
-        "name": "Cvetkova pijaca",
-        "total": 3,
-        "suitable": 2,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4830673,
-          44.771663
-        ]
-      },
-      "properties": {
-        "group": "44.771663,20.4830673",
-        "name": "Darvinova pošta",
-        "total": 2,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3229809,
-          44.8713495
-        ]
-      },
-      "properties": {
-        "group": "44.8713495,20.3229809",
-        "name": "Zemun polje",
-        "total": 4,
-        "suitable": 4,
-        "affordable": 4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4697987,
-          44.8507114
-        ]
-      },
-      "properties": {
-        "group": "44.8507114,20.4697987",
-        "name": "Kotež",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4205895,
-          44.7383997
-        ]
-      },
-      "properties": {
-        "group": "44.7383997,20.4205895",
-        "name": "Vidikovac",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4125119,
-          44.8280022
-        ]
-      },
-      "properties": {
-        "group": "44.8280022,20.4125119",
-        "name": "Stari Merkator",
-        "total": 3,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4979187,
-          44.7751713
-        ]
-      },
-      "properties": {
-        "group": "44.7751713,20.4979187",
-        "name": "Medaković 2",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.2748158,
-          44.9061323
-        ]
-      },
-      "properties": {
-        "group": "44.9061323,20.2748158",
-        "name": "Batajnica",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5185941,
-          44.8475573
-        ]
-      },
-      "properties": {
-        "group": "44.8475573,20.5185941",
-        "name": "Krnjača",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3767304,
-          44.8596448
-        ]
-      },
-      "properties": {
-        "group": "44.8596448,20.3767304",
-        "name": "Gornji grad",
-        "total": 7,
-        "suitable": 7,
-        "affordable": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3672942,
-          44.8570829
-        ]
-      },
-      "properties": {
-        "group": "44.8570829,20.3672942",
-        "name": "Galenika",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4518071,
-          44.7470721
-        ]
-      },
-      "properties": {
-        "group": "44.7470721,20.4518071",
-        "name": "Miljakovac",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4130631,
-          44.7615346
-        ]
-      },
-      "properties": {
-        "group": "44.7615346,20.4130631",
-        "name": "Žarkovo",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3863092,
-          44.8481064
-        ]
-      },
-      "properties": {
-        "group": "44.8481064,20.3863092",
-        "name": "Meandri",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5559331,
-          44.7522835
-        ]
-      },
-      "properties": {
-        "group": "44.7522835,20.5559331",
-        "name": "Kaluđerica",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4643411,
-          44.8184554
-        ]
-      },
-      "properties": {
-        "group": "44.8184554,20.4643411",
-        "name": "Centar",
-        "total": 14,
-        "suitable": 13,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4912167,
-          44.7856266
-        ]
-      },
-      "properties": {
-        "group": "44.7856266,20.4912167",
-        "name": "Šumice",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.509558,
-          44.8172662
-        ]
-      },
-      "properties": {
-        "group": "44.8172662,20.509558",
-        "name": "Karaburma",
-        "total": 6,
-        "suitable": 6,
-        "affordable": 4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4820642,
-          44.8027133
-        ]
-      },
-      "properties": {
-        "group": "44.8027133,20.4820642",
-        "name": "Bulevar kralja Aleksandra",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.53607,
-          44.7744443
-        ]
-      },
-      "properties": {
-        "group": "44.7744443,20.53607",
-        "name": "Mali Mokri Lug",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5168098,
-          44.7897293
-        ]
-      },
-      "properties": {
-        "group": "44.7897293,20.5168098",
-        "name": "Kluz",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4057772,
-          44.8456972
-        ]
-      },
-      "properties": {
-        "group": "44.8456972,20.4057772",
-        "name": "Ćukovac",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5461547,
-          44.7854051
-        ]
-      },
-      "properties": {
-        "group": "44.7854051,20.5461547",
-        "name": "Mirijevo",
-        "total": 175,
-        "suitable": 175,
-        "affordable": 167
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4096266,
-          44.7676092
-        ]
-      },
-      "properties": {
-        "group": "44.7676092,20.4096266",
-        "name": "Julino brdo",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5015404,
-          44.8091387
-        ]
-      },
-      "properties": {
-        "group": "44.8091387,20.5015404",
-        "name": "Zvezdara 2",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4155629,
-          44.7767729
-        ]
-      },
-      "properties": {
-        "group": "44.7767729,20.4155629",
-        "name": "Banovo brdo",
-        "total": 8,
-        "suitable": 8,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5096174,
-          44.7941017
-        ]
-      },
-      "properties": {
-        "group": "44.7941017,20.5096174",
-        "name": "Olimp",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4943111,
-          44.7705535
-        ]
-      },
-      "properties": {
-        "group": "44.7705535,20.4943111",
-        "name": "Braće Jerković",
-        "total": 10,
-        "suitable": 10,
-        "affordable": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3936839,
-          44.844921
-        ]
-      },
-      "properties": {
-        "group": "44.844921,20.3936839",
-        "name": "Save Kovačevića",
-        "total": 5,
-        "suitable": 5,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5079556,
-          44.7722771
-        ]
-      },
-      "properties": {
-        "group": "44.7722771,20.5079556",
-        "name": "Medaković 3",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5193333,
-          44.7900404
-        ]
-      },
-      "properties": {
-        "group": "44.7900404,20.5193333",
-        "name": "Zeleno brdo",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4316466,
-          44.7532443
-        ]
-      },
-      "properties": {
-        "group": "44.7532443,20.4316466",
-        "name": "Filmski grad",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4882292,
-          44.795856
-        ]
-      },
-      "properties": {
-        "group": "44.795856,20.4882292",
-        "name": "Crveni krst",
-        "total": 17,
-        "suitable": 17,
-        "affordable": 1
       }
     },
     {
@@ -845,77 +29,9 @@
       },
       "properties": {
         "group": "44.8046413,20.4832729",
-        "name": "Vukov Spomenik",
-        "total": 164,
-        "suitable": 164,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.460523,
-          44.8252158
-        ]
-      },
-      "properties": {
-        "group": "44.8252158,20.460523",
-        "name": "Dorćol",
-        "total": 333,
-        "suitable": 333,
-        "affordable": 161
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4695084,
-          44.7945158
-        ]
-      },
-      "properties": {
-        "group": "44.7945158,20.4695084",
-        "name": "Neimar",
-        "total": 164,
-        "suitable": 163,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4569476,
-          44.7981748
-        ]
-      },
-      "properties": {
-        "group": "44.7981748,20.4569476",
-        "name": "Klinički centar",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5028696,
-          44.7615321
-        ]
-      },
-      "properties": {
-        "group": "44.7615321,20.5028696",
-        "name": "Vojvode Vlahovića",
-        "total": 2,
-        "suitable": 2,
+        "name": "Centar, Vukov spomenik, namešten stan, nova zgrada",
+        "total": 68,
+        "suitable": 67,
         "affordable": 0
       }
     },
@@ -924,372 +40,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.402188,
-          44.800409
+          20.4690468,
+          44.7981382
         ]
       },
       "properties": {
-        "group": "44.800409,20.402188",
-        "name": "Blok 70a",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3919853,
-          44.6759957
-        ]
-      },
-      "properties": {
-        "group": "44.6759957,20.3919853",
-        "name": "Sremčica",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3800881,
-          44.8099561
-        ]
-      },
-      "properties": {
-        "group": "44.8099561,20.3800881",
-        "name": "Opština",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.336079,
-          44.8531925
-        ]
-      },
-      "properties": {
-        "group": "44.8531925,20.336079",
-        "name": "Plavi horizonti",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3742101,
-          44.7984982
-        ]
-      },
-      "properties": {
-        "group": "44.7984982,20.3742101",
-        "name": "Blok 45 (TC Enjub)",
-        "total": 169,
-        "suitable": 169,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4752233,
-          44.7726817
-        ]
-      },
-      "properties": {
-        "group": "44.7726817,20.4752233",
-        "name": "FON - Bilećka",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.49656,
-          44.75355
-        ]
-      },
-      "properties": {
-        "group": "44.75355,20.49656",
-        "name": "Naselje Stepa Stepanović",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.378662,
-          44.8328343
-        ]
-      },
-      "properties": {
-        "group": "44.8328343,20.378662",
-        "name": "Kolonija Zmaj",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4947692,
-          44.7891937
-        ]
-      },
-      "properties": {
-        "group": "44.7891937,20.4947692",
-        "name": "Lekino brdo",
-        "total": 6,
-        "suitable": 6,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3796226,
-          44.8200035
-        ]
-      },
-      "properties": {
-        "group": "44.8200035,20.3796226",
-        "name": "Bežanijska kosa 3",
-        "total": 162,
-        "suitable": 162,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4569894,
-          44.8177356
-        ]
-      },
-      "properties": {
-        "group": "44.8177356,20.4569894",
-        "name": "Knez Mihailova",
-        "total": 4,
-        "suitable": 4,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.410414,
-          44.8211636
-        ]
-      },
-      "properties": {
-        "group": "44.8211636,20.410414",
-        "name": "Fontana",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4175168,
-          44.8100237
-        ]
-      },
-      "properties": {
-        "group": "44.8100237,20.4175168",
-        "name": "Blok 24 (Super Vero)",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4773131,
-          44.7954768
-        ]
-      },
-      "properties": {
-        "group": "44.7954768,20.4773131",
-        "name": "Čubura",
-        "total": 165,
-        "suitable": 3,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4753125,
-          44.7753641
-        ]
-      },
-      "properties": {
-        "group": "44.7753641,20.4753125",
-        "name": "Vojvode Stepe",
-        "total": 164,
-        "suitable": 164,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4541963,
-          44.8029445
-        ]
-      },
-      "properties": {
-        "group": "44.8029445,20.4541963",
-        "name": "Sarajevska",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4872266,
-          44.8013332
-        ]
-      },
-      "properties": {
-        "group": "44.8013332,20.4872266",
-        "name": "Đeram pijaca",
-        "total": 5,
-        "suitable": 5,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4809591,
-          44.793588
-        ]
-      },
-      "properties": {
-        "group": "44.793588,20.4809591",
-        "name": "Južni bulevar",
-        "total": 166,
-        "suitable": 166,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4717445,
-          44.7822375
-        ]
-      },
-      "properties": {
-        "group": "44.7822375,20.4717445",
-        "name": "Bioskop Voždovac",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4711979,
-          44.779525
-        ]
-      },
-      "properties": {
-        "group": "44.779525,20.4711979",
-        "name": "Voždovačka crkva",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5098129,
-          44.7394333
-        ]
-      },
-      "properties": {
-        "group": "44.7394333,20.5098129",
-        "name": "Kumodraž",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.492606,
-          44.8028978
-        ]
-      },
-      "properties": {
-        "group": "44.8028978,20.492606",
-        "name": "Bulbulder",
-        "total": 3,
-        "suitable": 3,
+        "group": "44.7981382,20.4690468",
+        "name": "Vračar, Hram",
+        "total": 136,
+        "suitable": 134,
         "affordable": 0
       }
     },
@@ -1304,9 +63,9 @@
       },
       "properties": {
         "group": "44.8039695,20.376525",
-        "name": "Blok 62",
-        "total": 3,
-        "suitable": 3,
+        "name": "2.0, Novi Beograd, blok 62, Jurija Gagarina, 48m2",
+        "total": 25,
+        "suitable": 25,
         "affordable": 0
       }
     },
@@ -1315,15 +74,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4626509,
-          44.9398868
+          20.4947692,
+          44.7891937
         ]
       },
       "properties": {
-        "group": "44.9398868,20.4626509",
-        "name": "Centar",
-        "total": 2,
-        "suitable": 2,
+        "group": "44.7891937,20.4947692",
+        "name": "Komforan sa prostranom terasom",
+        "total": 63,
+        "suitable": 62,
         "affordable": 0
       }
     },
@@ -1332,15 +91,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4570323,
-          44.8083711
+          20.4047095,
+          44.8180749
         ]
       },
       "properties": {
-        "group": "44.8083711,20.4570323",
-        "name": "Savski trg - Pristanište",
-        "total": 3,
-        "suitable": 3,
+        "group": "44.8180749,20.4047095",
+        "name": "Renoviran sa prelepim pogledom, pet friendly",
+        "total": 8,
+        "suitable": 8,
         "affordable": 0
       }
     },
@@ -1349,474 +108,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.3694329,
-          44.8000403
+          20.407693,
+          44.8054293
         ]
       },
       "properties": {
-        "group": "44.8000403,20.3694329",
-        "name": "Dr Ivana Ribara",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.494329,
-          44.7471263
-        ]
-      },
-      "properties": {
-        "group": "44.7471263,20.494329",
-        "name": "Farmaceutski fakultet",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4201481,
-          44.8295445
-        ]
-      },
-      "properties": {
-        "group": "44.8295445,20.4201481",
-        "name": "Hotel Jugoslavija",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4960362,
-          44.7968154
-        ]
-      },
-      "properties": {
-        "group": "44.7968154,20.4960362",
-        "name": "Lion",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3718846,
-          44.8072486
-        ]
-      },
-      "properties": {
-        "group": "44.8072486,20.3718846",
-        "name": "Stara Bežanija",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.46634,
-          44.7902717
-        ]
-      },
-      "properties": {
-        "group": "44.7902717,20.46634",
-        "name": "Autokomanda",
-        "total": 4,
-        "suitable": 4,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4994395,
-          44.7999794
-        ]
-      },
-      "properties": {
-        "group": "44.7999794,20.4994395",
-        "name": "Gradska bolnica",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3948763,
-          44.8174406
-        ]
-      },
-      "properties": {
-        "group": "44.8174406,20.3948763",
-        "name": "Tošin bunar",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5195324,
-          44.784341
-        ]
-      },
-      "properties": {
-        "group": "44.784341,20.5195324",
-        "name": "Bulevar kralja Aleksandra",
-        "total": 162,
-        "suitable": 162,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3975132,
-          44.83816
-        ]
-      },
-      "properties": {
-        "group": "44.83816,20.3975132",
-        "name": "Kalvarija",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4264583,
-          44.811609
-        ]
-      },
-      "properties": {
-        "group": "44.811609,20.4264583",
-        "name": "Blok 22",
-        "total": 4,
-        "suitable": 4,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4171526,
-          44.8157598
-        ]
-      },
-      "properties": {
-        "group": "44.8157598,20.4171526",
-        "name": "Blok 29",
-        "total": 4,
-        "suitable": 4,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3918182,
-          44.8027884
-        ]
-      },
-      "properties": {
-        "group": "44.8027884,20.3918182",
-        "name": "Blok 70 (kineski tržni centar)",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4538718,
-          44.8275932
-        ]
-      },
-      "properties": {
-        "group": "44.8275932,20.4538718",
-        "name": "K-District",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3867304,
-          44.8417656
-        ]
-      },
-      "properties": {
-        "group": "44.8417656,20.3867304",
-        "name": "Prvomajska",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.534591,
-          44.82226
-        ]
-      },
-      "properties": {
-        "group": "44.82226,20.534591",
-        "name": "Višnjička Banja",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4240856,
-          44.8084235
-        ]
-      },
-      "properties": {
-        "group": "44.8084235,20.4240856",
-        "name": "Blok 23",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4718475,
-          44.813181
-        ]
-      },
-      "properties": {
-        "group": "44.813181,20.4718475",
-        "name": "Takovska",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.418225,
-          44.8224293
-        ]
-      },
-      "properties": {
-        "group": "44.8224293,20.418225",
-        "name": "YUBC",
-        "total": 3,
-        "suitable": 3,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.475025,
-          44.7995311
-        ]
-      },
-      "properties": {
-        "group": "44.7995311,20.475025",
-        "name": "Centar",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4582228,
-          44.8120378
-        ]
-      },
-      "properties": {
-        "group": "44.8120378,20.4582228",
-        "name": "Zeleni venac",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.475769,
-          44.8001747
-        ]
-      },
-      "properties": {
-        "group": "44.8001747,20.475769",
-        "name": "Kalenić pijaca",
-        "total": 170,
-        "suitable": 170,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4635488,
-          44.8072274
-        ]
-      },
-      "properties": {
-        "group": "44.8072274,20.4635488",
-        "name": "Beograđanka",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4671323,
-          44.81868
-        ]
-      },
-      "properties": {
-        "group": "44.81868,20.4671323",
-        "name": "Bajlonijeva pijaca",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.465944,
-          44.8027838
-        ]
-      },
-      "properties": {
-        "group": "44.8027838,20.465944",
-        "name": "Slavija",
-        "total": 6,
-        "suitable": 6,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4049409,
-          44.8377664
-        ]
-      },
-      "properties": {
-        "group": "44.8377664,20.4049409",
-        "name": "Zelena avenija",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4092411,
-          44.8060321
-        ]
-      },
-      "properties": {
-        "group": "44.8060321,20.4092411",
-        "name": "Blok 67 (Belvil)",
-        "total": 10,
-        "suitable": 10,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4015421,
-          44.8061288
-        ]
-      },
-      "properties": {
-        "group": "44.8061288,20.4015421",
-        "name": "Blok 67a (A blok)",
-        "total": 9,
-        "suitable": 9,
+        "group": "44.8054293,20.407693",
+        "name": "Blok 67, Belvill, lux, garaža, 2.0, ID 19769",
+        "total": 56,
+        "suitable": 56,
         "affordable": 0
       }
     },
@@ -1831,9 +131,77 @@
       },
       "properties": {
         "group": "44.8126665,20.3980309",
-        "name": "Blok 65",
-        "total": 12,
-        "suitable": 12,
+        "name": "West 65, lux, novogradnja, garaža, ID 19613",
+        "total": 132,
+        "suitable": 132,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.448043,
+          44.80488280000001
+        ]
+      },
+      "properties": {
+        "group": "44.80488280000001,20.448043",
+        "name": "BW Parkview, lux, novogradnja, garaža, ID 19271",
+        "total": 338,
+        "suitable": 338,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4155629,
+          44.7767729
+        ]
+      },
+      "properties": {
+        "group": "44.7767729,20.4155629",
+        "name": "Banovo brdo, lux komforan stan, ID 19089",
+        "total": 103,
+        "suitable": 102,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5461547,
+          44.7854051
+        ]
+      },
+      "properties": {
+        "group": "44.7854051,20.5461547",
+        "name": "Mirijevo, novogradnja, odličan, ID 8571",
+        "total": 99,
+        "suitable": 98,
+        "affordable": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4149874,
+          44.8318855
+        ]
+      },
+      "properties": {
+        "group": "44.8318855,20.4149874",
+        "name": "Chic studio, Kennedy Residence",
+        "total": 13,
+        "suitable": 13,
         "affordable": 0
       }
     },
@@ -1848,9 +216,9 @@
       },
       "properties": {
         "group": "44.805903,20.3823845",
-        "name": "Blok 63",
-        "total": 2,
-        "suitable": 2,
+        "name": "Sun City, lux, novogradnja, garaža, ID 18657",
+        "total": 62,
+        "suitable": 62,
         "affordable": 0
       }
     },
@@ -1859,15 +227,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.3917616,
-          44.808996
+          20.4264583,
+          44.811609
         ]
       },
       "properties": {
-        "group": "44.808996,20.3917616",
-        "name": "Blok 64",
-        "total": 1,
-        "suitable": 1,
+        "group": "44.811609,20.4264583",
+        "name": "Novi Beograd - Blok 22 Arena ID#51870",
+        "total": 21,
+        "suitable": 21,
         "affordable": 0
       }
     },
@@ -1876,15 +244,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.477074,
-          44.7761819
+          20.3432558,
+          44.8035245
         ]
       },
       "properties": {
-        "group": "44.7761819,20.477074",
-        "name": "Centar",
-        "total": 1,
-        "suitable": 1,
+        "group": "44.8035245,20.3432558",
+        "name": "Hram sv. Mateja Apostola kvalitetno novo od aprila",
+        "total": 44,
+        "suitable": 44,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4882292,
+          44.795856
+        ]
+      },
+      "properties": {
+        "group": "44.795856,20.4882292",
+        "name": "Lux, novogradnja, komforan, ID 19770",
+        "total": 119,
+        "suitable": 117,
         "affordable": 0
       }
     },
@@ -1893,15 +278,219 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.448043,
-          44.8048828
+          20.4560195,
+          44.77406879999999
         ]
       },
       "properties": {
-        "group": "44.8048828,20.448043",
-        "name": "Beograd na vodi",
+        "group": "44.77406879999999,20.4560195",
+        "name": "Lux, Dedinje, sa tri garažna mesta",
+        "total": 102,
+        "suitable": 102,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4015421,
+          44.8061288
+        ]
+      },
+      "properties": {
+        "group": "44.8061288,20.4015421",
+        "name": "A blok, lux, novogradnja, garaža, ID 19863",
+        "total": 71,
+        "suitable": 71,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1873959,
+          34.8325353
+        ]
+      },
+      "properties": {
+        "group": "34.8325353,-92.1873959",
+        "name": "Centar,Vojvode Milenka,pogodan za pp,parking ID#15",
+        "total": 269,
+        "suitable": 267,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4201481,
+          44.8295445
+        ]
+      },
+      "properties": {
+        "group": "44.8295445,20.4201481",
+        "name": "Odlično renoviran 2.0, Blok 9B sa lođom 45m2",
+        "total": 49,
+        "suitable": 49,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8062347,
+          46.2961712
+        ]
+      },
+      "properties": {
+        "group": "46.2961712,14.8062347",
+        "name": "Apartman, Zemun",
+        "total": 48,
+        "suitable": 47,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4809591,
+          44.793588
+        ]
+      },
+      "properties": {
+        "group": "44.793588,20.4809591",
+        "name": "Vračar, Južni bulevar,3.5 lux novogradnja, id 4440",
+        "total": 82,
+        "suitable": 81,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1043823,
+          45.68258609999999
+        ]
+      },
+      "properties": {
+        "group": "45.68258609999999,16.1043823",
+        "name": "Beograd, Prvomajska, Stan, 2.5, 75m2",
+        "total": 15,
+        "suitable": 15,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.460523,
+          44.8252158
+        ]
+      },
+      "properties": {
+        "group": "44.8252158,20.460523",
+        "name": "Beograd, Dorćol, Stan, 2.0, 60m2",
+        "total": 149,
+        "suitable": 147,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.475769,
+          44.8001747
+        ]
+      },
+      "properties": {
+        "group": "44.8001747,20.475769",
+        "name": "65m2 – Mileševska, Kalenić, Vračar, Beograd",
+        "total": 142,
+        "suitable": 141,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.463919,
+          44.8097554
+        ]
+      },
+      "properties": {
+        "group": "44.8097554,20.463919",
+        "name": "40m2 - Andrićev Venac, Skupština, Stari grad, Beog",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.534591,
+          44.82226
+        ]
+      },
+      "properties": {
+        "group": "44.82226,20.534591",
+        "name": "40m2 – Višnjička banja, Dragana Maksimoviča, Beogr",
         "total": 31,
         "suitable": 31,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "properties": {
+        "group": "NaN,NaN",
+        "name": "75m2 – Španskih boraca, Novi Beograd",
+        "total": 331,
+        "suitable": 328,
+        "affordable": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4612717,
+          44.8126696
+        ]
+      },
+      "properties": {
+        "group": "44.8126696,20.4612717",
+        "name": "55m2 – Kraljice Natalije, Terazije, Stari grad, Be",
+        "total": 28,
+        "suitable": 28,
         "affordable": 0
       }
     },
@@ -1910,15 +499,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4681403,
-          44.814295
+          -117.435048,
+          34.0922335
         ]
       },
       "properties": {
-        "group": "44.814295,20.4681403",
-        "name": "Atelje 212",
-        "total": 1,
-        "suitable": 1,
+        "group": "34.0922335,-117.435048",
+        "name": "Novi Beograd - Fontana ID#51868",
+        "total": 33,
+        "suitable": 33,
         "affordable": 0
       }
     },
@@ -1927,15 +516,117 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4691058,
-          44.7981492
+          20.5037812,
+          44.7929494
         ]
       },
       "properties": {
-        "group": "44.7981492,20.4691058",
-        "name": "Hram svetog Save",
-        "total": 10,
-        "suitable": 10,
+        "group": "44.7929494,20.5037812",
+        "name": "Stan 70m2 Zvezdara",
+        "total": 42,
+        "suitable": 42,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4518071,
+          44.7470721
+        ]
+      },
+      "properties": {
+        "group": "44.7470721,20.4518071",
+        "name": "Stan za izdavanje 43, C.G. , kablovska, internet",
+        "total": 22,
+        "suitable": 22,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3993279,
+          44.8251222
+        ]
+      },
+      "properties": {
+        "group": "44.8251222,20.3993279",
+        "name": "Novi Beograd,Extra povoljno,Bulevar Zorana Đinđića",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4940689,
+          44.7953694
+        ]
+      },
+      "properties": {
+        "group": "44.7953694,20.4940689",
+        "name": "Reprezentativan i suncan pp sa pogledom na Bulevar",
+        "total": 8,
+        "suitable": 8,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4872266,
+          44.80133319999999
+        ]
+      },
+      "properties": {
+        "group": "44.80133319999999,20.4872266",
+        "name": "Stan za izdavanje kod Djeram pijace ID#204941",
+        "total": 44,
+        "suitable": 43,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4393344,
+          44.7789917
+        ]
+      },
+      "properties": {
+        "group": "44.7789917,20.4393344",
+        "name": "Luksuzan stan za izdavanje Topčidarsko brdo ID#306",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4803233,
+          44.8068906
+        ]
+      },
+      "properties": {
+        "group": "44.8068906,20.4803233",
+        "name": "Ruzveltova, TC Zira, Lux",
+        "total": 5,
+        "suitable": 5,
         "affordable": 0
       }
     },
@@ -1950,9 +641,9 @@
       },
       "properties": {
         "group": "44.8145051,20.4303868",
-        "name": "Blok 21",
-        "total": 2,
-        "suitable": 2,
+        "name": "Blok 21,4-soban,komforan,useljiv ID#13512",
+        "total": 27,
+        "suitable": 27,
         "affordable": 0
       }
     },
@@ -1961,83 +652,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4295152,
-          44.8062034
+          20.3992782,
+          44.8202941
         ]
       },
       "properties": {
-        "group": "44.8062034,20.4295152",
-        "name": "Blok 19a",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3870691,
-          44.8019719
-        ]
-      },
-      "properties": {
-        "group": "44.8019719,20.3870691",
-        "name": "Blok 44 (TC Piramida)",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3855902,
-          44.8149788
-        ]
-      },
-      "properties": {
-        "group": "44.8149788,20.3855902",
-        "name": "Blok 60",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4795778,
-          44.8173075
-        ]
-      },
-      "properties": {
-        "group": "44.8173075,20.4795778",
-        "name": "Bulevar despota Stefana",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3699008,
-          44.8033864
-        ]
-      },
-      "properties": {
-        "group": "44.8033864,20.3699008",
-        "name": "Blok 61",
-        "total": 3,
-        "suitable": 3,
+        "group": "44.8202941,20.3992782",
+        "name": "Stan u 37. bloku na Novom Beogradu, blizu Geneksa",
+        "total": 18,
+        "suitable": 18,
         "affordable": 0
       }
     },
@@ -2052,9 +675,9 @@
       },
       "properties": {
         "group": "44.8205858,20.4074632",
-        "name": "Blok 33",
-        "total": 1,
-        "suitable": 1,
+        "name": "Apartment in GENEX Tower - Novi Beograd",
+        "total": 15,
+        "suitable": 15,
         "affordable": 0
       }
     },
@@ -2063,16 +686,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4705836,
-          44.8090071
+          20.509558,
+          44.8172662
         ]
       },
       "properties": {
-        "group": "44.8090071,20.4705836",
-        "name": "Tašmajdan",
-        "total": 162,
-        "suitable": 162,
-        "affordable": 0
+        "group": "44.8172662,20.509558",
+        "name": "Renoviran sa niskim režijama",
+        "total": 61,
+        "suitable": 61,
+        "affordable": 5
       }
     },
     {
@@ -2080,151 +703,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4702672,
-          44.8052638
+          23.2236949,
+          54.4156509
         ]
       },
       "properties": {
-        "group": "44.8052638,20.4702672",
-        "name": "Krunska",
-        "total": 162,
-        "suitable": 162,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.505115,
-          44.7757766
-        ]
-      },
-      "properties": {
-        "group": "44.7757766,20.505115",
-        "name": "Medaković 1",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4560195,
-          44.7740688
-        ]
-      },
-      "properties": {
-        "group": "44.7740688,20.4560195",
-        "name": "Dedinje",
-        "total": 349,
-        "suitable": 349,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.5199615,
-          44.7061419
-        ]
-      },
-      "properties": {
-        "group": "44.7061419,20.5199615",
-        "name": "Beli potok",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4562265,
-          44.8118107
-        ]
-      },
-      "properties": {
-        "group": "44.8118107,20.4562265",
-        "name": "Centar",
-        "total": 164,
-        "suitable": 164,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3540302,
-          44.855914
-        ]
-      },
-      "properties": {
-        "group": "44.855914,20.3540302",
-        "name": "Altina",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.2753092,
-          44.9062467
-        ]
-      },
-      "properties": {
-        "group": "44.9062467,20.2753092",
-        "name": "Centar",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4573839,
-          44.8189483
-        ]
-      },
-      "properties": {
-        "group": "44.8189483,20.4573839",
-        "name": "Studentski trg",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4538059,
-          44.7189343
-        ]
-      },
-      "properties": {
-        "group": "44.7189343,20.4538059",
-        "name": "Centar",
-        "total": 1,
-        "suitable": 1,
+        "group": "54.4156509,23.2236949",
+        "name": "Duplex 70m2, Kalvarija",
+        "total": 17,
+        "suitable": 17,
         "affordable": 0
       }
     },
@@ -2234,82 +721,14 @@
         "type": "Point",
         "coordinates": [
           20.3882486,
-          44.8220753
+          44.82207529999999
         ]
       },
       "properties": {
-        "group": "44.8220753,20.3882486",
-        "name": "Bežanijska kosa 1",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4103691,
-          44.8007004
-        ]
-      },
-      "properties": {
-        "group": "44.8007004,20.4103691",
-        "name": "Blok 58",
-        "total": 2,
-        "suitable": 2,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4508992,
-          44.8222662
-        ]
-      },
-      "properties": {
-        "group": "44.8222662,20.4508992",
-        "name": "Kalemegdan",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.3886462,
-          44.8544096
-        ]
-      },
-      "properties": {
-        "group": "44.8544096,20.3886462",
-        "name": "Cara Dušana",
-        "total": 1,
-        "suitable": 1,
-        "affordable": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.4690457,
-          44.8203336
-        ]
-      },
-      "properties": {
-        "group": "44.8203336,20.4690457",
-        "name": "Gundulićev venac",
-        "total": 1,
-        "suitable": 1,
+        "group": "44.82207529999999,20.3882486",
+        "name": "Prelep lux stan na Bežanijskoj kosi",
+        "total": 16,
+        "suitable": 16,
         "affordable": 0
       }
     },
@@ -2324,7 +743,194 @@
       },
       "properties": {
         "group": "44.8151594,20.488473",
-        "name": "Bogoslovija",
+        "name": "Retko dostupan, Bogoslovija 4.0",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4914278,
+          44.801971
+        ]
+      },
+      "properties": {
+        "group": "44.801971,20.4914278",
+        "name": "Novogradnja Dimitrija Tucovića",
+        "total": 20,
+        "suitable": 19,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4827283,
+          44.7612309
+        ]
+      },
+      "properties": {
+        "group": "44.7612309,20.4827283",
+        "name": "Stan za kancelarijski prostor",
+        "total": 15,
+        "suitable": 14,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4848359,
+          44.7608581
+        ]
+      },
+      "properties": {
+        "group": "44.7608581,20.4848359",
+        "name": "Širi centar - Vozdovac ID#51841",
+        "total": 31,
+        "suitable": 31,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4508992,
+          44.8222662
+        ]
+      },
+      "properties": {
+        "group": "44.8222662,20.4508992",
+        "name": "Kalemegdan, 80m2, trosoban stan, namešten, terasa",
+        "total": 17,
+        "suitable": 17,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4569894,
+          44.8177356
+        ]
+      },
+      "properties": {
+        "group": "44.8177356,20.4569894",
+        "name": "Izdajem luksuzan Salonac kompletno renoviran",
+        "total": 19,
+        "suitable": 19,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4240856,
+          44.8084235
+        ]
+      },
+      "properties": {
+        "group": "44.8084235,20.4240856",
+        "name": "Blok 23,3-soban,opremljen,useljiv ID#15954",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4571706,
+          44.8162419
+        ]
+      },
+      "properties": {
+        "group": "44.8162419,20.4571706",
+        "name": "Stari Grad, obilićev Venac ID#4684",
+        "total": 22,
+        "suitable": 22,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.49656,
+          44.75355
+        ]
+      },
+      "properties": {
+        "group": "44.75355,20.49656",
+        "name": "Namesten dvosoban stan top lokacija",
+        "total": 36,
+        "suitable": 36,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4235866,
+          44.7281854
+        ]
+      },
+      "properties": {
+        "group": "44.7281854,20.4235866",
+        "name": "Vlasnik iznajmljuje na duže 2.5 stan",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3694329,
+          44.8000403
+        ]
+      },
+      "properties": {
+        "group": "44.8000403,20.3694329",
+        "name": "IZDAJE SE 2,5 STAN U DR.IVANA RIBARA RENOVIRAN",
+        "total": 19,
+        "suitable": 19,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4088911,
+          44.8082287
+        ]
+      },
+      "properties": {
+        "group": "44.8082287,20.4088911",
+        "name": "Blok 65, Zepterra 60 m2, Novo, Lux, Garaža",
         "total": 3,
         "suitable": 3,
         "affordable": 0
@@ -2335,15 +941,1647 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4612717,
-          44.8126696
+          20.4912167,
+          44.7856266
         ]
       },
       "properties": {
-        "group": "44.8126696,20.4612717",
-        "name": "Terazije",
+        "group": "44.7856266,20.4912167",
+        "name": "Vojislava Ilica Lux",
+        "total": 32,
+        "suitable": 32,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3743625,
+          44.7983726
+        ]
+      },
+      "properties": {
+        "group": "44.7983726,20.3743625",
+        "name": "Novi Beograd - Blok 45",
+        "total": 36,
+        "suitable": 36,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4667137,
+          44.8787385
+        ]
+      },
+      "properties": {
+        "group": "44.8787385,20.4667137",
+        "name": "Borča stan za izdavanje",
+        "total": 20,
+        "suitable": 17,
+        "affordable": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3686508,
+          44.85308879999999
+        ]
+      },
+      "properties": {
+        "group": "44.85308879999999,20.3686508",
+        "name": "Zemunske kapije",
+        "total": 18,
+        "suitable": 18,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3796226,
+          44.8200035
+        ]
+      },
+      "properties": {
+        "group": "44.8200035,20.3796226",
+        "name": "Bežanijska kosa - Bezanijska Kosa 3 ID#51704",
+        "total": 11,
+        "suitable": 11,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4683341,
+          44.7621061
+        ]
+      },
+      "properties": {
+        "group": "44.7621061,20.4683341",
+        "name": "3.0 Banica 65+7 , TOP",
+        "total": 31,
+        "suitable": 31,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.46123,
+          44.8125449
+        ]
+      },
+      "properties": {
+        "group": "44.8125449,20.46123",
+        "name": "Izdajem stan kod Pravnog Fakulteta",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4125119,
+          44.8280022
+        ]
+      },
+      "properties": {
+        "group": "44.8280022,20.4125119",
+        "name": "Novi Beograd - Stari Merkator Novogradnja ID#51692",
+        "total": 62,
+        "suitable": 62,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3699008,
+          44.8033864
+        ]
+      },
+      "properties": {
+        "group": "44.8033864,20.3699008",
+        "name": "Blok 61",
+        "total": 40,
+        "suitable": 40,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4049409,
+          44.83776640000001
+        ]
+      },
+      "properties": {
+        "group": "44.83776640000001,20.4049409",
+        "name": "Duplex u Lux novogradnji sa parkingom",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3858748,
+          44.8189019
+        ]
+      },
+      "properties": {
+        "group": "44.8189019,20.3858748",
+        "name": "Renoviran stan Bezanijska kosa 36m²+16m²",
+        "total": 13,
+        "suitable": 13,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4057772,
+          44.8456972
+        ]
+      },
+      "properties": {
+        "group": "44.8456972,20.4057772",
+        "name": "Zemun Ćukovac trosoban",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3869173,
+          44.8019065
+        ]
+      },
+      "properties": {
+        "group": "44.8019065,20.3869173",
+        "name": "Novi Beograd - Blok 44 ID#51844",
+        "total": 15,
+        "suitable": 15,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4582228,
+          44.8120378
+        ]
+      },
+      "properties": {
+        "group": "44.8120378,20.4582228",
+        "name": "Centar, Lomina, 62m2 ID#4104",
+        "total": 25,
+        "suitable": 25,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4295152,
+          44.8062034
+        ]
+      },
+      "properties": {
+        "group": "44.8062034,20.4295152",
+        "name": "Blok 19a, Milentija Popovića, 75m2 ID#4574",
+        "total": 36,
+        "suitable": 36,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5009992,
+          46.0508788
+        ]
+      },
+      "properties": {
+        "group": "46.0508788,14.5009992",
+        "name": "Trg Republike, Dečanska, 70m2 ID#4710",
+        "total": 12,
+        "suitable": 12,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4316466,
+          44.7532443
+        ]
+      },
+      "properties": {
+        "group": "44.7532443,20.4316466",
+        "name": "Filmski grad, Arčibalda Rajsa, 92m2 ID#4730",
+        "total": 19,
+        "suitable": 19,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4774302,
+          44.7781744
+        ]
+      },
+      "properties": {
+        "group": "44.7781744,20.4774302",
+        "name": "Potpuno nov, moderan stan, ID 2143",
+        "total": 7,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3948763,
+          44.8174406
+        ]
+      },
+      "properties": {
+        "group": "44.8174406,20.3948763",
+        "name": "Duplexs iznad Tosinog bunara pogledati video klip",
+        "total": 22,
+        "suitable": 22,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3795023,
+          44.8449515
+        ]
+      },
+      "properties": {
+        "group": "44.8449515,20.3795023",
+        "name": "Stan od 100m2, namesten. U lepom delu Zemuna.",
         "total": 1,
         "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4539077,
+          44.8050588
+        ]
+      },
+      "properties": {
+        "group": "44.8050588,20.4539077",
+        "name": "Palata pravde, Sarajevska, 56m2 ID#4309",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4156868,
+          43.8691644
+        ]
+      },
+      "properties": {
+        "group": "43.8691644,18.4156868",
+        "name": "Lux, salonac ID#4311",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4205895,
+          44.7383997
+        ]
+      },
+      "properties": {
+        "group": "44.7383997,20.4205895",
+        "name": "Vidikovac, Rakovica ID#4788",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4175168,
+          44.8100237
+        ]
+      },
+      "properties": {
+        "group": "44.8100237,20.4175168",
+        "name": "Odlilčan stan ID#30080",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4171526,
+          44.8157598
+        ]
+      },
+      "properties": {
+        "group": "44.8157598,20.4171526",
+        "name": "Novi Beograd - Blok 29 Arena ID#51170",
+        "total": 29,
+        "suitable": 29,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4119009,
+          44.8348792
+        ]
+      },
+      "properties": {
+        "group": "44.8348792,20.4119009",
+        "name": "Retenzija, 30m2, Renoviran,Miran, Top pozicija",
+        "total": 16,
+        "suitable": 16,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4714936,
+          44.8119208
+        ]
+      },
+      "properties": {
+        "group": "44.8119208,20.4714936",
+        "name": "Jednosoban stan - Palilulska pijaca",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3917616,
+          44.808996
+        ]
+      },
+      "properties": {
+        "group": "44.808996,20.3917616",
+        "name": "Novi Beograd - Blok 64 Immo Centar ID#51804",
+        "total": 17,
+        "suitable": 17,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5185941,
+          44.8475573
+        ]
+      },
+      "properties": {
+        "group": "44.8475573,20.5185941",
+        "name": "Divan 3.0 stan. Niske režije.",
+        "total": 18,
+        "suitable": 18,
+        "affordable": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4838946,
+          44.7422868
+        ]
+      },
+      "properties": {
+        "group": "44.7422868,20.4838946",
+        "name": "Stan u blizini spomen parka Jajinci",
+        "total": 13,
+        "suitable": 13,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4457953,
+          44.7570589
+        ]
+      },
+      "properties": {
+        "group": "44.7570589,20.4457953",
+        "name": "Stari kosutnjak",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.492606,
+          44.8028978
+        ]
+      },
+      "properties": {
+        "group": "44.8028978,20.492606",
+        "name": "2.0 stan kod Zire",
+        "total": 29,
+        "suitable": 29,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4690457,
+          44.8203336
+        ]
+      },
+      "properties": {
+        "group": "44.8203336,20.4690457",
+        "name": "Novi Dorćol, lux kompleks, garaža, ID 17278",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4658261,
+          44.8115854
+        ]
+      },
+      "properties": {
+        "group": "44.8115854,20.4658261",
+        "name": "Skupština, Svetogorska",
+        "total": 22,
+        "suitable": 22,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5193333,
+          44.7900404
+        ]
+      },
+      "properties": {
+        "group": "44.7900404,20.5193333",
+        "name": "Izdajem opremljen dvosoban stan, Zvezdara",
+        "total": 8,
+        "suitable": 8,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4979187,
+          44.7751713
+        ]
+      },
+      "properties": {
+        "group": "44.7751713,20.4979187",
+        "name": "Iznajmljujem stan 40m2 | Radovana Simića Cige 6",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5139649,
+          44.7674746
+        ]
+      },
+      "properties": {
+        "group": "44.7674746,20.5139649",
+        "name": "Zvezdara smeštaj za radnike",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4737306,
+          44.811466
+        ]
+      },
+      "properties": {
+        "group": "44.811466,20.4737306",
+        "name": "Dvosoban stan, kвартира в Белграде, 2 комнаты",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4375457,
+          44.7921816
+        ]
+      },
+      "properties": {
+        "group": "44.7921816,20.4375457",
+        "name": "Kuršumlijska 3 Senjak de lux zgrada izdajem 78m2",
+        "total": 43,
+        "suitable": 42,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.465944,
+          44.8027838
+        ]
+      },
+      "properties": {
+        "group": "44.8027838,20.465944",
+        "name": "Apartman u Beogradu, stan na dan, kvartire",
+        "total": 56,
+        "suitable": 56,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5275571,
+          44.793881
+        ]
+      },
+      "properties": {
+        "group": "44.793881,20.5275571",
+        "name": "Zemun - Save Kovacevic ID#51575",
+        "total": 28,
+        "suitable": 28,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5068129,
+          44.7598913
+        ]
+      },
+      "properties": {
+        "group": "44.7598913,20.5068129",
+        "name": "1.5 soba stan u Veljka Vlahovica",
+        "total": 13,
+        "suitable": 13,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3844023,
+          45.1111606
+        ]
+      },
+      "properties": {
+        "group": "45.1111606,20.3844023",
+        "name": "Dvoiposoban-Krnjača, Zrenjaninski put 45",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4631134,
+          44.8125267
+        ]
+      },
+      "properties": {
+        "group": "44.8125267,20.4631134",
+        "name": "Stan u Decanskoj za izdavanje",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6236353,
+          46.7712101
+        ]
+      },
+      "properties": {
+        "group": "46.7712101,23.6236353",
+        "name": "Extra Lux opremljen stan sa velikom terasom",
+        "total": 24,
+        "suitable": 24,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4820974,
+          44.7817724
+        ]
+      },
+      "properties": {
+        "group": "44.7817724,20.4820974",
+        "name": "Beograd, Dušanovac, Stan, 1.5, 38m2",
+        "total": 22,
+        "suitable": 21,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.494329,
+          44.7471263
+        ]
+      },
+      "properties": {
+        "group": "44.7471263,20.494329",
+        "name": "Okrečen dezinfikovan dvosoban kod Farmaceutskog",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.469996,
+          44.8096815
+        ]
+      },
+      "properties": {
+        "group": "44.8096815,20.469996",
+        "name": "Izdajem dvosoban stan 61m2 sa terasom u centru",
+        "total": 32,
+        "suitable": 32,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4538718,
+          44.8275932
+        ]
+      },
+      "properties": {
+        "group": "44.8275932,20.4538718",
+        "name": "K-District, 181 m2, parking, lux, novo",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4578397,
+          44.76345999999999
+        ]
+      },
+      "properties": {
+        "group": "44.76345999999999,20.4578397",
+        "name": "Izdavanje Lux dvosobnog stana",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.505115,
+          44.7757766
+        ]
+      },
+      "properties": {
+        "group": "44.7757766,20.505115",
+        "name": "Petosoban stan u naselju Medaković 140m2 + terasa",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4802817,
+          44.8148751
+        ]
+      },
+      "properties": {
+        "group": "44.8148751,20.4802817",
+        "name": "Profesorska kolonija, funkcionalan, ID 19761",
+        "total": 11,
+        "suitable": 11,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3677259,
+          44.7998622
+        ]
+      },
+      "properties": {
+        "group": "44.7998622,20.3677259",
+        "name": "Blok 72, lux, renoviran, ID 18013",
+        "total": 12,
+        "suitable": 12,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4848587,
+          44.8067637
+        ]
+      },
+      "properties": {
+        "group": "44.8067637,20.4848587",
+        "name": "Lux, Slavujev venac, 3.0, 65 m2",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4943111,
+          44.7705535
+        ]
+      },
+      "properties": {
+        "group": "44.7705535,20.4943111",
+        "name": "Kompletno renoviran stan u Brace Jerkovic",
+        "total": 46,
+        "suitable": 46,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4653886,
+          44.8056269
+        ]
+      },
+      "properties": {
+        "group": "44.8056269,20.4653886",
+        "name": "Slavija1,5.Cvetni trg,36m2.Njegoseva.vlasnik.",
+        "total": 17,
+        "suitable": 17,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.46634,
+          44.7902717
+        ]
+      },
+      "properties": {
+        "group": "44.7902717,20.46634",
+        "name": "Autokomanda, 4.0 kuća, 90 m2",
+        "total": 34,
+        "suitable": 34,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4697987,
+          44.85071139999999
+        ]
+      },
+      "properties": {
+        "group": "44.85071139999999,20.4697987",
+        "name": "Stan u Beogradu 3 sobe, slobodan od 7mog marta.",
+        "total": 11,
+        "suitable": 11,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2748158,
+          44.9061323
+        ]
+      },
+      "properties": {
+        "group": "44.9061323,20.2748158",
+        "name": "Stan u Batajnici 64m2, 3 sobe",
+        "total": 18,
+        "suitable": 17,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5167404,
+          44.7882497
+        ]
+      },
+      "properties": {
+        "group": "44.7882497,20.5167404",
+        "name": "Bulevar kralja Aleksandra, Lux stan pored Đerma",
+        "total": 72,
+        "suitable": 70,
+        "affordable": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4132254,
+          44.8128631
+        ]
+      },
+      "properties": {
+        "group": "44.8128631,20.4132254",
+        "name": "Apartman A blok i 28 blok,kafic IN,Euromedik",
+        "total": 21,
+        "suitable": 21,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4130631,
+          44.7615346
+        ]
+      },
+      "properties": {
+        "group": "44.7615346,20.4130631",
+        "name": "Nov- prvi put se izdaje",
+        "total": 31,
+        "suitable": 31,
+        "affordable": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3919853,
+          44.6759957
+        ]
+      },
+      "properties": {
+        "group": "44.6759957,20.3919853",
+        "name": "Nov - neizdavan - nameshten",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4534458,
+          44.7540124
+        ]
+      },
+      "properties": {
+        "group": "44.7540124,20.4534458",
+        "name": "Kanarevo brdo lux namešten stan 47m2",
+        "total": 21,
+        "suitable": 20,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4714699,
+          44.80355309999999
+        ]
+      },
+      "properties": {
+        "group": "44.80355309999999,20.4714699",
+        "name": "Vračar, Krunski venac - Prote Mateje",
+        "total": 17,
+        "suitable": 17,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4647229,
+          44.8177794
+        ]
+      },
+      "properties": {
+        "group": "44.8177794,20.4647229",
+        "name": "Centar,Dž.Vašingtona,2.0 Lep, Dvorišni, Tih,Svetao",
+        "total": 18,
+        "suitable": 17,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5015404,
+          44.8091387
+        ]
+      },
+      "properties": {
+        "group": "44.8091387,20.5015404",
+        "name": "Opremljen frizersko-kozmetički salon, nov",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4058581,
+          44.7791826
+        ]
+      },
+      "properties": {
+        "group": "44.7791826,20.4058581",
+        "name": "Cukarica kod Ada Mall-a 1.5,garaza, nov, Lux",
+        "total": 18,
+        "suitable": 18,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5009891,
+          44.7880311
+        ]
+      },
+      "properties": {
+        "group": "44.7880311,20.5009891",
+        "name": "1.5 stan kod TC Beo",
+        "total": 19,
+        "suitable": 19,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5067648,
+          44.7827202
+        ]
+      },
+      "properties": {
+        "group": "44.7827202,20.5067648",
+        "name": "Lux apartman, stan na dan",
+        "total": 24,
+        "suitable": 23,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4903207,
+          44.7750517
+        ]
+      },
+      "properties": {
+        "group": "44.7750517,20.4903207",
+        "name": "Izdajem stan u blizini shopping centra Stadion",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4847738,
+          44.815548
+        ]
+      },
+      "properties": {
+        "group": "44.815548,20.4847738",
+        "name": "Izdavanje stana",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4195249,
+          44.8189461
+        ]
+      },
+      "properties": {
+        "group": "44.8189461,20.4195249",
+        "name": "Blok 30, lep i komforan namešten stan",
+        "total": 20,
+        "suitable": 20,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4833634,
+          44.81188059999999
+        ]
+      },
+      "properties": {
+        "group": "44.81188059999999,20.4833634",
+        "name": "Odličan stan, niske režije, Palilula! ID#1224",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5068282,
+          44.7875437
+        ]
+      },
+      "properties": {
+        "group": "44.7875437,20.5068282",
+        "name": "Odmah useljiv stan kod Beoshopping centra",
+        "total": 20,
+        "suitable": 20,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4784131,
+          44.8123097
+        ]
+      },
+      "properties": {
+        "group": "44.8123097,20.4784131",
+        "name": "Izdajem garsonjeru u blizini TC Zira.",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4933597,
+          44.8103739
+        ]
+      },
+      "properties": {
+        "group": "44.8103739,20.4933597",
+        "name": "Lux 3.0 polunamešten stan na Zvezdari sa garažom",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5098129,
+          44.73943329999999
+        ]
+      },
+      "properties": {
+        "group": "44.73943329999999,20.5098129",
+        "name": "Opremljen stan za izdavanje u Kumodražu",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3931315,
+          44.80285809999999
+        ]
+      },
+      "properties": {
+        "group": "44.80285809999999,20.3931315",
+        "name": "Blok 70, Sava, izdavanje, 1.5 stan, odmah useljiv",
+        "total": 17,
+        "suitable": 17,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.36329400000001,
+          41.129266
+        ]
+      },
+      "properties": {
+        "group": "41.129266,-75.36329400000001",
+        "name": "Voždovac - Bilećka, 3.0, 74m2 ID#2545",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4028275,
+          44.7501553
+        ]
+      },
+      "properties": {
+        "group": "44.7501553,20.4028275",
+        "name": "Namešten 2.5 sobni stan Bele Vode",
+        "total": 16,
+        "suitable": 16,
+        "affordable": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4298488,
+          44.7318473
+        ]
+      },
+      "properties": {
+        "group": "44.7318473,20.4298488",
+        "name": "Privatni studentski dom \"Akademac\"- jedan apartman",
+        "total": 7,
+        "suitable": 6,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4585281,
+          44.788511
+        ]
+      },
+      "properties": {
+        "group": "44.788511,20.4585281",
+        "name": "Izdajem kompletno namešten jednosoban stan",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4184067,
+          44.7520867
+        ]
+      },
+      "properties": {
+        "group": "44.7520867,20.4184067",
+        "name": "Izdajem garsonjeru",
+        "total": 16,
+        "suitable": 16,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3746171,
+          45.0486976
+        ]
+      },
+      "properties": {
+        "group": "45.0486976,16.3746171",
+        "name": "Izdaje se Stan Garsonjera",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5132406,
+          44.8008537
+        ]
+      },
+      "properties": {
+        "group": "44.8008537,20.5132406",
+        "name": "Duplex 65m2",
+        "total": 11,
+        "suitable": 10,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4786785,
+          44.7677617
+        ]
+      },
+      "properties": {
+        "group": "44.7677617,20.4786785",
+        "name": "Izdaje se stan 100 kvm,Voždovac kod FON a",
+        "total": 35,
+        "suitable": 34,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4702672,
+          44.8052638
+        ]
+      },
+      "properties": {
+        "group": "44.8052638,20.4702672",
+        "name": "Izdavanje luksuznog stana na Vracaru / 4.0 / gar",
+        "total": 35,
+        "suitable": 35,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4570323,
+          44.8083711
+        ]
+      },
+      "properties": {
+        "group": "44.8083711,20.4570323",
+        "name": "Savski trg, 150m2,sa parking mestima, renta ID#383",
+        "total": 12,
+        "suitable": 12,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2998398,
+          44.7956031
+        ]
+      },
+      "properties": {
+        "group": "44.7956031,20.2998398",
+        "name": "Izdajem stan",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.458374,
+          44.7108421
+        ]
+      },
+      "properties": {
+        "group": "44.7108421,20.458374",
+        "name": "Resnik 42 kvadrata",
+        "total": 8,
+        "suitable": 8,
+        "affordable": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4242951,
+          44.7220194
+        ]
+      },
+      "properties": {
+        "group": "44.7220194,20.4242951",
+        "name": "Petlovo brdo, 180m2,",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6166573,
+          44.7326711
+        ]
+      },
+      "properties": {
+        "group": "44.7326711,20.6166573",
+        "name": "Nov, na lepoj lokaciji, luksuzno namešten 1.5 stan",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4102683,
+          44.8279252
+        ]
+      },
+      "properties": {
+        "group": "44.8279252,20.4102683",
+        "name": "Namešten stan,33 kvadrata,Fontana,Novi Beograd",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5559331,
+          44.7522835
+        ]
+      },
+      "properties": {
+        "group": "44.7522835,20.5559331",
+        "name": "Nov dvosoban stan, 40m2",
+        "total": 14,
+        "suitable": 13,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4614542,
+          44.822642
+        ]
+      },
+      "properties": {
+        "group": "44.822642,20.4614542",
+        "name": "Stan sa parking mestom",
+        "total": 26,
+        "suitable": 25,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.459835,
+          44.7896754
+        ]
+      },
+      "properties": {
+        "group": "44.7896754,20.459835",
+        "name": "Autokomanda, 4.0 kuća, 90 m2",
+        "total": 7,
+        "suitable": 7,
         "affordable": 0
       }
     },
@@ -2358,7 +2596,109 @@
       },
       "properties": {
         "group": "44.8083301,20.4635596",
-        "name": "Kneza Miloša",
+        "name": "Odličan stan u Centru Birčaninova Useljiv 01.03.",
+        "total": 12,
+        "suitable": 12,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4174505,
+          44.837006
+        ]
+      },
+      "properties": {
+        "group": "44.837006,20.4174505",
+        "name": "Jednosoban stan, renoviran, useljiv, Zemun",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4773131,
+          44.7954768
+        ]
+      },
+      "properties": {
+        "group": "44.7954768,20.4773131",
+        "name": "Zakup, Četvorosoban stan, 125 kvm, G. mesto, Lux",
+        "total": 40,
+        "suitable": 40,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4653586,
+          44.7969609
+        ]
+      },
+      "properties": {
+        "group": "44.7969609,20.4653586",
+        "name": "Nov 2.0 stan na Voždovcu",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4661123,
+          44.7956029
+        ]
+      },
+      "properties": {
+        "group": "44.7956029,20.4661123",
+        "name": "Autokomanda, 4.0 kuća, 90 m2",
+        "total": 8,
+        "suitable": 8,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4096266,
+          44.7676092
+        ]
+      },
+      "properties": {
+        "group": "44.7676092,20.4096266",
+        "name": "Julino brdo, izdavanje, renovirana garsonjera",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4116428,
+          44.8203665
+        ]
+      },
+      "properties": {
+        "group": "44.8203665,20.4116428",
+        "name": "Novi Merkator, Blok 32, Crkva Sv. Dimitrije",
         "total": 4,
         "suitable": 4,
         "affordable": 0
@@ -2369,13 +2709,1288 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.5132406,
-          44.8008537
+          20.4711979,
+          44.779525
         ]
       },
       "properties": {
-        "group": "44.8008537,20.5132406",
-        "name": "Zvezdarska šuma",
+        "group": "44.779525,20.4711979",
+        "name": "Voždovac-V.Stepe, 190m2, 5.0",
+        "total": 36,
+        "suitable": 36,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5075023,
+          44.7682594
+        ]
+      },
+      "properties": {
+        "group": "44.7682594,20.5075023",
+        "name": "Vojvode Vlahovića, 116m2,",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4530116,
+          44.8163355
+        ]
+      },
+      "properties": {
+        "group": "44.8163355,20.4530116",
+        "name": "Centar grada- Kosančićev venac ulica",
+        "total": 16,
+        "suitable": 16,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4635488,
+          44.8072274
+        ]
+      },
+      "properties": {
+        "group": "44.8072274,20.4635488",
+        "name": "Beograđanka, 78m2, I, cg, uknj.",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4046338,
+          44.8108342
+        ]
+      },
+      "properties": {
+        "group": "44.8108342,20.4046338",
+        "name": "Potpuno nova stan, garaža! The one, ID 1881",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4873604,
+          44.7918334
+        ]
+      },
+      "properties": {
+        "group": "44.7918334,20.4873604",
+        "name": "Lux, novogradnja 85m2 + garaža, odmah useljiv",
+        "total": 11,
+        "suitable": 11,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3170787,
+          49.7333732
+        ]
+      },
+      "properties": {
+        "group": "49.7333732,18.3170787",
+        "name": "Čukarica,Repiška,74+14m2,renta ID#44295",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5254314,
+          44.7574333
+        ]
+      },
+      "properties": {
+        "group": "44.7574333,20.5254314",
+        "name": "Dvosoban stan izdajem u Velikom Mokrom Lugu, vlasn",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4626885,
+          44.81547519999999
+        ]
+      },
+      "properties": {
+        "group": "44.81547519999999,20.4626885",
+        "name": "Stan na dan, centralna lokacija",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.422222,
+          44.7453393
+        ]
+      },
+      "properties": {
+        "group": "44.7453393,20.422222",
+        "name": "3.5 stan na Cerak vinogradima, Vinogradski venac I",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4832307,
+          44.7658643
+        ]
+      },
+      "properties": {
+        "group": "44.7658643,20.4832307",
+        "name": "Odlična lokacija, divan stan, savršena struktura",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4142846,
+          44.8208284
+        ]
+      },
+      "properties": {
+        "group": "44.8208284,20.4142846",
+        "name": "Novi Beograd - Arena Blok 29 ID#51283",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4364906,
+          44.6828726
+        ]
+      },
+      "properties": {
+        "group": "44.6828726,20.4364906",
+        "name": "Stan.2.0.Polunamešten. Useljiv odmah.",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2000541,
+          44.6536553
+        ]
+      },
+      "properties": {
+        "group": "44.6536553,20.2000541",
+        "name": "Obrenovac, Trosoban stan 65kvm",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4830673,
+          44.771663
+        ]
+      },
+      "properties": {
+        "group": "44.771663,20.4830673",
+        "name": "Izdaje se stan za jednu ili dve osobe",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.431998,
+          44.8085099
+        ]
+      },
+      "properties": {
+        "group": "44.8085099,20.431998",
+        "name": "Beograd, Blok 19, Stan, 2.0, 85m2",
+        "total": 7,
+        "suitable": 7,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4541963,
+          44.8029445
+        ]
+      },
+      "properties": {
+        "group": "44.8029445,20.4541963",
+        "name": "Beograd, Sarajevska, Stan, 1.5, 60m2",
+        "total": 8,
+        "suitable": 8,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3718846,
+          44.8072486
+        ]
+      },
+      "properties": {
+        "group": "44.8072486,20.3718846",
+        "name": "Odmah dostupan veliki stan u kući,Bežanijska kosa",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4671323,
+          44.81868
+        ]
+      },
+      "properties": {
+        "group": "44.81868,20.4671323",
+        "name": "Centar, blizina Skadarlije i Bajlonija ID#4386",
+        "total": 11,
+        "suitable": 11,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7214836,
+          45.5573036
+        ]
+      },
+      "properties": {
+        "group": "45.5573036,18.7214836",
+        "name": "Zemun, 3.0 namešten, u kući, no foreigners ID#1193",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4773295,
+          44.8068489
+        ]
+      },
+      "properties": {
+        "group": "44.8068489,20.4773295",
+        "name": "Trosoban sunčan,dvostran stan kod Mašinskog fakult",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4684071,
+          44.8161847
+        ]
+      },
+      "properties": {
+        "group": "44.8161847,20.4684071",
+        "name": "Salonac u predivnom okruženju, Palmotićeva",
+        "total": 5,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4790816,
+          44.8172865
+        ]
+      },
+      "properties": {
+        "group": "44.8172865,20.4790816",
+        "name": "BGD centar, Despota Stefana, studio 20 kv.",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4596223,
+          44.8104372
+        ]
+      },
+      "properties": {
+        "group": "44.8104372,20.4596223",
+        "name": "Centar, Hotel Moskva - Balkanska",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4597294,
+          44.8106002
+        ]
+      },
+      "properties": {
+        "group": "44.8106002,20.4597294",
+        "name": "Lux, Kraljice Natalije, 42 m2",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4060828,
+          44.8333519
+        ]
+      },
+      "properties": {
+        "group": "44.8333519,20.4060828",
+        "name": "Paviljoni, Institut za majku i dete, 2,5, 51m2",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.472144,
+          44.8132855
+        ]
+      },
+      "properties": {
+        "group": "44.8132855,20.472144",
+        "name": "Renoviran lux stan u Takovskoj ulici odmah useljiv",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4126107,
+          44.7918226
+        ]
+      },
+      "properties": {
+        "group": "44.7918226,20.4126107",
+        "name": "Izdaje se 2.0-46kv",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5168294,
+          44.8068339
+        ]
+      },
+      "properties": {
+        "group": "44.8068339,20.5168294",
+        "name": "Stan za izdavanje, Čika Miše Đurića, 50m2",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3303001,
+          44.8725657
+        ]
+      },
+      "properties": {
+        "group": "44.8725657,20.3303001",
+        "name": "Jednosoban stan Zemun polje",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4861007,
+          44.8101795
+        ]
+      },
+      "properties": {
+        "group": "44.8101795,20.4861007",
+        "name": "Zvezdara, Braće Ribnikar, 1.5-36m2, namešten",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.471697,
+          44.7793343
+        ]
+      },
+      "properties": {
+        "group": "44.7793343,20.471697",
+        "name": "Lux penthaus sa svim troskovima",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3749395,
+          44.7285926
+        ]
+      },
+      "properties": {
+        "group": "44.7285926,20.3749395",
+        "name": "Izdajem namestenu garsonjeru, Zeleznik, CG",
+        "total": 3,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4651766,
+          44.8047144
+        ]
+      },
+      "properties": {
+        "group": "44.8047144,20.4651766",
+        "name": "Slavija, Kralja Milutina, 2.0, 64 m2",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3569731,
+          43.978872
+        ]
+      },
+      "properties": {
+        "group": "43.978872,16.3569731",
+        "name": "Potpuno renoviran stan",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4801841,
+          44.778298
+        ]
+      },
+      "properties": {
+        "group": "44.778298,20.4801841",
+        "name": "Izdajem stan u Kumodrazu",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2228523,
+          44.8275987
+        ]
+      },
+      "properties": {
+        "group": "44.8275987,20.2228523",
+        "name": "Troiposoban stan, namesten, Dobanovci, 70kv",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.500293,
+          44.7632321
+        ]
+      },
+      "properties": {
+        "group": "44.7632321,20.500293",
+        "name": "Odličan trosoban 57m2+20m2 dvorišta Braće Jerković",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4554862,
+          44.8201709
+        ]
+      },
+      "properties": {
+        "group": "44.8201709,20.4554862",
+        "name": "Izdajem 1.5 soban stan u Kralja Petra",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3229809,
+          44.8713495
+        ]
+      },
+      "properties": {
+        "group": "44.8713495,20.3229809",
+        "name": "Stan 80m2",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4327635,
+          44.7488098
+        ]
+      },
+      "properties": {
+        "group": "44.7488098,20.4327635",
+        "name": "Skojevsko naselje, Luke Vojvodića",
+        "total": 6,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5479417,
+          44.8282294
+        ]
+      },
+      "properties": {
+        "group": "44.8282294,20.5479417",
+        "name": "Jednosoban stan",
+        "total": 9,
+        "suitable": 9,
+        "affordable": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.53607,
+          44.7744443
+        ]
+      },
+      "properties": {
+        "group": "44.7744443,20.53607",
+        "name": "Trosoban stan od 75 kvadrata",
+        "total": 14,
+        "suitable": 14,
+        "affordable": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5079556,
+          44.7722771
+        ]
+      },
+      "properties": {
+        "group": "44.7722771,20.5079556",
+        "name": "Namešten stan",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4671458,
+          44.8272734
+        ]
+      },
+      "properties": {
+        "group": "44.8272734,20.4671458",
+        "name": "Dvosoban stan, 50m2, Dunavski kej, Dorćol",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3963089,
+          44.7452579
+        ]
+      },
+      "properties": {
+        "group": "44.7452579,20.3963089",
+        "name": "Stan / izdavanje/ bele vode",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4814831,
+          44.7859479
+        ]
+      },
+      "properties": {
+        "group": "44.7859479,20.4814831",
+        "name": "Vozdovac Ustanicka kod poste",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4836421,
+          44.7992794
+        ]
+      },
+      "properties": {
+        "group": "44.7992794,20.4836421",
+        "name": "Vračar, SC Vračar, , 3.0, 80m2",
+        "total": 8,
+        "suitable": 8,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3894609,
+          44.8496714
+        ]
+      },
+      "properties": {
+        "group": "44.8496714,20.3894609",
+        "name": "Zemun, Ugrinovačka, Senjska, 2.5, 57m2",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4365464,
+          44.7646103
+        ]
+      },
+      "properties": {
+        "group": "44.7646103,20.4365464",
+        "name": "Prelep osunčan 4.5 stan na Košutnjaku",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4753043,
+          44.7962115
+        ]
+      },
+      "properties": {
+        "group": "44.7962115,20.4753043",
+        "name": "Čuburski park,trosoban,2 garažna mesta ID#15766",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4103691,
+          44.8007004
+        ]
+      },
+      "properties": {
+        "group": "44.8007004,20.4103691",
+        "name": "Beograd, Blok 58, Stan, 2.0, 57m2",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5008679,
+          44.7843271
+        ]
+      },
+      "properties": {
+        "group": "44.7843271,20.5008679",
+        "name": "Vojislava Ilica - Beo shopping 30m2 nov",
+        "total": 6,
+        "suitable": 6,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4546331,
+          44.8013597
+        ]
+      },
+      "properties": {
+        "group": "44.8013597,20.4546331",
+        "name": "Beograd, Višegradska, Stan, 2.0, 55m2",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4149936,
+          44.7568233
+        ]
+      },
+      "properties": {
+        "group": "44.7568233,20.4149936",
+        "name": "Trgovacka 68m2 i terasa 10m2",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6834406,
+          42.3858912
+        ]
+      },
+      "properties": {
+        "group": "42.3858912,18.6834406",
+        "name": "Zemun, Ikarbus nova 3, 120m2 ID#3897",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4573839,
+          44.8189483
+        ]
+      },
+      "properties": {
+        "group": "44.8189483,20.4573839",
+        "name": "Studentski trg, 65m2 ID#1778",
+        "total": 10,
+        "suitable": 10,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4647974,
+          44.783058
+        ]
+      },
+      "properties": {
+        "group": "44.783058,20.4647974",
+        "name": "Renoviran stan - Zvezdin stadion ID#2902",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.478179,
+          44.794553
+        ]
+      },
+      "properties": {
+        "group": "44.794553,20.478179",
+        "name": "Top ponuda,Vračar,Kneginje Julije,3.5,smart house",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.981919,
+          45.8150108
+        ]
+      },
+      "properties": {
+        "group": "45.8150108,15.981919",
+        "name": "Izdajem jednosoban stan 32 m2",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.71259105222508,
+          43.28829254847475
+        ]
+      },
+      "properties": {
+        "group": "43.28829254847475,18.71259105222508",
+        "name": "Sremska, 2.0 namešten ID#15929",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.431141,
+          44.6411707
+        ]
+      },
+      "properties": {
+        "group": "44.6411707,20.431141",
+        "name": "Barajevo Lipovica 65m2 T",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4681403,
+          44.814295
+        ]
+      },
+      "properties": {
+        "group": "44.814295,20.4681403",
+        "name": "Svetogorska Atelje 212 Stari grad Beograd Srbija",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4717445,
+          44.7822375
+        ]
+      },
+      "properties": {
+        "group": "44.7822375,20.4717445",
+        "name": "Trosoban, renoviran 73kvm kod Bioskopa Voždovac",
+        "total": 5,
+        "suitable": 5,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.213749,
+          46.227638
+        ]
+      },
+      "properties": {
+        "group": "46.227638,2.213749",
+        "name": "Izdavanje, Francuska-Ž. Klemensoa, 60m2 (32+27)",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4561673,
+          44.8117361
+        ]
+      },
+      "properties": {
+        "group": "44.8117361,20.4561673",
+        "name": "Gavrila Principa Belgrade Savamala Apartment",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4548842,
+          44.8163707
+        ]
+      },
+      "properties": {
+        "group": "44.8163707,20.4548842",
+        "name": "Obilićev venac, 35m2, pr, ta,",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4081498,
+          44.8488859
+        ]
+      },
+      "properties": {
+        "group": "44.8488859,20.4081498",
+        "name": "Oračka Gardoš Zemun Beograd Srbija",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275862,
+          51.5072178
+        ]
+      },
+      "properties": {
+        "group": "51.5072178,-0.1275862",
+        "name": "3.0 stan u Centru, Kneza Miloša ID#1658",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4217134,
+          44.8052381
+        ]
+      },
+      "properties": {
+        "group": "44.8052381,20.4217134",
+        "name": "Novi Beograd, Square 43, stan, izdavanje",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4013869,
+          44.8264023
+        ]
+      },
+      "properties": {
+        "group": "44.8264023,20.4013869",
+        "name": "Novi Beograd Pariske komune",
+        "total": 4,
+        "suitable": 4,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5231833,
+          44.8153218
+        ]
+      },
+      "properties": {
+        "group": "44.8153218,20.5231833",
+        "name": "Rospi Ćuprija, Kornatska, 40m2 ID#4044",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4572399,
+          44.8113141
+        ]
+      },
+      "properties": {
+        "group": "44.8113141,20.4572399",
+        "name": "Izdavanje, stan, Kraljevica Marka, 41m2, ID409",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6039471,
+          44.7312817
+        ]
+      },
+      "properties": {
+        "group": "44.7312817,20.6039471",
+        "name": "Izdajem stan u Bolecu",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5063685,
+          44.76943869999999
+        ]
+      },
+      "properties": {
+        "group": "44.76943869999999,20.5063685",
+        "name": "Zeleznik, Suncana padina, Nov stan,",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3855902,
+          44.81497880000001
+        ]
+      },
+      "properties": {
+        "group": "44.81497880000001,20.3855902",
+        "name": "Lux stan u Kuli West",
         "total": 1,
         "suitable": 1,
         "affordable": 0
@@ -2392,7 +4007,24 @@
       },
       "properties": {
         "group": "44.8112897,20.4778975",
-        "name": "Dalmatinska",
+        "name": "Kneza Danila, novo Lux namešten, 1.5 soban stan,",
+        "total": 3,
+        "suitable": 3,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4643415,
+          44.80677
+        ]
+      },
+      "properties": {
+        "group": "44.80677,20.4643415",
+        "name": "Centar Trg Slavija Lux pet friendly",
         "total": 1,
         "suitable": 1,
         "affordable": 0
@@ -2403,13 +4035,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.4714699,
-          44.8035531
+          20.4613945,
+          44.8049745
         ]
       },
       "properties": {
-        "group": "44.8035531,20.4714699",
-        "name": "Krunski venac",
+        "group": "44.8049745,20.4613945",
+        "name": "Kralja Milutina, 220 m2",
         "total": 1,
         "suitable": 1,
         "affordable": 0
@@ -2420,13 +4052,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.431998,
-          44.8085099
+          20.591887,
+          44.663293
         ]
       },
       "properties": {
-        "group": "44.8085099,20.431998",
-        "name": "Sava centar",
+        "group": "44.663293,20.591887",
+        "name": "Vrčin, sjajna nekretnina za izdavanje",
         "total": 1,
         "suitable": 1,
         "affordable": 0
@@ -2437,13 +4069,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.414231,
-          44.8205925
+          20.4924226,
+          44.7735581
         ]
       },
       "properties": {
-        "group": "44.8205925,20.414231",
-        "name": "Novi Merkator",
+        "group": "44.7735581,20.4924226",
+        "name": "Voždovac, Dvoiposoban, idealan za 3 studentkinje",
         "total": 1,
         "suitable": 1,
         "affordable": 0
@@ -2454,13 +4086,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.472733,
-          44.8072896
+          20.4540489,
+          44.8149766
         ]
       },
       "properties": {
-        "group": "44.8072896,20.472733",
-        "name": "Pravni fakultet",
+        "group": "44.8149766,20.4540489",
+        "name": "Centar-Zeleni venac- garsonjera",
+        "total": 1,
+        "suitable": 1,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4047852,
+          44.8253168
+        ]
+      },
+      "properties": {
+        "group": "44.8253168,20.4047852",
+        "name": "Blok 3, Bul.Zorana Đinćića ID#4249",
+        "total": 2,
+        "suitable": 2,
+        "affordable": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4055983,
+          44.8472429
+        ]
+      },
+      "properties": {
+        "group": "44.8472429,20.4055983",
+        "name": "Prelep stan blizu Gardoša",
         "total": 1,
         "suitable": 1,
         "affordable": 0
@@ -2468,8 +4134,8 @@
     }
   ],
   "metadata": {
-    "total": 3368,
-    "suitable": 3194,
-    "affordable": 399
+    "total": 5260,
+    "suitable": 5219,
+    "affordable": 188
   }
 }

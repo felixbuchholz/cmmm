@@ -131,3 +131,12 @@ In the folder `./website` you can run the dev server to check the results.
 
 Just run `yarn dev` and navigate to `localhost:3000` in your browser.
 
+
+### Optional: Make sure generated types are available
+
+In the folder `./website` run `yarn xstate:typegen`
+
+
+### 5. Run the build script for the folder
+
+In the folder `./website` run `yarn export:server`

@@ -1,6 +1,6 @@
 /* eslint-disable max-lines-per-function */
-import { useTranslation } from 'next-export-i18n'
 import Head from 'next/head'
+import { useTranslation } from 'next-export-i18n'
 import { FC } from 'react'
 
 import { basePath } from '../../utils/environment'

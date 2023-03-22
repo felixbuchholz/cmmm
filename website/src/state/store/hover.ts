@@ -1,5 +1,5 @@
 import { MapboxGeoJSONFeature } from 'mapbox-gl'
-import create from 'zustand'
+import { create } from 'zustand'
 
 import { Coordinates } from '../../types/HoverInfo'
 

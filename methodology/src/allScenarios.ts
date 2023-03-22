@@ -20,11 +20,11 @@ export const incomes: Income[] = [
 export const sizes: Size[] = [null, ...getNumbersFromOneUpTo(maxHouseholdSize)]
 
 export const scenarios: Scenario[] = [
-  { income: 600, size: 1, translateKey: 'scenarios.teacherAlone' },
-  { income: 1200, size: 2, translateKey: 'scenarios.workingInEducationCouple' },
-  { income: 1600, size: 5, translateKey: 'scenarios.averageFamily3Kids' },
-  { income: 450, size: 2, translateKey: 'scenarios.singleMomGroceryStore1Kid' },
-  { income: 350, size: 1, translateKey: 'scenarios.retiredFirefighter' },
+  { income: 700, size: 1, translateKey: 'scenarios.teacherAlone' },
+  { income: 1400, size: 2, translateKey: 'scenarios.workingInEducationCouple' },
+  { income: 1700, size: 5, translateKey: 'scenarios.averageFamily3Kids' },
+  { income: 620, size: 2, translateKey: 'scenarios.singleMomGroceryStore1Kid' },
+  { income: 500, size: 1, translateKey: 'scenarios.retiredFirefighter' },
 ]
 
 export const getAllScenarios = (): ScenarioParameterOnly[] => {

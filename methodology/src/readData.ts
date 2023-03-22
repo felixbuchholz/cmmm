@@ -3,7 +3,12 @@ import * as path from 'path'
 
 import { CastingFunction, parse } from 'csv-parse'
 
-import { Offer, headersCastAsNumbers } from './types/offer'
+import { NumberParser } from './NumberParser'
+import {
+  Offer,
+  headersCastAsDENumbers,
+  headersCastAsDefaultNumbers,
+} from './types/offer'
 import { ReadData } from './types/readData'
 import { CategoryConfig } from './types/scenario'
 
@@ -41,7 +46,11 @@ export const readData: ReadData = (
 const cast: CastingFunction = (columnValue, { column }) => {
   const columnName = column as string
 
-  if (headersCastAsNumbers.includes(columnName)) {
+  if (headersCastAsDENumbers.includes(columnName)) {
+    return new NumberParser('de-DE').parse(columnValue)
+  }
+
+  if (headersCastAsDefaultNumbers.includes(columnName)) {
     return +columnValue
   }
 

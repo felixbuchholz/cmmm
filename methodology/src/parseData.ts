@@ -9,7 +9,7 @@ import { writeData } from './writeData'
 
 export const offerSizeKey: keyof Offer = 'size'
 export const offerPriceKey: keyof Offer = 'price'
-export const offerNameKey: keyof Offer = 'location D'
+export const offerNameKey: keyof Offer = 'title'
 // MUST BE UNIQUE
 export const offerGroupKey: keyof Offer = 'latlong'
 

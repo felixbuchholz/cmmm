@@ -1,6 +1,6 @@
-import { useLanguageQuery } from 'next-export-i18n'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { useLanguageQuery } from 'next-export-i18n'
 import React, { FC, ReactElement } from 'react'
 
 import styles from './header.module.css'

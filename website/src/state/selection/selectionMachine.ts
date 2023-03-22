@@ -2,6 +2,7 @@
 import { createMachine, assign } from 'xstate'
 
 import {
+  Category,
   SelectionMachineContext,
   SelectionMachineEvents,
 } from '../../types/selectionMachine'
@@ -309,7 +310,7 @@ export const selectionMachine =
           },
         }),
         reset: assign({
-          category: () => 'rent',
+          category: () => 'rent' as Category,
           income: () => null,
           size: () => null,
         }),

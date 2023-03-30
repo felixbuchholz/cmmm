@@ -4,7 +4,7 @@ import styles from './header.module.css'
 
 export const ANMButton: FC = () => {
   return (
-    <a href="https://cmmm.eu/" target="_blank" rel="noreferrer">
+    <a href="https://cmmm.eu/posters" target="_blank" rel="noreferrer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 500 500"

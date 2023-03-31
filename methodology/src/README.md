@@ -4,6 +4,8 @@
 
 ### 1. Replace the CSV files
 
+You can place the new CSV files in `methodology/data/buy.csv` and `methodology/data/rent.csv`
+
 #### CSV columns 
 
 To make sure you don’t have to change the script, your CSVs should be in a consistent format.
